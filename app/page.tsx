@@ -40,9 +40,10 @@ export default function HomePage() {
     }
   };
 
-  return (
-    <main className="min-h-screen bg-gray-50 py-8 px-4">
-      <h1 className="text-2xl font-bold text-gray-900 mb-4">
+return (
+  <main className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="max-w-6xl mx-auto space-y-6">
+      <h1 className="text-2xl font-bold text-gray-900">
         S&amp;P 500 Company Valuations
       </h1>
       <div className="overflow-x-auto rounded-xl shadow bg-white">
@@ -94,13 +95,13 @@ export default function HomePage() {
                 className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
               >
                 <td className="p-3 font-medium text-gray-900">
-  <Link
-    href={`/company/${c.ticker.toLowerCase()}`}
-    className="hover:underline text-blue-600"
-  >
-    {c.name}
-  </Link>
-</td>
+                  <Link
+                    href={`/company/${c.ticker.toLowerCase()}`}
+                    className="hover:underline text-blue-600"
+                  >
+                    {c.name}
+                  </Link>
+                </td>
                 <td className="p-3 text-gray-600">{c.ticker}</td>
                 <td className="p-3 text-right font-semibold">
                   {formatNumber(c.marketCap)}
@@ -117,6 +118,7 @@ export default function HomePage() {
           </tbody>
         </table>
       </div>
-    </main>
-  );
+    </div> {/* 👈 closes the container */}
+  </main>
+);
 }

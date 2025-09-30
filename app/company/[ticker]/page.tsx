@@ -22,23 +22,31 @@ function formatNumber(num: number | null) {
 export default function CompanyPage() {
   const params = useParams();
   const ticker = (params?.ticker as string)?.toUpperCase();
-
   const [company, setCompany] = useState<any | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
+  const [feed, setFeed] = useState<any[]>([]);
 
-  useEffect(() => {
-    fetch("/data/sp500.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const match = data.find((c: any) => c.ticker === ticker);
-        setCompany(match);
-      });
-      // chart data
-    fetch(`/data/charts/${ticker}.json`)   // 👈 NEW fetch
-      .then((res) => res.json())
-      .then(setChartData)
-      .catch(() => setChartData([]));
-  }, [ticker]);
+useEffect(() => {
+  // fundamentals
+  fetch("/data/sp500.json")
+    .then((res) => res.json())
+    .then((data) => {
+      const match = data.find((c: any) => c.ticker === ticker);
+      setCompany(match);
+    });
+
+  // chart data
+  fetch(`/data/charts/${ticker}.json`)
+    .then((res) => res.json())
+    .then(setChartData)
+    .catch(() => setChartData([]));
+
+  // stocktwits feed
+  fetch(`/api/stocktwits/${ticker}`)
+  .then((res) => res.json())
+  .then((data) => setFeed(data.messages || []))
+  .catch(() => setFeed([]));
+}, [ticker]);
 
   if (!company) {
     return (
@@ -49,7 +57,8 @@ export default function CompanyPage() {
   }
 
   return (
-  <main className="min-h-screen bg-gray-50 py-8 px-4 space-y-6">
+  <main className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="max-w-5xl mx-auto space-y-6">
       {/* 🔹 Title + logo */}
       <div className="flex items-center space-x-3">
         {company.logo_url && (
@@ -64,6 +73,7 @@ export default function CompanyPage() {
         </h1>
       </div>
 
+      {/* 🔹 Fundamentals */}
       <div className="bg-white shadow rounded-xl p-6 mb-6">
         <p className="mb-2">
           <strong>Price:</strong> ${company.price.toFixed(2)}
@@ -80,9 +90,10 @@ export default function CompanyPage() {
         </p>
       </div>
 
+      {/* 🔹 Chart */}
       <div className="bg-white shadow rounded-xl p-6">
         <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
-        {chartData.length > 0 ? (   // 👈 if we have data
+        {chartData.length > 0 ? (
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={chartData}>
               <XAxis dataKey="date" hide />
@@ -96,13 +107,63 @@ export default function CompanyPage() {
         )}
       </div>
 
-      {/* 🔹 About card */}
+      {/* 🔹 About */}
       <div className="bg-white shadow rounded-xl p-6">
         <h2 className="text-lg font-semibold mb-2">About {company.name}</h2>
         <p className="text-gray-700 leading-relaxed">
           {company.description ?? "No description available."}
         </p>
       </div>
-    </main>
-  );
+    </div>
+
+    {/* 🔹 Stocktwits feed */}
+<div className="bg-white shadow rounded-xl p-6">
+  <h2 className="text-lg font-semibold mb-4">Stocktwits Feed</h2>
+  <div className="space-y-4 max-h-96 overflow-y-auto">
+    {feed.length > 0 ? (
+      feed.slice(0, 5).map((msg) => (
+        <div key={msg.id} className="border-b pb-3">
+          <div className="flex items-center space-x-2 mb-1">
+            <img
+              src={msg.user.avatar_url}
+              alt={msg.user.username}
+              className="w-6 h-6 rounded-full"
+            />
+            <span className="text-sm font-semibold">{msg.user.username}</span>
+            {msg.entities?.sentiment && (
+              <span
+                className={`ml-2 text-xs px-2 py-0.5 rounded ${
+                  msg.entities.sentiment.basic === "Bullish"
+                    ? "bg-green-100 text-green-700"
+                    : "bg-red-100 text-red-700"
+                }`}
+              >
+                {msg.entities.sentiment.basic}
+              </span>
+            )}
+          </div>
+          <p className="text-gray-800 text-sm">{msg.body}</p>
+          <p className="text-xs text-gray-500">
+            {new Date(msg.created_at).toLocaleString()}
+          </p>
+        </div>
+      ))
+    ) : (
+      <p className="text-gray-500">No messages found.</p>
+    )}
+  </div>
+
+  {/* Link to Twitter */}
+  <a
+    href={`https://twitter.com/search?q=%24${ticker}&src=typed_query&f=live`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block mt-4 text-blue-600 hover:underline text-sm"
+  >
+    View live ${ticker} chatter on Twitter →
+  </a>
+</div>
+
+  </main>
+);
 }
