@@ -1,0 +1,52 @@
+[
+{
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "price": 227.15,
+  "marketCap": 2789000000000,
+  "pe": 28.3,
+  "dividendYield": 0.55,
+  "description": "Apple designs, manufactures, and markets smartphones, personal computers, tablets, wearables and accessories worldwide.",
+  "logo_url": "https://logo.clearbit.com/apple.com"
+},
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corp.",
+    "price": 315.22,
+    "marketCap": 2412000000000,
+    "pe": 31.1,
+    "dividendYield": 0.80
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia Corp.",
+    "price": 123.45,
+    "marketCap": 1220000000000,
+    "pe": 55.4,
+    "dividendYield": 0.05
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings",
+    "price": 61.35,
+    "marketCap": 68000000000,
+    "pe": 14.2,
+    "dividendYield": 0.00
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "price": 155.10,
+    "marketCap": 375000000000,
+    "pe": 17.5,
+    "dividendYield": 3.00
+  },
+  {
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "price": 7.55,
+    "marketCap": 7300000000,
+    "pe": null,
+    "dividendYield": 0.00
+  }
+]

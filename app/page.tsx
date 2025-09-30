@@ -1,103 +1,122 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useState, useEffect } from "react";
+import Link from "next/link"; 
+
+// Helper: format market cap nicely (T = trillion, B = billion, etc.)
+function formatNumber(num: number | null) {
+  if (!num) return "-";
+  if (num >= 1e12) return (num / 1e12).toFixed(2) + "T";
+  if (num >= 1e9) return (num / 1e9).toFixed(2) + "B";
+  if (num >= 1e6) return (num / 1e6).toFixed(2) + "M";
+  return num.toString();
+}
+
+export default function HomePage() {
+  const [companies, setCompanies] = useState<any[]>([]);
+  const [sortKey, setSortKey] = useState<keyof any>("marketCap");
+  const [sortAsc, setSortAsc] = useState(false);
+
+  useEffect(() => {
+    fetch("/data/sp500.json")
+      .then((res) => res.json())
+      .then(setCompanies)
+      .catch((err) => console.error("Failed to load data", err));
+  }, []);
+
+  const sorted = [...companies].sort((a, b) => {
+    const valA = a[sortKey] ?? 0;
+    const valB = b[sortKey] ?? 0;
+    if (valA === valB) return 0;
+    return sortAsc ? (valA > valB ? 1 : -1) : (valA < valB ? 1 : -1);
+  });
+
+  const handleSort = (key: keyof any) => {
+    if (sortKey === key) {
+      setSortAsc(!sortAsc);
+    } else {
+      setSortKey(key);
+      setSortAsc(false);
+    }
+  };
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <main className="min-h-screen bg-gray-50 py-8 px-4">
+      <h1 className="text-2xl font-bold text-gray-900 mb-4">
+        S&amp;P 500 Company Valuations
+      </h1>
+      <div className="overflow-x-auto rounded-xl shadow bg-white">
+        <table className="min-w-full text-sm">
+          <thead className="bg-gray-100 text-gray-700">
+            <tr>
+              <th
+                className="p-3 text-left cursor-pointer"
+                onClick={() => handleSort("name")}
+              >
+                Company
+              </th>
+              <th
+                className="p-3 text-left cursor-pointer"
+                onClick={() => handleSort("ticker")}
+              >
+                Ticker
+              </th>
+              <th
+                className="p-3 text-right cursor-pointer"
+                onClick={() => handleSort("marketCap")}
+              >
+                Market Cap
+              </th>
+              <th
+                className="p-3 text-right cursor-pointer"
+                onClick={() => handleSort("price")}
+              >
+                Price
+              </th>
+              <th
+                className="p-3 text-right cursor-pointer"
+                onClick={() => handleSort("pe")}
+              >
+                P/E
+              </th>
+              <th
+                className="p-3 text-right cursor-pointer"
+                onClick={() => handleSort("dividendYield")}
+              >
+                Dividend Yield
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((c, i) => (
+              <tr
+                key={c.ticker}
+                className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
+              >
+                <td className="p-3 font-medium text-gray-900">
+  <Link
+    href={`/company/${c.ticker.toLowerCase()}`}
+    className="hover:underline text-blue-600"
+  >
+    {c.name}
+  </Link>
+</td>
+                <td className="p-3 text-gray-600">{c.ticker}</td>
+                <td className="p-3 text-right font-semibold">
+                  {formatNumber(c.marketCap)}
+                </td>
+                <td className="p-3 text-right">
+                  {c.price ? `$${c.price.toFixed(2)}` : "-"}
+                </td>
+                <td className="p-3 text-right">{c.pe ?? "-"}</td>
+                <td className="p-3 text-right">
+                  {c.dividendYield ? c.dividendYield + "%" : "-"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </main>
   );
 }
