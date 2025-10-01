@@ -1,6 +1,12 @@
 import "./globals.css";
 import { Metadata } from "next";
 import Link from "next/link";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"], // normal, medium, bold
+});
 
 export const metadata: Metadata = {
   title: {
@@ -22,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-gray-50 text-gray-900">
+      <body className={`${roboto.className} antialiased bg-gray-50 text-gray-900`}>
         {/* 🔹 Header */}
         <header className="bg-white shadow sticky top-0 z-50">
           <nav className="max-w-6xl mx-auto flex items-center justify-between p-4">

@@ -19,7 +19,7 @@ function formatNumber(num: number | null) {
 }
 
 export default function CompanyClient({ ticker }: { ticker: string }) {
-  const [company, setCompany] = useState<any | null>(null);
+  const [profile, setProfile] = useState<any | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
   const [feed, setFeed] = useState<any[]>([]);
   const [cursor, setCursor] = useState<any | null>(null);
@@ -28,13 +28,11 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   const [quote, setQuote] = useState<any | null>(null);
 
   useEffect(() => {
-    // fundamentals (static data)
-    fetch("/data/sp500.json")
+    // profile from FMP
+    fetch(`/api/profile/${ticker}`)
       .then((res) => res.json())
-      .then((data) => {
-        const match = data.find((c: any) => c.ticker === ticker);
-        setCompany(match || null);
-      });
+      .then((data) => setProfile(data?.[0] || null))
+      .catch(() => setProfile(null));
 
     // chart data
     fetch(`/data/charts/${ticker}.json`)
@@ -80,71 +78,127 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
     }
   };
 
-  if (!company) {
+  if (!profile) {
     return (
       <main className="p-8">
-        <h1 className="text-xl font-bold">Company not found</h1>
+        <h1 className="text-xl font-bold">Loading company profile...</h1>
       </main>
     );
   }
 
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
-      <div className="max-w-5xl mx-auto space-y-6">
+      <div className="max-w-6xl mx-auto space-y-6">
         {/* 🔹 Title + logo */}
         <div className="flex items-center space-x-3">
-          {company.logo_url && (
+          {profile?.image && (
             <img
-              src={company.logo_url}
-              alt={`${company.name} logo`}
+              src={profile.image}
+              alt={`${profile.companyName} logo`}
               className="w-10 h-10 rounded"
             />
           )}
           <h1 className="text-2xl font-bold text-gray-900">
-            {company.name} ({company.ticker}) — Market Cap &amp; Valuation
+            {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
           </h1>
         </div>
 
-        {/* 🔹 Live Quote Box */}
-        <div className="bg-white shadow rounded-xl p-6 mb-6">
-          {quote ? (
-            <>
-              <p className="mb-2">
-                <strong>Price:</strong> ${quote.price.toFixed(2)}
-              </p>
-              <p
-                className={`mb-2 font-medium ${
-                  quote.change >= 0 ? "text-green-600" : "text-red-600"
-                }`}
-              >
-                {quote.change >= 0 ? "▲" : "▼"} {quote.change.toFixed(2)} (
-                {quote.changePercent.toFixed(2)}%)
-              </p>
-              <p className="mb-2">
-                <strong>Market Cap:</strong> {formatNumber(quote.marketCap)}
-              </p>
-              <p className="mb-2">
-                <strong>Day Range:</strong> {quote.dayLow} – {quote.dayHigh}
-              </p>
-              <p className="mb-2">
-                <strong>52W Range:</strong> {quote.yearLow} – {quote.yearHigh}
-              </p>
-              <p className="mb-2">
-                <strong>Volume:</strong>{" "}
-                {quote.volume ? quote.volume.toLocaleString() : "-"}
-              </p>
+{/* 🔹 Quote + Company Profile (side by side) */}
+<div className="bg-white shadow rounded-xl p-6 mb-6">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {/* Left = Quote */}
+    <div>
+      {quote ? (
+        <>
+          <p className="mb-2">
+            <strong>Price:</strong> ${quote.price.toFixed(2)}
+          </p>
+          <p
+            className={`mb-2 font-medium ${
+              quote.change >= 0 ? "text-green-600" : "text-red-600"
+            }`}
+          >
+            {quote.change >= 0 ? "▲" : "▼"} {quote.change.toFixed(2)} (
+            {quote.changePercent.toFixed(2)}%)
+          </p>
+          <p className="mb-2">
+            <strong>Market Cap:</strong> {formatNumber(quote.marketCap)}
+          </p>
+          <p className="mb-2">
+            <strong>Day Range:</strong> {quote.dayLow} – {quote.dayHigh}
+          </p>
+          <p className="mb-2">
+            <strong>52W Range:</strong> {quote.yearLow} – {quote.yearHigh}
+          </p>
+          <p className="mb-2">
+            <strong>Volume:</strong>{" "}
+            {quote.volume ? quote.volume.toLocaleString() : "-"}
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            {quote.exchange} · delayed at{" "}
+            {quote.timestamp
+              ? new Date(quote.timestamp * 1000).toLocaleString()
+              : "N/A"}
+          </p>
+        </>
+      ) : (
+        <p className="text-gray-500">No quote data available.</p>
+      )}
+    </div>
 
-              {/* 🔹 Exchange + timestamp badge */}
-              <p className="text-xs text-gray-500 mt-2">
-                {quote.exchange} · delayed at{" "}
-                {quote.timestamp
-                  ? new Date(quote.timestamp * 1000).toLocaleString()
-                  : "N/A"}
-              </p>
-            </>
-          ) : (
-            <p className="text-gray-500">No quote data available.</p>
-          )}
+    {/* Right = Company Profile */}
+    <div className="text-sm space-y-2">
+      {profile?.ceo && (
+        <p>
+          <strong>CEO:</strong> {profile.ceo}
+        </p>
+      )}
+      {profile?.fullTimeEmployees && (
+        <p>
+          <strong>Employees:</strong> {profile.fullTimeEmployees}
+        </p>
+      )}
+      {profile?.sector && (
+        <p>
+          <strong>Sector:</strong> {profile.sector}
+        </p>
+      )}
+      {profile?.industry && (
+        <p>
+          <strong>Industry:</strong> {profile.industry}
+        </p>
+      )}
+      {profile?.website && (
+        <p>
+          <strong>Website:</strong>{" "}
+          <a
+            href={profile.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            {profile.website}
+          </a>
+        </p>
+      )}
+      {profile?.address && (
+        <p>
+          <strong>HQ:</strong> {profile.address}, {profile.city},{" "}
+          {profile.state}, {profile.country}
+        </p>
+      )}
+    </div>
+  </div>
+</div>
+
+        {/* 🔹 About (separate box) */}
+        <div className="bg-white shadow rounded-xl p-6">
+          <h2 className="text-lg font-semibold mb-3">
+            About {profile?.companyName ?? ticker}
+          </h2>
+          <p className="text-gray-700 text-sm leading-relaxed">
+            {profile?.description ?? "No description available."}
+          </p>
         </div>
 
         {/* 🔹 Chart */}
@@ -169,21 +223,12 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
           )}
         </div>
 
-        {/* 🔹 About */}
-        <div className="bg-white shadow rounded-xl p-6">
-          <h2 className="text-lg font-semibold mb-2">About {company.name}</h2>
-          <p className="text-gray-700 leading-relaxed">
-            {company.description ?? "No description available."}
-          </p>
-        </div>
-
         {/* 🔹 Financials */}
         {financials && <FinancialsTable data={financials} />}
 
         {/* 🔹 Stocktwits feed */}
         <div className="bg-white shadow rounded-xl p-6 max-w-3xl">
           <h2 className="text-lg font-semibold mb-3">Stocktwits Feed</h2>
-
           {feed.length > 0 ? (
             <>
               <div className="space-y-3 max-h-[500px] overflow-y-auto">
@@ -217,7 +262,6 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
                   </div>
                 ))}
               </div>
-
               {cursor?.more && (
                 <button
                   onClick={loadMore}
@@ -231,8 +275,6 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
           ) : (
             <p className="text-gray-500 text-sm">No messages found.</p>
           )}
-
-          {/* Link to Twitter */}
           <a
             href={`https://twitter.com/search?q=%24${ticker}&src=typed_query&f=live`}
             target="_blank"

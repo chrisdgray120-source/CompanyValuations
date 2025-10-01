@@ -2,28 +2,31 @@ import { NextResponse } from "next/server";
 
 export async function GET(
   req: Request,
-  { params }: { params: { ticker: string } }
+  context: { params: Promise<{ ticker: string }> }
 ) {
-  const ticker = params.ticker.toUpperCase().replace(/^\$/, ""); // strip $ if present
-  const { searchParams } = new URL(req.url);
-  const max = searchParams.get("max"); // <-- support pagination
+  const { ticker } = await context.params; // ✅ await params
+  const upperTicker = ticker.toUpperCase().replace(/^\$/, ""); // strip leading $
 
-  // Build Stocktwits URL with optional ?max
-  const base = `https://api.stocktwits.com/api/2/streams/symbol/${ticker}.json`;
-  const url = max ? `${base}?max=${encodeURIComponent(max)}` : base;
+  const { searchParams } = new URL(req.url);
+  const max = searchParams.get("max");
+  const url = max
+    ? `https://api.stocktwits.com/api/2/streams/symbol/${upperTicker}.json?max=${max}`
+    : `https://api.stocktwits.com/api/2/streams/symbol/${upperTicker}.json`;
 
   try {
     const r = await fetch(url, { cache: "no-store" });
     if (!r.ok) {
-      // pass through status but return empty list so UI doesn't crash
-      return NextResponse.json({ messages: [], cursor: null }, { status: r.status });
+      return NextResponse.json({ messages: [] }, { status: r.status });
     }
     const data = await r.json();
     return NextResponse.json(
-      { messages: data.messages ?? [], cursor: data.cursor ?? null },
+      {
+        messages: data.messages ?? [],
+        cursor: data.cursor ?? null,
+      },
       { status: 200 }
     );
-  } catch (err) {
+  } catch {
     return NextResponse.json({ messages: [], cursor: null }, { status: 200 });
   }
 }
