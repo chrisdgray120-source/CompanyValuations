@@ -22,6 +22,8 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   const [company, setCompany] = useState<any | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
   const [feed, setFeed] = useState<any[]>([]);
+  const [cursor, setCursor] = useState<any | null>(null);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   useEffect(() => {
     // fundamentals
@@ -29,7 +31,7 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
       .then((res) => res.json())
       .then((data) => {
         const match = data.find((c: any) => c.ticker === ticker);
-        setCompany(match);
+        setCompany(match || null);
       });
 
     // chart data
@@ -38,12 +40,31 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
       .then(setChartData)
       .catch(() => setChartData([]));
 
-    // stocktwits feed
+    // stocktwits feed (first page)
     fetch(`/api/stocktwits/${ticker}`)
       .then((res) => res.json())
-      .then((data) => setFeed(data.messages || []))
-      .catch(() => setFeed([]));
+      .then((data) => {
+        setFeed(data.messages || []);
+        setCursor(data.cursor || null);
+      })
+      .catch(() => {
+        setFeed([]);
+        setCursor(null);
+      });
   }, [ticker]);
+
+  const loadMore = async () => {
+    if (!cursor?.more || !cursor?.max) return;
+    setLoadingMore(true);
+    try {
+      const res = await fetch(`/api/stocktwits/${ticker}?max=${cursor.max}`);
+      const data = await res.json();
+      setFeed((prev) => [...prev, ...(data.messages || [])]);
+      setCursor(data.cursor || null);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
 
   if (!company) {
     return (
@@ -53,34 +74,10 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
     );
   }
 
-  // ---- JSON-LD ----
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: company.name,
-    tickerSymbol: company.ticker,
-    url: `https://stock-market-info.com/company/${company.ticker}`,
-    logo: company.logo_url,
-    description: `${company.name} (${company.ticker}) market cap ${company.marketCap}, revenue ${company.revenue}, net income ${company.netIncome}, and valuation ratios.`,
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: company.country || "US",
-    },
-    sameAs: [
-      `https://finance.yahoo.com/quote/${company.ticker}`,
-      `https://www.polygon.io/stocks/${company.ticker}`,
-    ],
-  };
-
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
       <div className="max-w-5xl mx-auto space-y-6">
-        {/* Title + logo */}
+        {/* 🔹 Title + logo */}
         <div className="flex items-center space-x-3">
           {company.logo_url && (
             <img
@@ -94,7 +91,7 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
           </h1>
         </div>
 
-        {/* Fundamentals */}
+        {/* 🔹 Fundamentals */}
         <div className="bg-white shadow rounded-xl p-6 mb-6">
           <p className="mb-2">
             <strong>Price:</strong> ${company.price.toFixed(2)}
@@ -111,7 +108,7 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
           </p>
         </div>
 
-        {/* Chart */}
+        {/* 🔹 Chart */}
         <div className="bg-white shadow rounded-xl p-6">
           <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
           {chartData.length > 0 ? (
@@ -133,62 +130,76 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
           )}
         </div>
 
-        {/* About */}
+        {/* 🔹 About */}
         <div className="bg-white shadow rounded-xl p-6">
           <h2 className="text-lg font-semibold mb-2">About {company.name}</h2>
           <p className="text-gray-700 leading-relaxed">
             {company.description ?? "No description available."}
           </p>
         </div>
+
+        {/* 🔹 Stocktwits feed (now same width & paginated) */}
+        {/* 🔹 Stocktwits feed (refined styling) */}
+<div className="bg-white shadow rounded-xl p-6 max-w-3xl">
+  <h2 className="text-lg font-semibold mb-3">Stocktwits Feed</h2>
+
+  {feed.length > 0 ? (
+    <>
+      <div className="space-y-3 max-h-[500px] overflow-y-auto">
+        {feed.map((msg) => (
+          <div key={msg.id} className="border-b pb-2">
+            <div className="flex items-center space-x-2 mb-1">
+              <img
+                src={msg.user.avatar_url}
+                alt={msg.user.username}
+                className="w-5 h-5 rounded-full"
+              />
+              <span className="text-xs font-semibold">{msg.user.username}</span>
+              {msg.entities?.sentiment && (
+                <span
+                  className={`ml-2 text-[10px] px-1.5 py-0.5 rounded ${
+                    msg.entities.sentiment.basic === "Bullish"
+                      ? "bg-green-100 text-green-700"
+                      : "bg-red-100 text-red-700"
+                  }`}
+                >
+                  {msg.entities.sentiment.basic}
+                </span>
+              )}
+            </div>
+            <p className="text-sm text-gray-800">{msg.body}</p>
+            <p className="text-xs text-gray-500 mt-1">
+              {new Date(msg.created_at).toLocaleString()}
+            </p>
+          </div>
+        ))}
       </div>
 
-      {/* Stocktwits feed */}
-      <div className="bg-white shadow rounded-xl p-6">
-        <h2 className="text-lg font-semibold mb-4">Stocktwits Feed</h2>
-        <div className="space-y-4 max-h-96 overflow-y-auto">
-          {feed.length > 0 ? (
-            feed.slice(0, 5).map((msg) => (
-              <div key={msg.id} className="border-b pb-3">
-                <div className="flex items-center space-x-2 mb-1">
-                  <img
-                    src={msg.user.avatar_url}
-                    alt={msg.user.username}
-                    className="w-6 h-6 rounded-full"
-                  />
-                  <span className="text-sm font-semibold">
-                    {msg.user.username}
-                  </span>
-                  {msg.entities?.sentiment && (
-                    <span
-                      className={`ml-2 text-xs px-2 py-0.5 rounded ${
-                        msg.entities.sentiment.basic === "Bullish"
-                          ? "bg-green-100 text-green-700"
-                          : "bg-red-100 text-red-700"
-                      }`}
-                    >
-                      {msg.entities.sentiment.basic}
-                    </span>
-                  )}
-                </div>
-                <p className="text-gray-800 text-sm">{msg.body}</p>
-                <p className="text-xs text-gray-500">
-                  {new Date(msg.created_at).toLocaleString()}
-                </p>
-              </div>
-            ))
-          ) : (
-            <p className="text-gray-500">No messages found.</p>
-          )}
-        </div>
-
-        <a
-          href={`https://twitter.com/search?q=%24${ticker}&src=typed_query&f=live`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block mt-4 text-blue-600 hover:underline text-sm"
+      {cursor?.more && (
+        <button
+          onClick={loadMore}
+          disabled={loadingMore}
+          className="mt-3 px-3 py-1.5 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 disabled:bg-gray-400"
         >
-          View live ${ticker} chatter on Twitter →
-        </a>
+          {loadingMore ? "Loading..." : "Load More"}
+        </button>
+      )}
+    </>
+  ) : (
+    <p className="text-gray-500 text-sm">No messages found.</p>
+  )}
+
+  {/* Link to Twitter */}
+  <a
+    href={`https://twitter.com/search?q=%24${ticker}&src=typed_query&f=live`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block mt-3 text-blue-600 hover:underline text-xs"
+  >
+    View live ${ticker} chatter on Twitter →
+  </a>
+</div>
+
       </div>
     </main>
   );
