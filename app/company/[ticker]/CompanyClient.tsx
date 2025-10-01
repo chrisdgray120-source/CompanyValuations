@@ -2,12 +2,14 @@
 import FinancialsTable from "@/components/FinancialsTable";
 import { useEffect, useState } from "react";
 import {
-  LineChart,
+  ComposedChart,
   Line,
+  Area,
   XAxis,
   YAxis,
   Tooltip,
   ResponsiveContainer,
+  CartesianGrid,
 } from "recharts";
 
 function formatNumber(num: number | null) {
@@ -18,26 +20,40 @@ function formatNumber(num: number | null) {
   return num.toString();
 }
 
-
-
+// 🔹 Helper: Calculate SMA for given period
+function calculateSMA(data: any[], period: number) {
+  return data.map((row, i) => {
+    if (i < period - 1) {
+      return { ...row, [`sma${period}`]: null };
+    }
+    const slice = data.slice(i - period + 1, i + 1);
+    const avg = slice.reduce((sum, d) => sum + d.close, 0) / period;
+    return { ...row, [`sma${period}`]: avg };
+  });
+}
 
 export default function CompanyClient({ ticker }: { ticker: string }) {
   const [profile, setProfile] = useState<any | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
   const [timeframe, setTimeframe] = useState("1Y");
+  const [showSMA20, setShowSMA20] = useState(true);
+  const [showSMA50, setShowSMA50] = useState(true);
+  const [showSMA200, setShowSMA200] = useState(true);
   const [feed, setFeed] = useState<any[]>([]);
   const [cursor, setCursor] = useState<any | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [financials, setFinancials] = useState<any | null>(null);
   const [quote, setQuote] = useState<any | null>(null);
 
-function filterData(data: any[]) {
-  if (timeframe === "1M") return data.slice(-21);   // ~21 trading days
-  if (timeframe === "6M") return data.slice(-126);  // ~6 months
-  if (timeframe === "1Y") return data.slice(-252);  // ~1 year
-  return data; // MAX
-}
-const filteredChartData = filterData(chartData);
+  // 🔹 Filter timeframe
+  function filterData(data: any[]) {
+    if (timeframe === "1M") return data.slice(-21);
+    if (timeframe === "6M") return data.slice(-126);
+    if (timeframe === "1Y") return data.slice(-252);
+    return data; // MAX
+  }
+  const filteredChartData = filterData(chartData);
+
   useEffect(() => {
     // profile from FMP
     fetch(`/api/profile/${ticker}`)
@@ -46,10 +62,15 @@ const filteredChartData = filterData(chartData);
       .catch(() => setProfile(null));
 
     // chart data
-    fetch(`/data/charts/${ticker}.json`)
-      .then((res) => res.json())
-      .then(setChartData)
-      .catch(() => setChartData([]));
+fetch(`/data/charts/${ticker}.json`)
+  .then((res) => res.json())
+  .then((data) => {
+    let enriched = calculateSMA(data, 20);
+    enriched = calculateSMA(enriched, 50);
+    enriched = calculateSMA(enriched, 200);
+    setChartData(enriched);
+  })
+  .catch(() => setChartData([]));
 
     // financials
     fetch(`/api/financials/${ticker}`)
@@ -100,109 +121,110 @@ const filteredChartData = filterData(chartData);
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-6xl mx-auto space-y-6">
-        
-{/* 🔹 Title + logo */}
-<div className="flex items-center space-x-3">
-  <img
-    src={`/logos/${ticker}.png`}
-    alt={`${profile?.companyName ?? ticker} logo`}
-    className="w-10 h-10 rounded"
-    onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/logos/_fallback.png"; }}
-  />
-  <h1 className="text-2xl font-bold text-gray-900">
-    {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
-  </h1>
-</div>
+        {/* 🔹 Title + logo */}
+        <div className="flex items-center space-x-3">
+          <img
+            src={`/logos/${ticker}.png`}
+            alt={`${profile?.companyName ?? ticker} logo`}
+            className="w-10 h-10 rounded"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = "/logos/_fallback.png";
+            }}
+          />
+          <h1 className="text-2xl font-bold text-gray-900">
+            {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
+          </h1>
+        </div>
 
-{/* 🔹 Quote + Company Profile (side by side) */}
-<div className="bg-white shadow rounded-xl p-6 mb-6">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    {/* Left = Quote */}
-    <div>
-      {quote ? (
-        <>
-          <p className="mb-2">
-            <strong>Price:</strong> ${quote.price.toFixed(2)}
-          </p>
-          <p
-            className={`mb-2 font-medium ${
-              quote.change >= 0 ? "text-green-600" : "text-red-600"
-            }`}
-          >
-            {quote.change >= 0 ? "▲" : "▼"} {quote.change.toFixed(2)} (
-            {quote.changePercent.toFixed(2)}%)
-          </p>
-          <p className="mb-2">
-            <strong>Market Cap:</strong> {formatNumber(quote.marketCap)}
-          </p>
-          <p className="mb-2">
-            <strong>Day Range:</strong> {quote.dayLow} – {quote.dayHigh}
-          </p>
-          <p className="mb-2">
-            <strong>52W Range:</strong> {quote.yearLow} – {quote.yearHigh}
-          </p>
-          <p className="mb-2">
-            <strong>Volume:</strong>{" "}
-            {quote.volume ? quote.volume.toLocaleString() : "-"}
-          </p>
-          <p className="text-xs text-gray-500 mt-2">
-            {quote.exchange} · delayed at{" "}
-            {quote.timestamp
-              ? new Date(quote.timestamp * 1000).toLocaleString()
-              : "N/A"}
-          </p>
-        </>
-      ) : (
-        <p className="text-gray-500">No quote data available.</p>
-      )}
-    </div>
+        {/* 🔹 Quote + Company Profile */}
+        <div className="bg-white shadow rounded-xl p-6 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Left = Quote */}
+            <div>
+              {quote ? (
+                <>
+                  <p className="mb-2">
+                    <strong>Price:</strong> ${quote.price.toFixed(2)}
+                  </p>
+                  <p
+                    className={`mb-2 font-medium ${
+                      quote.change >= 0 ? "text-green-600" : "text-red-600"
+                    }`}
+                  >
+                    {quote.change >= 0 ? "▲" : "▼"} {quote.change.toFixed(2)} (
+                    {quote.changePercent.toFixed(2)}%)
+                  </p>
+                  <p className="mb-2">
+                    <strong>Market Cap:</strong> {formatNumber(quote.marketCap)}
+                  </p>
+                  <p className="mb-2">
+                    <strong>Day Range:</strong> {quote.dayLow} – {quote.dayHigh}
+                  </p>
+                  <p className="mb-2">
+                    <strong>52W Range:</strong> {quote.yearLow} – {quote.yearHigh}
+                  </p>
+                  <p className="mb-2">
+                    <strong>Volume:</strong>{" "}
+                    {quote.volume ? quote.volume.toLocaleString() : "-"}
+                  </p>
+                  <p className="text-xs text-gray-500 mt-2">
+                    {quote.exchange} · delayed at{" "}
+                    {quote.timestamp
+                      ? new Date(quote.timestamp * 1000).toLocaleString()
+                      : "N/A"}
+                  </p>
+                </>
+              ) : (
+                <p className="text-gray-500">No quote data available.</p>
+              )}
+            </div>
 
-    {/* Right = Company Profile */}
-    <div className="text-sm space-y-2">
-      {profile?.ceo && (
-        <p>
-          <strong>CEO:</strong> {profile.ceo}
-        </p>
-      )}
-      {profile?.fullTimeEmployees && (
-        <p>
-          <strong>Employees:</strong> {profile.fullTimeEmployees}
-        </p>
-      )}
-      {profile?.sector && (
-        <p>
-          <strong>Sector:</strong> {profile.sector}
-        </p>
-      )}
-      {profile?.industry && (
-        <p>
-          <strong>Industry:</strong> {profile.industry}
-        </p>
-      )}
-      {profile?.website && (
-        <p>
-          <strong>Website:</strong>{" "}
-          <a
-            href={profile.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
-          >
-            {profile.website}
-          </a>
-        </p>
-      )}
-      {profile?.address && (
-        <p>
-          <strong>HQ:</strong> {profile.address}, {profile.city},{" "}
-          {profile.state}, {profile.country}
-        </p>
-      )}
-    </div>
-  </div>
-</div>
+            {/* Right = Company Profile */}
+            <div className="text-sm space-y-2">
+              {profile?.ceo && (
+                <p>
+                  <strong>CEO:</strong> {profile.ceo}
+                </p>
+              )}
+              {profile?.fullTimeEmployees && (
+                <p>
+                  <strong>Employees:</strong> {profile.fullTimeEmployees}
+                </p>
+              )}
+              {profile?.sector && (
+                <p>
+                  <strong>Sector:</strong> {profile.sector}
+                </p>
+              )}
+              {profile?.industry && (
+                <p>
+                  <strong>Industry:</strong> {profile.industry}
+                </p>
+              )}
+              {profile?.website && (
+                <p>
+                  <strong>Website:</strong>{" "}
+                  <a
+                    href={profile.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    {profile.website}
+                  </a>
+                </p>
+              )}
+              {profile?.address && (
+                <p>
+                  <strong>HQ:</strong> {profile.address}, {profile.city},{" "}
+                  {profile.state}, {profile.country}
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
 
-        {/* 🔹 About (separate box) */}
+        {/* 🔹 About */}
         <div className="bg-white shadow rounded-xl p-6">
           <h2 className="text-lg font-semibold mb-3">
             About {profile?.companyName ?? ticker}
@@ -212,13 +234,12 @@ const filteredChartData = filterData(chartData);
           </p>
         </div>
 
-        {/* 🔹 Chart */}
-{/* 🔹 Chart */}
+{/* 🔹 Price Chart with SMA */}
 <div className="bg-white shadow rounded-xl p-6">
   <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
 
-  {/* Timeframe buttons */}
-  <div className="flex gap-2 mb-3">
+  {/* Timeframe + SMA buttons */}
+  <div className="flex gap-2 mb-3 flex-wrap">
     {["1M", "6M", "1Y", "MAX"].map((tf) => (
       <button
         key={tf}
@@ -230,15 +251,47 @@ const filteredChartData = filterData(chartData);
         {tf}
       </button>
     ))}
+    <button
+      onClick={() => setShowSMA20(!showSMA20)}
+      className={`px-3 py-1 rounded ${
+        showSMA20 ? "bg-yellow-400 text-black" : "bg-gray-200"
+      }`}
+    >
+      20 SMA
+    </button>
+    <button
+      onClick={() => setShowSMA50(!showSMA50)}
+      className={`px-3 py-1 rounded ${
+        showSMA50 ? "bg-green-600 text-white" : "bg-gray-200"
+      }`}
+    >
+      50 SMA
+    </button>
+    <button
+      onClick={() => setShowSMA200(!showSMA200)}
+      className={`px-3 py-1 rounded ${
+        showSMA200 ? "bg-red-600 text-white" : "bg-gray-200"
+      }`}
+    >
+      200 SMA
+    </button>
   </div>
 
   {chartData.length > 0 ? (
-    <div className="w-full h-80 bg-gray-100 rounded-xl p-3">
+    <div className="w-full h-[480px] bg-gray-50 rounded-xl p-3">
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={filteredChartData}>
+        <ComposedChart data={filteredChartData}>
+          <defs>
+            <linearGradient id="priceGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#2563eb" stopOpacity={0.3} />
+              <stop offset="100%" stopColor="#2563eb" stopOpacity={0} />
+            </linearGradient>
+          </defs>
+
           <XAxis
             dataKey="date"
-            tick={{ fontSize: 12 }}
+            stroke="#17191dff"
+            tick={{ fontSize: 12, fill: "#17191dff" }}
             tickFormatter={(d) =>
               new Date(d).toLocaleDateString("en-US", {
                 month: "short",
@@ -246,8 +299,44 @@ const filteredChartData = filterData(chartData);
               })
             }
           />
-          <YAxis domain={["auto", "auto"]} />
-          <Tooltip />
+          <YAxis
+            domain={["auto", "auto"]}
+            stroke="#17191dff"
+            tick={{ fontSize: 12, fill: "#17191dff" }}
+            tickFormatter={(v) => `$${v.toFixed(0)}`}
+          />
+          <CartesianGrid stroke="#e5e7eb" strokeDasharray="3 3" />
+
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "#fff",
+              border: "1px solid #e5e7eb",
+              borderRadius: "0.5rem",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
+              color: "#17191dff",
+            }}
+            labelStyle={{ fontWeight: "600", color: "#17191dff" }}
+            formatter={(value: number, name: string) => {
+              const labels: Record<string, string> = {
+                close: "Close Price",
+                sma20: "20 SMA",
+                sma50: "50 SMA",
+                sma200: "200 SMA",
+              };
+              const label = labels[name] || name;
+              return [`$${value.toFixed(2)}`, label];
+            }}
+          />
+
+          {/* 🔹 Area under price */}
+          <Area
+            type="monotone"
+            dataKey="close"
+            stroke="none"
+            fill="url(#priceGradient)"
+          />
+
+          {/* 🔹 Price line */}
           <Line
             type="monotone"
             dataKey="close"
@@ -255,19 +344,43 @@ const filteredChartData = filterData(chartData);
             dot={false}
             strokeWidth={2}
           />
-        </LineChart>
+
+          {/* 🔹 SMA lines */}
+          <Line
+            type="monotone"
+            dataKey="sma20"
+            stroke="#facc15" // yellow
+            dot={false}
+            strokeWidth={1.5}
+            hide={!showSMA20}
+          />
+          <Line
+            type="monotone"
+            dataKey="sma50"
+            stroke="#10b981" // green
+            dot={false}
+            strokeWidth={1.5}
+            hide={!showSMA50}
+          />
+          <Line
+            type="monotone"
+            dataKey="sma200"
+            stroke="#ef4444" // red
+            dot={false}
+            strokeWidth={1.5}
+            hide={!showSMA200}
+          />
+        </ComposedChart>
       </ResponsiveContainer>
     </div>
   ) : (
     <p className="text-gray-400">No chart data available.</p>
   )}
 </div>
-
-
         {/* 🔹 Financials */}
         {financials && <FinancialsTable data={financials} />}
 
-        {/* 🔹 Stocktwits feed */}
+        {/* 🔹 Stocktwits */}
         <div className="bg-white shadow rounded-xl p-6 max-w-3xl">
           <h2 className="text-lg font-semibold mb-3">Stocktwits Feed</h2>
           {feed.length > 0 ? (
@@ -316,14 +429,6 @@ const filteredChartData = filterData(chartData);
           ) : (
             <p className="text-gray-500 text-sm">No messages found.</p>
           )}
-          <a
-            href={`https://twitter.com/search?q=%24${ticker}&src=typed_query&f=live`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block mt-3 text-blue-600 hover:underline text-xs"
-          >
-            View live ${ticker} chatter on Twitter →
-          </a>
         </div>
       </div>
     </main>
