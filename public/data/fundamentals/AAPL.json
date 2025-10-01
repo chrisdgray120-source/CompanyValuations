@@ -1,0 +1,322 @@
+[
+  {
+    "date": "2025-06-28",
+    "revenue": 94036000000,
+    "netIncome": 23434000000,
+    "eps": 1.57,
+    "fcf": 24405000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2025-03-29",
+    "revenue": 95359000000,
+    "netIncome": 24780000000,
+    "eps": 1.65,
+    "fcf": 20881000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2024-12-28",
+    "revenue": 124300000000,
+    "netIncome": 36330000000,
+    "eps": 2.41,
+    "fcf": 26995000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2024-09-28",
+    "revenue": 94930000000,
+    "netIncome": 14736000000,
+    "eps": 0.97,
+    "fcf": 23903000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2024-06-29",
+    "revenue": 85777000000,
+    "netIncome": 21448000000,
+    "eps": 1.4,
+    "fcf": 26707000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2024-03-30",
+    "revenue": 90753000000,
+    "netIncome": 23636000000,
+    "eps": 1.53,
+    "fcf": 20694000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2023-12-30",
+    "revenue": 119575000000,
+    "netIncome": 33916000000,
+    "eps": 2.19,
+    "fcf": 37503000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2023-09-30",
+    "revenue": 89498000000,
+    "netIncome": 22956000000,
+    "eps": 1.47,
+    "fcf": 19435000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2023-07-01",
+    "revenue": 81797000000,
+    "netIncome": 19881000000,
+    "eps": 1.27,
+    "fcf": 24287000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2023-04-01",
+    "revenue": 94836000000,
+    "netIncome": 24160000000,
+    "eps": 1.53,
+    "fcf": 25644000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2022-12-31",
+    "revenue": 117154000000,
+    "netIncome": 29998000000,
+    "eps": 1.89,
+    "fcf": 30218000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2022-09-24",
+    "revenue": 90146000000,
+    "netIncome": 20721000000,
+    "eps": 1.29,
+    "fcf": 20838000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2022-06-25",
+    "revenue": 82959000000,
+    "netIncome": 19442000000,
+    "eps": 1.2,
+    "fcf": 20790000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2022-03-26",
+    "revenue": 97278000000,
+    "netIncome": 25010000000,
+    "eps": 1.54,
+    "fcf": 25652000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2021-12-25",
+    "revenue": 123945000000,
+    "netIncome": 34630000000,
+    "eps": 2.11,
+    "fcf": 44163000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2021-09-25",
+    "revenue": 83360000000,
+    "netIncome": 20551000000,
+    "eps": 1.25,
+    "fcf": 16977000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2021-06-26",
+    "revenue": 81434000000,
+    "netIncome": 21744000000,
+    "eps": 1.31,
+    "fcf": 19001000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2021-03-27",
+    "revenue": 89584000000,
+    "netIncome": 23630000000,
+    "eps": 1.41,
+    "fcf": 21712000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2020-12-26",
+    "revenue": 111439000000,
+    "netIncome": 28755000000,
+    "eps": 1.7,
+    "fcf": 35263000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2020-09-26",
+    "revenue": 64698000000,
+    "netIncome": 12673000000,
+    "eps": 0.74,
+    "fcf": 18792000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2020-06-27",
+    "revenue": 59685000000,
+    "netIncome": 11253000000,
+    "eps": 0.65,
+    "fcf": 14706000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2020-03-28",
+    "revenue": 58313000000,
+    "netIncome": 11249000000,
+    "eps": 0.65,
+    "fcf": 11458000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2019-12-28",
+    "revenue": 91819000000,
+    "netIncome": 22236000000,
+    "eps": 1.26,
+    "fcf": 28409000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2019-09-28",
+    "revenue": 64040000000,
+    "netIncome": 13686000000,
+    "eps": 0.76,
+    "fcf": 17133000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2019-06-29",
+    "revenue": 53809000000,
+    "netIncome": 10044000000,
+    "eps": 0.55,
+    "fcf": 9636000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2019-03-30",
+    "revenue": 58015000000,
+    "netIncome": 11561000000,
+    "eps": 0.62,
+    "fcf": 8792000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2018-12-29",
+    "revenue": 84310000000,
+    "netIncome": 19965000000,
+    "eps": 1.05,
+    "fcf": 23335000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2018-09-29",
+    "revenue": 62900000000,
+    "netIncome": 14125000000,
+    "eps": 0.74,
+    "fcf": 16482000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2018-06-30",
+    "revenue": 53265000000,
+    "netIncome": 11519000000,
+    "eps": 0.59,
+    "fcf": 11221000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2018-03-31",
+    "revenue": 61137000000,
+    "netIncome": 13822000000,
+    "eps": 0.69,
+    "fcf": 10935000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2017-12-30",
+    "revenue": 88293000000,
+    "netIncome": 20065000000,
+    "eps": 0.98,
+    "fcf": 25483000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2017-09-30",
+    "revenue": 52579000000,
+    "netIncome": 10714000000,
+    "eps": 0.52,
+    "fcf": 11656000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2017-07-01",
+    "revenue": 45408000000,
+    "netIncome": 8717000000,
+    "eps": 0.42,
+    "fcf": 6312000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2017-04-01",
+    "revenue": 52896000000,
+    "netIncome": 11029000000,
+    "eps": 0.53,
+    "fcf": 9555000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2016-12-31",
+    "revenue": 78351000000,
+    "netIncome": 17891000000,
+    "eps": 0.85,
+    "fcf": 23814000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2016-09-24",
+    "revenue": 46852000000,
+    "netIncome": 9014000000,
+    "eps": 0.42,
+    "fcf": 12088000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2016-06-25",
+    "revenue": 42358000000,
+    "netIncome": 7796000000,
+    "eps": 0.36,
+    "fcf": 7729000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2016-03-26",
+    "revenue": 50557000000,
+    "netIncome": 10516000000,
+    "eps": 0.48,
+    "fcf": 9002000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2015-12-26",
+    "revenue": 75872000000,
+    "netIncome": 18361000000,
+    "eps": 0.83,
+    "fcf": 23457000000,
+    "sharesOutstanding": null
+  },
+  {
+    "date": "2015-09-26",
+    "revenue": 51501000000,
+    "netIncome": 11124000000,
+    "eps": 0.49,
+    "fcf": 9817000000,
+    "sharesOutstanding": null
+  }
+]

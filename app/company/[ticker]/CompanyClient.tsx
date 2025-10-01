@@ -11,6 +11,7 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from "recharts";
+import FundamentalsChart from "@/components/FundamentalsChart";
 
 function formatNumber(num: number | null) {
   if (!num) return "-";
@@ -377,8 +378,19 @@ fetch(`/data/charts/${ticker}.json`)
     <p className="text-gray-400">No chart data available.</p>
   )}
 </div>
-        {/* 🔹 Financials */}
-        {financials && <FinancialsTable data={financials} />}
+
+{/* 🔹 Fundamentals Chart */}
+<FundamentalsChart ticker={ticker} />
+
+{/* 🔹 Ad placeholder */}
+<div className="bg-gray-100 text-center py-6 rounded-lg border">
+  <p className="text-gray-500">Ad Space</p>
+</div>
+
+{/* 🔹 Financials Table */}
+{financials && <FinancialsTable data={financials} />}
+
+
 
         {/* 🔹 Stocktwits */}
         <div className="bg-white shadow rounded-xl p-6 max-w-3xl">
