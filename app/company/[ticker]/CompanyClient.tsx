@@ -18,15 +18,26 @@ function formatNumber(num: number | null) {
   return num.toString();
 }
 
+
+
+
 export default function CompanyClient({ ticker }: { ticker: string }) {
   const [profile, setProfile] = useState<any | null>(null);
   const [chartData, setChartData] = useState<any[]>([]);
+  const [timeframe, setTimeframe] = useState("1Y");
   const [feed, setFeed] = useState<any[]>([]);
   const [cursor, setCursor] = useState<any | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [financials, setFinancials] = useState<any | null>(null);
   const [quote, setQuote] = useState<any | null>(null);
 
+function filterData(data: any[]) {
+  if (timeframe === "1M") return data.slice(-21);   // ~21 trading days
+  if (timeframe === "6M") return data.slice(-126);  // ~6 months
+  if (timeframe === "1Y") return data.slice(-252);  // ~1 year
+  return data; // MAX
+}
+const filteredChartData = filterData(chartData);
   useEffect(() => {
     // profile from FMP
     fetch(`/api/profile/${ticker}`)
@@ -89,19 +100,19 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-6xl mx-auto space-y-6">
-        {/* 🔹 Title + logo */}
-        <div className="flex items-center space-x-3">
-          {profile?.image && (
-            <img
-              src={profile.image}
-              alt={`${profile.companyName} logo`}
-              className="w-10 h-10 rounded"
-            />
-          )}
-          <h1 className="text-2xl font-bold text-gray-900">
-            {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
-          </h1>
-        </div>
+        
+{/* 🔹 Title + logo */}
+<div className="flex items-center space-x-3">
+  <img
+    src={`/logos/${ticker}.png`}
+    alt={`${profile?.companyName ?? ticker} logo`}
+    className="w-10 h-10 rounded"
+    onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/logos/_fallback.png"; }}
+  />
+  <h1 className="text-2xl font-bold text-gray-900">
+    {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
+  </h1>
+</div>
 
 {/* 🔹 Quote + Company Profile (side by side) */}
 <div className="bg-white shadow rounded-xl p-6 mb-6">
@@ -202,26 +213,56 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
         </div>
 
         {/* 🔹 Chart */}
-        <div className="bg-white shadow rounded-xl p-6">
-          <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
-          {chartData.length > 0 ? (
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={chartData}>
-                <XAxis dataKey="date" hide />
-                <YAxis domain={["auto", "auto"]} />
-                <Tooltip />
-                <Line
-                  type="monotone"
-                  dataKey="close"
-                  stroke="#2563eb"
-                  dot={false}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          ) : (
-            <p className="text-gray-400">No chart data available.</p>
-          )}
-        </div>
+{/* 🔹 Chart */}
+<div className="bg-white shadow rounded-xl p-6">
+  <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
+
+  {/* Timeframe buttons */}
+  <div className="flex gap-2 mb-3">
+    {["1M", "6M", "1Y", "MAX"].map((tf) => (
+      <button
+        key={tf}
+        onClick={() => setTimeframe(tf)}
+        className={`px-3 py-1 rounded ${
+          timeframe === tf ? "bg-blue-600 text-white" : "bg-gray-200"
+        }`}
+      >
+        {tf}
+      </button>
+    ))}
+  </div>
+
+  {chartData.length > 0 ? (
+    <div className="w-full h-80 bg-gray-100 rounded-xl p-3">
+      <ResponsiveContainer width="100%" height="100%">
+        <LineChart data={filteredChartData}>
+          <XAxis
+            dataKey="date"
+            tick={{ fontSize: 12 }}
+            tickFormatter={(d) =>
+              new Date(d).toLocaleDateString("en-US", {
+                month: "short",
+                year: "2-digit",
+              })
+            }
+          />
+          <YAxis domain={["auto", "auto"]} />
+          <Tooltip />
+          <Line
+            type="monotone"
+            dataKey="close"
+            stroke="#2563eb"
+            dot={false}
+            strokeWidth={2}
+          />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
+  ) : (
+    <p className="text-gray-400">No chart data available.</p>
+  )}
+</div>
+
 
         {/* 🔹 Financials */}
         {financials && <FinancialsTable data={financials} />}
