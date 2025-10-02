@@ -1,32 +1,48 @@
-import { NextResponse } from "next/server";
+// app/api/financials/[ticker]/route.ts
+import { NextRequest } from "next/server";
+import fs from "fs";
+import path from "path";
 
-const API_KEY = process.env.FMP_API_KEY; // put your key in .env.local
+const DATA_DIR = path.join(process.cwd(), "public", "data");
 
 export async function GET(
-  _req: Request,
+  req: NextRequest,
   { params }: { params: { ticker: string } }
 ) {
   const ticker = params.ticker.toUpperCase();
-  const url = `https://financialmodelingprep.com/api/v4/income-statement?symbol=${upperTicker}&limit=1&period=annual&apikey=${process.env.FMP_API_KEY}`;
-
 
   try {
-    const r = await fetch(url, { cache: "no-store" });
-    if (!r.ok) {
-      return NextResponse.json({ error: "Failed to fetch data" }, { status: r.status });
-    }
-    const data = await r.json();
-    const latest = data[0];
+    // fundamentals (quarterly)
+    const fundPath = path.join(DATA_DIR, "fundamentals", `${ticker}.json`);
+    const fundamentals = JSON.parse(fs.readFileSync(fundPath, "utf8"));
 
-    return NextResponse.json({
-      revenue: latest?.revenue ?? null,
-      netIncome: latest?.netIncome ?? null,
-      eps: latest?.eps ?? null,
-      totalDebt: latest?.totalDebt ?? null,
-      cash: latest?.cashAndCashEquivalents ?? null,
-      freeCashFlow: latest?.freeCashFlow ?? null,
+    // balance sheet
+    const balancePath = path.join(DATA_DIR, "balance", `${ticker}.json`);
+    const balance = JSON.parse(fs.readFileSync(balancePath, "utf8"));
+
+    // latest rows (usually index 0 is most recent)
+    const latestFund = fundamentals[0] || {};
+    const latestBalance = balance[0] || {};
+
+    const snapshot = {
+      revenue: latestFund.revenue ?? null,
+      netIncome: latestFund.netIncome ?? null,
+      eps: latestFund.eps ?? null,
+      freeCashFlow: latestFund.fcf ?? null,
+      totalDebt: latestBalance.totalDebt ?? latestBalance.shortTermDebt ?? null,
+      cash:
+        latestBalance.cashAndCashEquivalents ??
+        latestBalance.cash ??
+        null,
+    };
+
+    return Response.json(snapshot, {
+      headers: { "Cache-Control": "s-maxage=600" }, // 10-min cache
     });
-  } catch (err) {
-    return NextResponse.json({ error: "Server error" }, { status: 500 });
+  } catch (e: any) {
+    return new Response(
+      `Error loading financials for ${ticker}: ${e.message}`,
+      { status: 500 }
+    );
   }
 }

@@ -1,0 +1,1202 @@
+[
+  {
+    "symbol": "COO",
+    "date": "2025-07-31",
+    "stockPrice": 70.69,
+    "numberOfShares": 200600000,
+    "marketCapitalization": 14180414000,
+    "minusCashAndCashEquivalents": 124900000,
+    "addTotalDebt": 2478300000,
+    "enterpriseValue": 16533814000
+  },
+  {
+    "symbol": "COO",
+    "date": "2025-04-30",
+    "stockPrice": 81.67,
+    "numberOfShares": 199900000,
+    "marketCapitalization": 16325833000,
+    "minusCashAndCashEquivalents": 116200000,
+    "addTotalDebt": 2585400000,
+    "enterpriseValue": 18795033000
+  },
+  {
+    "symbol": "COO",
+    "date": "2025-01-31",
+    "stockPrice": 96.55,
+    "numberOfShares": 201200000,
+    "marketCapitalization": 19425860000,
+    "minusCashAndCashEquivalents": 100900000,
+    "addTotalDebt": 2539900000,
+    "enterpriseValue": 21864860000
+  },
+  {
+    "symbol": "COO",
+    "date": "2024-10-31",
+    "stockPrice": 104.68,
+    "numberOfShares": 201100000,
+    "marketCapitalization": 21051148000,
+    "minusCashAndCashEquivalents": 107600000,
+    "addTotalDebt": 2583700000,
+    "enterpriseValue": 23527248000
+  },
+  {
+    "symbol": "COO",
+    "date": "2024-07-31",
+    "stockPrice": 93.33,
+    "numberOfShares": 199100000,
+    "marketCapitalization": 18582003000,
+    "minusCashAndCashEquivalents": 109700000,
+    "addTotalDebt": 2632400000,
+    "enterpriseValue": 21104703000
+  },
+  {
+    "symbol": "COO",
+    "date": "2024-04-30",
+    "stockPrice": 89.06,
+    "numberOfShares": 198900000,
+    "marketCapitalization": 17714034000,
+    "minusCashAndCashEquivalents": 112400000,
+    "addTotalDebt": 2713000000,
+    "enterpriseValue": 20314634000
+  },
+  {
+    "symbol": "COO",
+    "date": "2024-01-31",
+    "stockPrice": 93.26,
+    "numberOfShares": 198400000,
+    "marketCapitalization": 18502784000,
+    "minusCashAndCashEquivalents": 135200000,
+    "addTotalDebt": 2772300000,
+    "enterpriseValue": 21139884000
+  },
+  {
+    "symbol": "COO",
+    "date": "2023-10-31",
+    "stockPrice": 77.94,
+    "numberOfShares": 198000000,
+    "marketCapitalization": 15432120000,
+    "minusCashAndCashEquivalents": 120800000,
+    "addTotalDebt": 2569200000,
+    "enterpriseValue": 17880520000
+  },
+  {
+    "symbol": "COO",
+    "date": "2023-07-31",
+    "stockPrice": 97.82,
+    "numberOfShares": 198000000,
+    "marketCapitalization": 19368360000,
+    "minusCashAndCashEquivalents": 117300000,
+    "addTotalDebt": 2594300000,
+    "enterpriseValue": 21845360000
+  },
+  {
+    "symbol": "COO",
+    "date": "2023-04-30",
+    "stockPrice": 95.94,
+    "numberOfShares": 198000000,
+    "marketCapitalization": 18996120000,
+    "minusCashAndCashEquivalents": 111900000,
+    "addTotalDebt": 2640200000,
+    "enterpriseValue": 21524420000
+  },
+  {
+    "symbol": "COO",
+    "date": "2023-01-31",
+    "stockPrice": 87.23,
+    "numberOfShares": 197600000,
+    "marketCapitalization": 17236648000,
+    "minusCashAndCashEquivalents": 118200000,
+    "addTotalDebt": 2695400000,
+    "enterpriseValue": 19813848000
+  },
+  {
+    "symbol": "COO",
+    "date": "2022-10-31",
+    "stockPrice": 68.35,
+    "numberOfShares": 197200000,
+    "marketCapitalization": 13478619999,
+    "minusCashAndCashEquivalents": 138200000,
+    "addTotalDebt": 2763400000,
+    "enterpriseValue": 16103819999
+  },
+  {
+    "symbol": "COO",
+    "date": "2022-07-31",
+    "stockPrice": 81.35,
+    "numberOfShares": 49300000,
+    "marketCapitalization": 4010554999,
+    "minusCashAndCashEquivalents": 246300000,
+    "addTotalDebt": 3133000000,
+    "enterpriseValue": 6897254999
+  },
+  {
+    "symbol": "COO",
+    "date": "2022-04-30",
+    "stockPrice": 90.26,
+    "numberOfShares": 49300000,
+    "marketCapitalization": 4449818000,
+    "minusCashAndCashEquivalents": 399200000,
+    "addTotalDebt": 3514600000,
+    "enterpriseValue": 7565218000
+  },
+  {
+    "symbol": "COO",
+    "date": "2022-01-31",
+    "stockPrice": 99.57,
+    "numberOfShares": 49400000,
+    "marketCapitalization": 4918758000,
+    "minusCashAndCashEquivalents": 280700000,
+    "addTotalDebt": 3536200000,
+    "enterpriseValue": 8174258000
+  },
+  {
+    "symbol": "COO",
+    "date": "2021-10-31",
+    "stockPrice": 105.49,
+    "numberOfShares": 49300000,
+    "marketCapitalization": 5200657000,
+    "minusCashAndCashEquivalents": 95900000,
+    "addTotalDebt": 1481000000,
+    "enterpriseValue": 6585757000
+  },
+  {
+    "symbol": "COO",
+    "date": "2021-07-31",
+    "stockPrice": 105.44,
+    "numberOfShares": 49300000,
+    "marketCapitalization": 5198192000,
+    "minusCashAndCashEquivalents": 112200000,
+    "addTotalDebt": 1886400000,
+    "enterpriseValue": 6972392000
+  },
+  {
+    "symbol": "COO",
+    "date": "2021-04-30",
+    "stockPrice": 102.72,
+    "numberOfShares": 49200000,
+    "marketCapitalization": 5053824000,
+    "minusCashAndCashEquivalents": 105900000,
+    "addTotalDebt": 2012600000,
+    "enterpriseValue": 6960524000
+  },
+  {
+    "symbol": "COO",
+    "date": "2021-01-31",
+    "stockPrice": 91.28,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 4481848000,
+    "minusCashAndCashEquivalents": 119100000,
+    "addTotalDebt": 2095300000,
+    "enterpriseValue": 6458048000
+  },
+  {
+    "symbol": "COO",
+    "date": "2020-10-31",
+    "stockPrice": 79.76,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 3916216000,
+    "minusCashAndCashEquivalents": 115900000,
+    "addTotalDebt": 2063300000,
+    "enterpriseValue": 5863616000
+  },
+  {
+    "symbol": "COO",
+    "date": "2020-07-31",
+    "stockPrice": 70.73,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 3472843000,
+    "minusCashAndCashEquivalents": 127400000,
+    "addTotalDebt": 2149300000,
+    "enterpriseValue": 5494743000
+  },
+  {
+    "symbol": "COO",
+    "date": "2020-04-30",
+    "stockPrice": 71.68,
+    "numberOfShares": 49200000,
+    "marketCapitalization": 3526656000,
+    "minusCashAndCashEquivalents": 79800000,
+    "addTotalDebt": 2163500000,
+    "enterpriseValue": 5610356000
+  },
+  {
+    "symbol": "COO",
+    "date": "2020-01-31",
+    "stockPrice": 86.72,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 4257952000,
+    "minusCashAndCashEquivalents": 76800000,
+    "addTotalDebt": 2049400000,
+    "enterpriseValue": 6230552000
+  },
+  {
+    "symbol": "COO",
+    "date": "2019-10-31",
+    "stockPrice": 72.75,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 3572025000,
+    "minusCashAndCashEquivalents": 89000000,
+    "addTotalDebt": 1826300000,
+    "enterpriseValue": 5309325000
+  },
+  {
+    "symbol": "COO",
+    "date": "2019-07-31",
+    "stockPrice": 84.35,
+    "numberOfShares": 49500000,
+    "marketCapitalization": 4175324999,
+    "minusCashAndCashEquivalents": 112700000,
+    "addTotalDebt": 1812600000,
+    "enterpriseValue": 5875224999
+  },
+  {
+    "symbol": "COO",
+    "date": "2019-04-30",
+    "stockPrice": 72.48,
+    "numberOfShares": 49400000,
+    "marketCapitalization": 3580512000,
+    "minusCashAndCashEquivalents": 104600000,
+    "addTotalDebt": 1926900000,
+    "enterpriseValue": 5402812000
+  },
+  {
+    "symbol": "COO",
+    "date": "2019-01-31",
+    "stockPrice": 69.69,
+    "numberOfShares": 49300000,
+    "marketCapitalization": 3435717000,
+    "minusCashAndCashEquivalents": 146600000,
+    "addTotalDebt": 2132400000,
+    "enterpriseValue": 5421517000
+  },
+  {
+    "symbol": "COO",
+    "date": "2018-10-31",
+    "stockPrice": 64.58,
+    "numberOfShares": 49200000,
+    "marketCapitalization": 3177336000,
+    "minusCashAndCashEquivalents": 77700000,
+    "addTotalDebt": 2022800000,
+    "enterpriseValue": 5122436000
+  },
+  {
+    "symbol": "COO",
+    "date": "2018-07-31",
+    "stockPrice": 65.13,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 3197883000,
+    "minusCashAndCashEquivalents": 155600000,
+    "addTotalDebt": 2294200000,
+    "enterpriseValue": 5336483000
+  },
+  {
+    "symbol": "COO",
+    "date": "2018-04-30",
+    "stockPrice": 57.18,
+    "numberOfShares": 49100000,
+    "marketCapitalization": 2807538000,
+    "minusCashAndCashEquivalents": 164900000,
+    "addTotalDebt": 2483700000,
+    "enterpriseValue": 5126338000
+  },
+  {
+    "symbol": "COO",
+    "date": "2018-01-31",
+    "stockPrice": 61.17,
+    "numberOfShares": 48900000,
+    "marketCapitalization": 2991213000,
+    "minusCashAndCashEquivalents": 91700000,
+    "addTotalDebt": 2402500000,
+    "enterpriseValue": 5302013000
+  },
+  {
+    "symbol": "COO",
+    "date": "2017-10-31",
+    "stockPrice": 60.06,
+    "numberOfShares": 48800000,
+    "marketCapitalization": 2930928000,
+    "minusCashAndCashEquivalents": 88800000,
+    "addTotalDebt": 1172700000,
+    "enterpriseValue": 4014828000
+  },
+  {
+    "symbol": "COO",
+    "date": "2017-07-31",
+    "stockPrice": 60.97,
+    "numberOfShares": 48900000,
+    "marketCapitalization": 2981433000,
+    "minusCashAndCashEquivalents": 46000000,
+    "addTotalDebt": 1213400000,
+    "enterpriseValue": 4148833000
+  },
+  {
+    "symbol": "COO",
+    "date": "2017-04-30",
+    "stockPrice": 50.26,
+    "numberOfShares": 49000000,
+    "marketCapitalization": 2462740000,
+    "minusCashAndCashEquivalents": 121300000,
+    "addTotalDebt": 1386900000,
+    "enterpriseValue": 3728340000
+  },
+  {
+    "symbol": "COO",
+    "date": "2017-01-31",
+    "stockPrice": 46.15,
+    "numberOfShares": 48800000,
+    "marketCapitalization": 2252120000,
+    "minusCashAndCashEquivalents": 91100000,
+    "addTotalDebt": 1424500000,
+    "enterpriseValue": 3585520000
+  },
+  {
+    "symbol": "COO",
+    "date": "2016-10-31",
+    "stockPrice": 44.01,
+    "numberOfShares": 48785000,
+    "marketCapitalization": 2147027850,
+    "minusCashAndCashEquivalents": 100800000,
+    "addTotalDebt": 1333700000,
+    "enterpriseValue": 3379927850
+  },
+  {
+    "symbol": "COO",
+    "date": "2016-07-31",
+    "stockPrice": 45.65,
+    "numberOfShares": 48600000,
+    "marketCapitalization": 2218590000,
+    "minusCashAndCashEquivalents": 62613000,
+    "addTotalDebt": 1444066000,
+    "enterpriseValue": 3600043000
+  },
+  {
+    "symbol": "COO",
+    "date": "2016-04-30",
+    "stockPrice": 38.27,
+    "numberOfShares": 48400000,
+    "marketCapitalization": 1852268000,
+    "minusCashAndCashEquivalents": 44464000,
+    "addTotalDebt": 1441373000,
+    "enterpriseValue": 3249177000
+  },
+  {
+    "symbol": "COO",
+    "date": "2016-01-31",
+    "stockPrice": 33.01,
+    "numberOfShares": 48300000,
+    "marketCapitalization": 1594383000,
+    "minusCashAndCashEquivalents": 16047000,
+    "addTotalDebt": 1377323000,
+    "enterpriseValue": 2955659000
+  },
+  {
+    "symbol": "COO",
+    "date": "2015-10-31",
+    "stockPrice": 38.09,
+    "numberOfShares": 48268000,
+    "marketCapitalization": 1838528120,
+    "minusCashAndCashEquivalents": 16426000,
+    "addTotalDebt": 1349200000,
+    "enterpriseValue": 3171302120
+  },
+  {
+    "symbol": "COO",
+    "date": "2015-07-31",
+    "stockPrice": 44.25,
+    "numberOfShares": 48600000,
+    "marketCapitalization": 2150550000,
+    "minusCashAndCashEquivalents": 17005000,
+    "addTotalDebt": 1307857000,
+    "enterpriseValue": 3441402000
+  },
+  {
+    "symbol": "COO",
+    "date": "2015-04-30",
+    "stockPrice": 44.52,
+    "numberOfShares": 48463000,
+    "marketCapitalization": 2157572760,
+    "minusCashAndCashEquivalents": 17911000,
+    "addTotalDebt": 1347709000,
+    "enterpriseValue": 3487370760
+  },
+  {
+    "symbol": "COO",
+    "date": "2015-01-31",
+    "stockPrice": 39.41,
+    "numberOfShares": 48202000,
+    "marketCapitalization": 1899640819,
+    "minusCashAndCashEquivalents": 16428000,
+    "addTotalDebt": 1395337000,
+    "enterpriseValue": 3278549819
+  },
+  {
+    "symbol": "COO",
+    "date": "2014-10-31",
+    "stockPrice": 40.97,
+    "numberOfShares": 48143000,
+    "marketCapitalization": 1972418710,
+    "minusCashAndCashEquivalents": 25222000,
+    "addTotalDebt": 1382351000,
+    "enterpriseValue": 3329547710
+  },
+  {
+    "symbol": "COO",
+    "date": "2014-07-31",
+    "stockPrice": 40.22,
+    "numberOfShares": 48042000,
+    "marketCapitalization": 1932249240,
+    "minusCashAndCashEquivalents": 173786000,
+    "addTotalDebt": 347941000,
+    "enterpriseValue": 2106404240
+  },
+  {
+    "symbol": "COO",
+    "date": "2014-04-30",
+    "stockPrice": 32.98,
+    "numberOfShares": 47919000,
+    "marketCapitalization": 1580368619,
+    "minusCashAndCashEquivalents": 82659000,
+    "addTotalDebt": 335424000,
+    "enterpriseValue": 1833133619
+  },
+  {
+    "symbol": "COO",
+    "date": "2014-01-31",
+    "stockPrice": 31.07,
+    "numberOfShares": 48006000,
+    "marketCapitalization": 1491546420,
+    "minusCashAndCashEquivalents": 28828000,
+    "addTotalDebt": 345736000,
+    "enterpriseValue": 1808454420
+  },
+  {
+    "symbol": "COO",
+    "date": "2013-10-31",
+    "stockPrice": 32.3,
+    "numberOfShares": 47995000,
+    "marketCapitalization": 1550238499,
+    "minusCashAndCashEquivalents": 77393000,
+    "addTotalDebt": 344657000,
+    "enterpriseValue": 1817502499
+  },
+  {
+    "symbol": "COO",
+    "date": "2013-07-31",
+    "stockPrice": 31.84,
+    "numberOfShares": 48791000,
+    "marketCapitalization": 1553505440,
+    "minusCashAndCashEquivalents": 25482000,
+    "addTotalDebt": 243629000,
+    "enterpriseValue": 1771652440
+  },
+  {
+    "symbol": "COO",
+    "date": "2013-04-30",
+    "stockPrice": 27.6,
+    "numberOfShares": 48494000,
+    "marketCapitalization": 1338434400,
+    "minusCashAndCashEquivalents": 14441000,
+    "addTotalDebt": 320504000,
+    "enterpriseValue": 1644497400
+  },
+  {
+    "symbol": "COO",
+    "date": "2013-01-31",
+    "stockPrice": 25.34,
+    "numberOfShares": 48476000,
+    "marketCapitalization": 1228381840,
+    "minusCashAndCashEquivalents": 14445000,
+    "addTotalDebt": 407971000,
+    "enterpriseValue": 1621907840
+  },
+  {
+    "symbol": "COO",
+    "date": "2012-10-31",
+    "stockPrice": 24,
+    "numberOfShares": 48440000,
+    "marketCapitalization": 1162560000,
+    "minusCashAndCashEquivalents": 12840000,
+    "addTotalDebt": 373706000,
+    "enterpriseValue": 1523426000
+  },
+  {
+    "symbol": "COO",
+    "date": "2012-07-31",
+    "stockPrice": 18.82,
+    "numberOfShares": 48110000,
+    "marketCapitalization": 905430200,
+    "minusCashAndCashEquivalents": 12732000,
+    "addTotalDebt": 480083000,
+    "enterpriseValue": 1372781200
+  },
+  {
+    "symbol": "COO",
+    "date": "2012-04-30",
+    "stockPrice": 22.04,
+    "numberOfShares": 47708000,
+    "marketCapitalization": 1051484320,
+    "minusCashAndCashEquivalents": 7745000,
+    "addTotalDebt": 319308000,
+    "enterpriseValue": 1363047320
+  },
+  {
+    "symbol": "COO",
+    "date": "2012-01-31",
+    "stockPrice": 18.04,
+    "numberOfShares": 47674000,
+    "marketCapitalization": 860038960,
+    "minusCashAndCashEquivalents": 7681000,
+    "addTotalDebt": 410305000,
+    "enterpriseValue": 1262662960
+  },
+  {
+    "symbol": "COO",
+    "date": "2011-10-31",
+    "stockPrice": 17.33,
+    "numberOfShares": 47355596,
+    "marketCapitalization": 820672478,
+    "minusCashAndCashEquivalents": 5175000,
+    "addTotalDebt": 380432000,
+    "enterpriseValue": 1195929478
+  },
+  {
+    "symbol": "COO",
+    "date": "2011-07-31",
+    "stockPrice": 18.93,
+    "numberOfShares": 47322000,
+    "marketCapitalization": 895805460,
+    "minusCashAndCashEquivalents": 7872000,
+    "addTotalDebt": 445220000,
+    "enterpriseValue": 1333153460
+  },
+  {
+    "symbol": "COO",
+    "date": "2011-04-30",
+    "stockPrice": 18.73,
+    "numberOfShares": 46506000,
+    "marketCapitalization": 871057380,
+    "minusCashAndCashEquivalents": 8430000,
+    "addTotalDebt": 553215000,
+    "enterpriseValue": 1415842380
+  },
+  {
+    "symbol": "COO",
+    "date": "2011-01-31",
+    "stockPrice": 14.34,
+    "numberOfShares": 45986000,
+    "marketCapitalization": 659439240,
+    "minusCashAndCashEquivalents": 3320000,
+    "addTotalDebt": 602210000,
+    "enterpriseValue": 1258329240
+  },
+  {
+    "symbol": "COO",
+    "date": "2010-10-31",
+    "stockPrice": 12.39,
+    "numberOfShares": 45743000,
+    "marketCapitalization": 566755770,
+    "minusCashAndCashEquivalents": 3573000,
+    "addTotalDebt": 611136000,
+    "enterpriseValue": 1174318770
+  },
+  {
+    "symbol": "COO",
+    "date": "2010-07-31",
+    "stockPrice": 9.72,
+    "numberOfShares": 45605000,
+    "marketCapitalization": 443280600,
+    "minusCashAndCashEquivalents": 3240000,
+    "addTotalDebt": 646671000,
+    "enterpriseValue": 1086711600
+  },
+  {
+    "symbol": "COO",
+    "date": "2010-04-30",
+    "stockPrice": 9.72,
+    "numberOfShares": 45481000,
+    "marketCapitalization": 442075320,
+    "minusCashAndCashEquivalents": 9829000,
+    "addTotalDebt": 712948000,
+    "enterpriseValue": 1145194320
+  },
+  {
+    "symbol": "COO",
+    "date": "2010-01-31",
+    "stockPrice": 8.79,
+    "numberOfShares": 45293000,
+    "marketCapitalization": 398125469,
+    "minusCashAndCashEquivalents": 1822000,
+    "addTotalDebt": 743318000,
+    "enterpriseValue": 1139621469
+  },
+  {
+    "symbol": "COO",
+    "date": "2009-10-31",
+    "stockPrice": 7,
+    "numberOfShares": 45200000,
+    "marketCapitalization": 316400000,
+    "minusCashAndCashEquivalents": 3932000,
+    "addTotalDebt": 781474000,
+    "enterpriseValue": 1093942000
+  },
+  {
+    "symbol": "COO",
+    "date": "2009-07-31",
+    "stockPrice": 6.86,
+    "numberOfShares": 45180000,
+    "marketCapitalization": 309934800,
+    "minusCashAndCashEquivalents": 3790000,
+    "addTotalDebt": 838973000,
+    "enterpriseValue": 1145117800
+  },
+  {
+    "symbol": "COO",
+    "date": "2009-04-30",
+    "stockPrice": 7.19,
+    "numberOfShares": 45170000,
+    "marketCapitalization": 324772300,
+    "minusCashAndCashEquivalents": 4472000,
+    "addTotalDebt": 895593000,
+    "enterpriseValue": 1215893300
+  },
+  {
+    "symbol": "COO",
+    "date": "2009-01-31",
+    "stockPrice": 4.74,
+    "numberOfShares": 45141000,
+    "marketCapitalization": 213968340,
+    "minusCashAndCashEquivalents": 1885000,
+    "addTotalDebt": 913156000,
+    "enterpriseValue": 1125239340
+  },
+  {
+    "symbol": "COO",
+    "date": "2008-10-31",
+    "stockPrice": 4.12,
+    "numberOfShares": 45058000,
+    "marketCapitalization": 185638960,
+    "minusCashAndCashEquivalents": 1944000,
+    "addTotalDebt": 904794000,
+    "enterpriseValue": 1088488960
+  },
+  {
+    "symbol": "COO",
+    "date": "2008-07-31",
+    "stockPrice": 8.43,
+    "numberOfShares": 44993000,
+    "marketCapitalization": 379290990,
+    "minusCashAndCashEquivalents": 3438000,
+    "addTotalDebt": 927760000,
+    "enterpriseValue": 1303612990
+  },
+  {
+    "symbol": "COO",
+    "date": "2008-04-30",
+    "stockPrice": 8.75,
+    "numberOfShares": 44989000,
+    "marketCapitalization": 393653750,
+    "minusCashAndCashEquivalents": 1911000,
+    "addTotalDebt": 941045000,
+    "enterpriseValue": 1332787750
+  },
+  {
+    "symbol": "COO",
+    "date": "2008-01-31",
+    "stockPrice": 9.85,
+    "numberOfShares": 44941000,
+    "marketCapitalization": 442668850,
+    "minusCashAndCashEquivalents": 2586000,
+    "addTotalDebt": 925109000,
+    "enterpriseValue": 1365191850
+  },
+  {
+    "symbol": "COO",
+    "date": "2007-10-31",
+    "stockPrice": 10.5,
+    "numberOfShares": 44836000,
+    "marketCapitalization": 470778000,
+    "minusCashAndCashEquivalents": 3226000,
+    "addTotalDebt": 876630000,
+    "enterpriseValue": 1344182000
+  },
+  {
+    "symbol": "COO",
+    "date": "2007-07-31",
+    "stockPrice": 12.53,
+    "numberOfShares": 44778000,
+    "marketCapitalization": 561068340,
+    "minusCashAndCashEquivalents": 8061000,
+    "addTotalDebt": 861286000,
+    "enterpriseValue": 1414293340
+  },
+  {
+    "symbol": "COO",
+    "date": "2007-04-30",
+    "stockPrice": 12.78,
+    "numberOfShares": 44645000,
+    "marketCapitalization": 570563100,
+    "minusCashAndCashEquivalents": 12033000,
+    "addTotalDebt": 865863000,
+    "enterpriseValue": 1424393100
+  },
+  {
+    "symbol": "COO",
+    "date": "2007-01-31",
+    "stockPrice": 11.93,
+    "numberOfShares": 44568000,
+    "marketCapitalization": 531696240,
+    "minusCashAndCashEquivalents": 23544000,
+    "addTotalDebt": 853661000,
+    "enterpriseValue": 1361813240
+  },
+  {
+    "symbol": "COO",
+    "date": "2006-10-31",
+    "stockPrice": 14.41,
+    "numberOfShares": 44540000,
+    "marketCapitalization": 641821400,
+    "minusCashAndCashEquivalents": 8224000,
+    "addTotalDebt": 742652000,
+    "enterpriseValue": 1376249400
+  },
+  {
+    "symbol": "COO",
+    "date": "2006-07-31",
+    "stockPrice": 11.05,
+    "numberOfShares": 44531000,
+    "marketCapitalization": 492067550,
+    "minusCashAndCashEquivalents": 12724000,
+    "addTotalDebt": 759016000,
+    "enterpriseValue": 1238359550
+  },
+  {
+    "symbol": "COO",
+    "date": "2006-04-30",
+    "stockPrice": 13.6,
+    "numberOfShares": 44520000,
+    "marketCapitalization": 605472000,
+    "minusCashAndCashEquivalents": 16555000,
+    "addTotalDebt": 756807000,
+    "enterpriseValue": 1345724000
+  },
+  {
+    "symbol": "COO",
+    "date": "2006-01-31",
+    "stockPrice": 13.86,
+    "numberOfShares": 44497000,
+    "marketCapitalization": 616728420,
+    "minusCashAndCashEquivalents": 24597000,
+    "addTotalDebt": 765771000,
+    "enterpriseValue": 1357902420
+  },
+  {
+    "symbol": "COO",
+    "date": "2005-10-31",
+    "stockPrice": 17.21,
+    "numberOfShares": 44497000,
+    "marketCapitalization": 765793370,
+    "minusCashAndCashEquivalents": 30826000,
+    "addTotalDebt": 704912000,
+    "enterpriseValue": 1439879370
+  },
+  {
+    "symbol": "COO",
+    "date": "2005-07-31",
+    "stockPrice": 17.32,
+    "numberOfShares": 44122000,
+    "marketCapitalization": 764193040,
+    "minusCashAndCashEquivalents": 18049000,
+    "addTotalDebt": 723740000,
+    "enterpriseValue": 1469884040
+  },
+  {
+    "symbol": "COO",
+    "date": "2005-04-30",
+    "stockPrice": 16.89,
+    "numberOfShares": 43980000,
+    "marketCapitalization": 742822200,
+    "minusCashAndCashEquivalents": 17119000,
+    "addTotalDebt": 719628000,
+    "enterpriseValue": 1445331200
+  },
+  {
+    "symbol": "COO",
+    "date": "2005-01-31",
+    "stockPrice": 19.17,
+    "numberOfShares": 35209000,
+    "marketCapitalization": 674956530,
+    "minusCashAndCashEquivalents": 28494000,
+    "addTotalDebt": 744768000,
+    "enterpriseValue": 1391230530
+  },
+  {
+    "symbol": "COO",
+    "date": "2004-10-31",
+    "stockPrice": 17.4,
+    "numberOfShares": 35209000,
+    "marketCapitalization": 612636600,
+    "minusCashAndCashEquivalents": 39368000,
+    "addTotalDebt": 165736000,
+    "enterpriseValue": 739004600
+  },
+  {
+    "symbol": "COO",
+    "date": "2004-07-31",
+    "stockPrice": 14.86,
+    "numberOfShares": 32682000,
+    "marketCapitalization": 485654520,
+    "minusCashAndCashEquivalents": 26075000,
+    "addTotalDebt": 170428000,
+    "enterpriseValue": 630007520
+  },
+  {
+    "symbol": "COO",
+    "date": "2004-04-30",
+    "stockPrice": 13.5,
+    "numberOfShares": 32554000,
+    "marketCapitalization": 439479000,
+    "minusCashAndCashEquivalents": 20731000,
+    "addTotalDebt": 178749000,
+    "enterpriseValue": 597497000
+  },
+  {
+    "symbol": "COO",
+    "date": "2004-01-31",
+    "stockPrice": 12.1,
+    "numberOfShares": 32167000,
+    "marketCapitalization": 389220700,
+    "minusCashAndCashEquivalents": 45324000,
+    "addTotalDebt": 182056000,
+    "enterpriseValue": 525952700
+  },
+  {
+    "symbol": "COO",
+    "date": "2003-10-31",
+    "stockPrice": 10.86,
+    "numberOfShares": 31742000,
+    "marketCapitalization": 344718120,
+    "minusCashAndCashEquivalents": 47433000,
+    "addTotalDebt": 185861000,
+    "enterpriseValue": 483146120
+  },
+  {
+    "symbol": "COO",
+    "date": "2003-07-31",
+    "stockPrice": 8.76,
+    "numberOfShares": 31253000,
+    "marketCapitalization": 273776280,
+    "minusCashAndCashEquivalents": 30798000,
+    "addTotalDebt": 191799000,
+    "enterpriseValue": 434777280
+  },
+  {
+    "symbol": "COO",
+    "date": "2003-04-30",
+    "stockPrice": 6.98,
+    "numberOfShares": 31003000,
+    "marketCapitalization": 216400940,
+    "minusCashAndCashEquivalents": 11895000,
+    "addTotalDebt": 162578000,
+    "enterpriseValue": 367083940
+  },
+  {
+    "symbol": "COO",
+    "date": "2003-01-31",
+    "stockPrice": 6.4,
+    "numberOfShares": 30904000,
+    "marketCapitalization": 197785600,
+    "minusCashAndCashEquivalents": 9054000,
+    "addTotalDebt": 176355000,
+    "enterpriseValue": 365086600
+  },
+  {
+    "symbol": "COO",
+    "date": "2002-10-31",
+    "stockPrice": 6.63,
+    "numberOfShares": 30690000,
+    "marketCapitalization": 203474700,
+    "minusCashAndCashEquivalents": 10255000,
+    "addTotalDebt": 163651000,
+    "enterpriseValue": 356870700
+  },
+  {
+    "symbol": "COO",
+    "date": "2002-07-31",
+    "stockPrice": 5.49,
+    "numberOfShares": 30616000,
+    "marketCapitalization": 168081840,
+    "minusCashAndCashEquivalents": 8790000,
+    "addTotalDebt": 168283000,
+    "enterpriseValue": 327574840
+  },
+  {
+    "symbol": "COO",
+    "date": "2002-04-30",
+    "stockPrice": 6.63,
+    "numberOfShares": 30486000,
+    "marketCapitalization": 202122180,
+    "minusCashAndCashEquivalents": 17033000,
+    "addTotalDebt": 164560000,
+    "enterpriseValue": 349649180
+  },
+  {
+    "symbol": "COO",
+    "date": "2002-01-31",
+    "stockPrice": 5.86,
+    "numberOfShares": 30440000,
+    "marketCapitalization": 178378400,
+    "minusCashAndCashEquivalents": 4867000,
+    "addTotalDebt": 63916000,
+    "enterpriseValue": 237427400
+  },
+  {
+    "symbol": "COO",
+    "date": "2001-10-31",
+    "stockPrice": 6,
+    "numberOfShares": 30292000,
+    "marketCapitalization": 181752000,
+    "minusCashAndCashEquivalents": 12928000,
+    "addTotalDebt": 68802000,
+    "enterpriseValue": 237626000
+  },
+  {
+    "symbol": "COO",
+    "date": "2001-07-31",
+    "stockPrice": 6.04,
+    "numberOfShares": 29984000,
+    "marketCapitalization": 181103360,
+    "minusCashAndCashEquivalents": 11268000,
+    "addTotalDebt": 55029000,
+    "enterpriseValue": 224864360
+  },
+  {
+    "symbol": "COO",
+    "date": "2001-04-30",
+    "stockPrice": 5.55,
+    "numberOfShares": 29434000,
+    "marketCapitalization": 163358700,
+    "minusCashAndCashEquivalents": 11897000,
+    "addTotalDebt": 51842000,
+    "enterpriseValue": 203303700
+  },
+  {
+    "symbol": "COO",
+    "date": "2001-01-31",
+    "stockPrice": 4.83,
+    "numberOfShares": 28986000,
+    "marketCapitalization": 140002380,
+    "minusCashAndCashEquivalents": 11980000,
+    "addTotalDebt": 42668000,
+    "enterpriseValue": 170690380
+  },
+  {
+    "symbol": "COO",
+    "date": "2000-10-31",
+    "stockPrice": 4.47,
+    "numberOfShares": 28646000,
+    "marketCapitalization": 128047620,
+    "minusCashAndCashEquivalents": 14608000,
+    "addTotalDebt": 48351000,
+    "enterpriseValue": 161790620
+  },
+  {
+    "symbol": "COO",
+    "date": "2000-07-31",
+    "stockPrice": 4.39,
+    "numberOfShares": 28462000,
+    "marketCapitalization": 124948179,
+    "minusCashAndCashEquivalents": 9428000,
+    "addTotalDebt": 48317000,
+    "enterpriseValue": 163837179
+  },
+  {
+    "symbol": "COO",
+    "date": "2000-04-30",
+    "stockPrice": 4.25,
+    "numberOfShares": 28260000,
+    "marketCapitalization": 120105000,
+    "minusCashAndCashEquivalents": 4747000,
+    "addTotalDebt": 54504000,
+    "enterpriseValue": 169862000
+  },
+  {
+    "symbol": "COO",
+    "date": "2000-01-31",
+    "stockPrice": 3.78,
+    "numberOfShares": 28138000,
+    "marketCapitalization": 106361640,
+    "minusCashAndCashEquivalents": 2700000,
+    "addTotalDebt": 60000000,
+    "enterpriseValue": 163661640
+  },
+  {
+    "symbol": "COO",
+    "date": "1999-10-31",
+    "stockPrice": 3.31,
+    "numberOfShares": 28138000,
+    "marketCapitalization": 93136780,
+    "minusCashAndCashEquivalents": 20900000,
+    "addTotalDebt": 62000000,
+    "enterpriseValue": 134236780
+  },
+  {
+    "symbol": "COO",
+    "date": "1999-07-31",
+    "stockPrice": 2.55,
+    "numberOfShares": 28048000,
+    "marketCapitalization": 71522400,
+    "minusCashAndCashEquivalents": 11700000,
+    "addTotalDebt": 59500000,
+    "enterpriseValue": 119322400
+  },
+  {
+    "symbol": "COO",
+    "date": "1999-04-30",
+    "stockPrice": 1.97,
+    "numberOfShares": 27842000,
+    "marketCapitalization": 54848740,
+    "minusCashAndCashEquivalents": 5400000,
+    "addTotalDebt": 60400000,
+    "enterpriseValue": 109848740
+  },
+  {
+    "symbol": "COO",
+    "date": "1999-01-31",
+    "stockPrice": 1.78,
+    "numberOfShares": 27884000,
+    "marketCapitalization": 49633520,
+    "minusCashAndCashEquivalents": 5800000,
+    "addTotalDebt": 81000000,
+    "enterpriseValue": 124833520
+  },
+  {
+    "symbol": "COO",
+    "date": "1998-10-31",
+    "stockPrice": 2.97,
+    "numberOfShares": 27884000,
+    "marketCapitalization": 82815480,
+    "minusCashAndCashEquivalents": 7300000,
+    "addTotalDebt": 90300000,
+    "enterpriseValue": 165815480
+  },
+  {
+    "symbol": "COO",
+    "date": "1998-07-31",
+    "stockPrice": 3.98,
+    "numberOfShares": 29705882,
+    "marketCapitalization": 118229410,
+    "minusCashAndCashEquivalents": 10100000,
+    "addTotalDebt": 79100000,
+    "enterpriseValue": 187229410
+  },
+  {
+    "symbol": "COO",
+    "date": "1998-04-30",
+    "stockPrice": 4.8,
+    "numberOfShares": 29824561,
+    "marketCapitalization": 143157892,
+    "minusCashAndCashEquivalents": 1500000,
+    "addTotalDebt": 71500000,
+    "enterpriseValue": 213157892
+  },
+  {
+    "symbol": "COO",
+    "date": "1998-01-31",
+    "stockPrice": 6.2,
+    "numberOfShares": 30000000,
+    "marketCapitalization": 186000000,
+    "minusCashAndCashEquivalents": 8800000,
+    "addTotalDebt": 65300000,
+    "enterpriseValue": 242500000
+  },
+  {
+    "symbol": "COO",
+    "date": "1997-10-31",
+    "stockPrice": 4.47,
+    "numberOfShares": 30769231,
+    "marketCapitalization": 137538462,
+    "minusCashAndCashEquivalents": 18200000,
+    "addTotalDebt": 9500000,
+    "enterpriseValue": 128838462
+  },
+  {
+    "symbol": "COO",
+    "date": "1997-07-31",
+    "stockPrice": 3.5,
+    "numberOfShares": 26181818,
+    "marketCapitalization": 91636363,
+    "minusCashAndCashEquivalents": 43300000,
+    "addTotalDebt": 43200000,
+    "enterpriseValue": 91536363
+  },
+  {
+    "symbol": "COO",
+    "date": "1997-04-30",
+    "stockPrice": 2.23,
+    "numberOfShares": 24545455,
+    "marketCapitalization": 54736364,
+    "minusCashAndCashEquivalents": 1500000,
+    "addTotalDebt": 52900000,
+    "enterpriseValue": 106136364
+  },
+  {
+    "symbol": "COO",
+    "date": "1997-01-31",
+    "stockPrice": 2.31,
+    "numberOfShares": 23571429,
+    "marketCapitalization": 54450000,
+    "minusCashAndCashEquivalents": 2600000,
+    "addTotalDebt": 50000000,
+    "enterpriseValue": 101850000
+  },
+  {
+    "symbol": "COO",
+    "date": "1996-10-31",
+    "stockPrice": 1.8,
+    "numberOfShares": 22432350,
+    "marketCapitalization": 40378230,
+    "minusCashAndCashEquivalents": 6800000,
+    "addTotalDebt": 48700000,
+    "enterpriseValue": 82278230
+  },
+  {
+    "symbol": "COO",
+    "date": "1996-07-31",
+    "stockPrice": 1.36,
+    "numberOfShares": 23500000,
+    "marketCapitalization": 31960000,
+    "minusCashAndCashEquivalents": 3100000,
+    "addTotalDebt": 49700000,
+    "enterpriseValue": 78560000
+  },
+  {
+    "symbol": "COO",
+    "date": "1996-04-30",
+    "stockPrice": 1.38,
+    "numberOfShares": 23333333,
+    "marketCapitalization": 32199999,
+    "minusCashAndCashEquivalents": 1900000,
+    "addTotalDebt": 52600000,
+    "enterpriseValue": 82899999
+  },
+  {
+    "symbol": "COO",
+    "date": "1996-01-31",
+    "stockPrice": 0.85938,
+    "numberOfShares": 23333333,
+    "marketCapitalization": 20052199,
+    "minusCashAndCashEquivalents": 3700000,
+    "addTotalDebt": 47100000,
+    "enterpriseValue": 63452199
+  },
+  {
+    "symbol": "COO",
+    "date": "1995-10-31",
+    "stockPrice": 0.73438,
+    "numberOfShares": 23333333,
+    "marketCapitalization": 17135533,
+    "minusCashAndCashEquivalents": 11200000,
+    "addTotalDebt": 46700000,
+    "enterpriseValue": 52635533
+  }
+]

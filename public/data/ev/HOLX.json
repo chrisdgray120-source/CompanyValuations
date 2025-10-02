@@ -1,0 +1,1202 @@
+[
+  {
+    "symbol": "HOLX",
+    "date": "2025-06-28",
+    "stockPrice": 65.01,
+    "numberOfShares": 224315000,
+    "marketCapitalization": 14582718150,
+    "minusCashAndCashEquivalents": 1735200000,
+    "addTotalDebt": 2522500000,
+    "enterpriseValue": 15370018150
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2025-03-29",
+    "stockPrice": 61.32,
+    "numberOfShares": 225774000,
+    "marketCapitalization": 13844461680,
+    "minusCashAndCashEquivalents": 1429500000,
+    "addTotalDebt": 2531000000,
+    "enterpriseValue": 14945961680
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2024-12-28",
+    "stockPrice": 72.6,
+    "numberOfShares": 230284000,
+    "marketCapitalization": 16718618399,
+    "minusCashAndCashEquivalents": 1782100000,
+    "addTotalDebt": 2540400000,
+    "enterpriseValue": 17476918399
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2024-09-28",
+    "stockPrice": 80.82,
+    "numberOfShares": 233772000,
+    "marketCapitalization": 18893453040,
+    "minusCashAndCashEquivalents": 2160200000,
+    "addTotalDebt": 2658000000,
+    "enterpriseValue": 19391253040
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2024-06-29",
+    "stockPrice": 74.25,
+    "numberOfShares": 234604000,
+    "marketCapitalization": 17419347000,
+    "minusCashAndCashEquivalents": 2439100000,
+    "addTotalDebt": 2559200000,
+    "enterpriseValue": 17539447000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2024-03-30",
+    "stockPrice": 77.96,
+    "numberOfShares": 235890000,
+    "marketCapitalization": 18389984400,
+    "minusCashAndCashEquivalents": 2180000000,
+    "addTotalDebt": 2568500000,
+    "enterpriseValue": 18778484400
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2023-12-30",
+    "stockPrice": 71.45,
+    "numberOfShares": 238627000,
+    "marketCapitalization": 17049899150,
+    "minusCashAndCashEquivalents": 1932100000,
+    "addTotalDebt": 2578000000,
+    "enterpriseValue": 17695799150
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2023-09-30",
+    "stockPrice": 69.4,
+    "numberOfShares": 245130000,
+    "marketCapitalization": 17012022000,
+    "minusCashAndCashEquivalents": 2722500000,
+    "addTotalDebt": 2904100000,
+    "enterpriseValue": 17193622000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2023-07-01",
+    "stockPrice": 80.97,
+    "numberOfShares": 246908000,
+    "marketCapitalization": 19992140760,
+    "minusCashAndCashEquivalents": 2765000000,
+    "addTotalDebt": 2840200000,
+    "enterpriseValue": 20067340760
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2023-04-01",
+    "stockPrice": 80.7,
+    "numberOfShares": 249793000,
+    "marketCapitalization": 20158295100,
+    "minusCashAndCashEquivalents": 2582200000,
+    "addTotalDebt": 2843800000,
+    "enterpriseValue": 20419895100
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2022-12-31",
+    "stockPrice": 74.81,
+    "numberOfShares": 247319000,
+    "marketCapitalization": 18501934390,
+    "minusCashAndCashEquivalents": 2441300000,
+    "addTotalDebt": 2847700000,
+    "enterpriseValue": 18908334390
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2022-09-24",
+    "stockPrice": 62.98,
+    "numberOfShares": 250278000,
+    "marketCapitalization": 15762508440,
+    "minusCashAndCashEquivalents": 2339500000,
+    "addTotalDebt": 2921600000,
+    "enterpriseValue": 16344608440
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2022-06-25",
+    "stockPrice": 70.93,
+    "numberOfShares": 250756000,
+    "marketCapitalization": 17786123080,
+    "minusCashAndCashEquivalents": 2375300000,
+    "addTotalDebt": 2844500000,
+    "enterpriseValue": 18255323080
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2022-03-26",
+    "stockPrice": 76.05,
+    "numberOfShares": 251574000,
+    "marketCapitalization": 19132202700,
+    "minusCashAndCashEquivalents": 2290800000,
+    "addTotalDebt": 3093100000,
+    "enterpriseValue": 19934502700
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2021-12-25",
+    "stockPrice": 76.12,
+    "numberOfShares": 253499000,
+    "marketCapitalization": 19296343880,
+    "minusCashAndCashEquivalents": 1420800000,
+    "addTotalDebt": 3092900000,
+    "enterpriseValue": 20968443880
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2021-09-25",
+    "stockPrice": 76.48,
+    "numberOfShares": 254876000,
+    "marketCapitalization": 19492916480,
+    "minusCashAndCashEquivalents": 1170300000,
+    "addTotalDebt": 3144600000,
+    "enterpriseValue": 21467216480
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2021-06-26",
+    "stockPrice": 65.89,
+    "numberOfShares": 256230000,
+    "marketCapitalization": 16882994700,
+    "minusCashAndCashEquivalents": 827600000,
+    "addTotalDebt": 3141300000,
+    "enterpriseValue": 19196694700
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2021-03-27",
+    "stockPrice": 73.42,
+    "numberOfShares": 258473000,
+    "marketCapitalization": 18977087660,
+    "minusCashAndCashEquivalents": 816400000,
+    "addTotalDebt": 2773600000,
+    "enterpriseValue": 20934287660
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2020-12-26",
+    "stockPrice": 74.77,
+    "numberOfShares": 258605000,
+    "marketCapitalization": 19335895850,
+    "minusCashAndCashEquivalents": 868700000,
+    "addTotalDebt": 2783200000,
+    "enterpriseValue": 21250395850
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2020-09-26",
+    "stockPrice": 64.35,
+    "numberOfShares": 259908000,
+    "marketCapitalization": 16725079799,
+    "minusCashAndCashEquivalents": 701000000,
+    "addTotalDebt": 3147200000,
+    "enterpriseValue": 19171279799
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2020-06-27",
+    "stockPrice": 53.52,
+    "numberOfShares": 259870000,
+    "marketCapitalization": 13908242400,
+    "minusCashAndCashEquivalents": 744200000,
+    "addTotalDebt": 3316500000,
+    "enterpriseValue": 16480542400
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2020-03-28",
+    "stockPrice": 33.26,
+    "numberOfShares": 263238000,
+    "marketCapitalization": 8755295880,
+    "minusCashAndCashEquivalents": 799800000,
+    "addTotalDebt": 3575600000,
+    "enterpriseValue": 11531095880
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2019-12-28",
+    "stockPrice": 52.36,
+    "numberOfShares": 267893000,
+    "marketCapitalization": 14026877480,
+    "minusCashAndCashEquivalents": 370800000,
+    "addTotalDebt": 3092200000,
+    "enterpriseValue": 16748277480
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2019-09-28",
+    "stockPrice": 49.61,
+    "numberOfShares": 268894000,
+    "marketCapitalization": 13339831340,
+    "minusCashAndCashEquivalents": 601800000,
+    "addTotalDebt": 3109700000,
+    "enterpriseValue": 15847731340
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2019-06-29",
+    "stockPrice": 48.02,
+    "numberOfShares": 268932000,
+    "marketCapitalization": 12914114640,
+    "minusCashAndCashEquivalents": 427900000,
+    "addTotalDebt": 3075000000,
+    "enterpriseValue": 15561214640
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2019-03-30",
+    "stockPrice": 48.4,
+    "numberOfShares": 269235000,
+    "marketCapitalization": 13030974000,
+    "minusCashAndCashEquivalents": 401000000,
+    "addTotalDebt": 3132200000,
+    "enterpriseValue": 15762174000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2018-12-29",
+    "stockPrice": 40.45,
+    "numberOfShares": 270590000,
+    "marketCapitalization": 10945365500,
+    "minusCashAndCashEquivalents": 311100000,
+    "addTotalDebt": 3149500000,
+    "enterpriseValue": 13783765500
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2018-09-29",
+    "stockPrice": 40.98,
+    "numberOfShares": 272720000,
+    "marketCapitalization": 11176065600,
+    "minusCashAndCashEquivalents": 666700000,
+    "addTotalDebt": 3362400000,
+    "enterpriseValue": 13871765600
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2018-06-30",
+    "stockPrice": 39.75,
+    "numberOfShares": 273729000,
+    "marketCapitalization": 10880727750,
+    "minusCashAndCashEquivalents": 575400000,
+    "addTotalDebt": 3270200000,
+    "enterpriseValue": 13575527750
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2018-03-31",
+    "stockPrice": 37.36,
+    "numberOfShares": 276991869,
+    "marketCapitalization": 10348416225,
+    "minusCashAndCashEquivalents": 614200000,
+    "addTotalDebt": 3374200000,
+    "enterpriseValue": 13108416225
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2017-12-30",
+    "stockPrice": 42.75,
+    "numberOfShares": 276856000,
+    "marketCapitalization": 11835594000,
+    "minusCashAndCashEquivalents": 664400000,
+    "addTotalDebt": 3353700000,
+    "enterpriseValue": 14524894000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2017-09-30",
+    "stockPrice": 36.69,
+    "numberOfShares": 279543000,
+    "marketCapitalization": 10256432670,
+    "minusCashAndCashEquivalents": 540600000,
+    "addTotalDebt": 3381300000,
+    "enterpriseValue": 13097132670
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2017-07-01",
+    "stockPrice": 45.38,
+    "numberOfShares": 280824000,
+    "marketCapitalization": 12743793120,
+    "minusCashAndCashEquivalents": 588400000,
+    "addTotalDebt": 3245700000,
+    "enterpriseValue": 15401093120
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2017-04-01",
+    "stockPrice": 42.55,
+    "numberOfShares": 280215000,
+    "marketCapitalization": 11923148250,
+    "minusCashAndCashEquivalents": 1134600000,
+    "addTotalDebt": 3308400000,
+    "enterpriseValue": 14096948250
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2016-12-31",
+    "stockPrice": 40.12,
+    "numberOfShares": 278663000,
+    "marketCapitalization": 11179959560,
+    "minusCashAndCashEquivalents": 646000000,
+    "addTotalDebt": 3322900000,
+    "enterpriseValue": 13856859560
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2016-09-24",
+    "stockPrice": 38.45,
+    "numberOfShares": 277549000,
+    "marketCapitalization": 10671759050,
+    "minusCashAndCashEquivalents": 548400000,
+    "addTotalDebt": 3380200000,
+    "enterpriseValue": 13503559050
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2016-06-25",
+    "stockPrice": 34.11,
+    "numberOfShares": 277853000,
+    "marketCapitalization": 9477565830,
+    "minusCashAndCashEquivalents": 441500000,
+    "addTotalDebt": 3422200000,
+    "enterpriseValue": 12458265830
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2016-03-26",
+    "stockPrice": 34.35,
+    "numberOfShares": 282474000,
+    "marketCapitalization": 9702981900,
+    "minusCashAndCashEquivalents": 316300000,
+    "addTotalDebt": 3405700000,
+    "enterpriseValue": 12792381900
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2015-12-26",
+    "stockPrice": 39.08,
+    "numberOfShares": 282976000,
+    "marketCapitalization": 11058702080,
+    "minusCashAndCashEquivalents": 650300000,
+    "addTotalDebt": 3632400000,
+    "enterpriseValue": 14040802080
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2015-09-26",
+    "stockPrice": 40,
+    "numberOfShares": 282072000,
+    "marketCapitalization": 11282880000,
+    "minusCashAndCashEquivalents": 492700000,
+    "addTotalDebt": 3646200000,
+    "enterpriseValue": 14436380000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2015-06-27",
+    "stockPrice": 38.25,
+    "numberOfShares": 281184000,
+    "marketCapitalization": 10755288000,
+    "minusCashAndCashEquivalents": 885000000,
+    "addTotalDebt": 3942300000,
+    "enterpriseValue": 13812588000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2015-03-28",
+    "stockPrice": 32.49,
+    "numberOfShares": 280338000,
+    "marketCapitalization": 9108181620,
+    "minusCashAndCashEquivalents": 670500000,
+    "addTotalDebt": 3939800000,
+    "enterpriseValue": 12377481620
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2014-12-27",
+    "stockPrice": 26.93,
+    "numberOfShares": 278671000,
+    "marketCapitalization": 7504610030,
+    "minusCashAndCashEquivalents": 544000000,
+    "addTotalDebt": 3954800000,
+    "enterpriseValue": 10915410030
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2014-09-27",
+    "stockPrice": 24.36,
+    "numberOfShares": 277855000,
+    "marketCapitalization": 6768547800,
+    "minusCashAndCashEquivalents": 741600000,
+    "addTotalDebt": 4301800000,
+    "enterpriseValue": 10328747800
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2014-06-28",
+    "stockPrice": 25.58,
+    "numberOfShares": 276843000,
+    "marketCapitalization": 7081643940,
+    "minusCashAndCashEquivalents": 638400000,
+    "addTotalDebt": 4270500000,
+    "enterpriseValue": 10713743940
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2014-03-29",
+    "stockPrice": 21.01,
+    "numberOfShares": 274589000,
+    "marketCapitalization": 5769114890,
+    "minusCashAndCashEquivalents": 490379000,
+    "addTotalDebt": 4273455000,
+    "enterpriseValue": 9552190890
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2013-12-28",
+    "stockPrice": 22.36,
+    "numberOfShares": 265000000,
+    "marketCapitalization": 5925400000,
+    "minusCashAndCashEquivalents": 448637000,
+    "addTotalDebt": 4301765000,
+    "enterpriseValue": 9778528000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2013-09-28",
+    "stockPrice": 20.91,
+    "numberOfShares": 270867000,
+    "marketCapitalization": 5663828970,
+    "minusCashAndCashEquivalents": 822490000,
+    "addTotalDebt": 4839400000,
+    "enterpriseValue": 9680738970
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2013-06-29",
+    "stockPrice": 19.3,
+    "numberOfShares": 269430000,
+    "marketCapitalization": 5199999000,
+    "minusCashAndCashEquivalents": 964385000,
+    "addTotalDebt": 5004670000,
+    "enterpriseValue": 9240284000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2013-03-30",
+    "stockPrice": 22.6,
+    "numberOfShares": 268175000,
+    "marketCapitalization": 6060755000,
+    "minusCashAndCashEquivalents": 752175000,
+    "addTotalDebt": 5004696000,
+    "enterpriseValue": 10313276000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2012-12-29",
+    "stockPrice": 19.91,
+    "numberOfShares": 266344000,
+    "marketCapitalization": 5302909040,
+    "minusCashAndCashEquivalents": 720565000,
+    "addTotalDebt": 5036022000,
+    "enterpriseValue": 9618366040
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2012-09-29",
+    "stockPrice": 20.22,
+    "numberOfShares": 259952065,
+    "marketCapitalization": 5256230754,
+    "minusCashAndCashEquivalents": 566126000,
+    "addTotalDebt": 5068870000,
+    "enterpriseValue": 9758974754
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2012-06-23",
+    "stockPrice": 17.71,
+    "numberOfShares": 264609000,
+    "marketCapitalization": 4686225390,
+    "minusCashAndCashEquivalents": 905606000,
+    "addTotalDebt": 1542146000,
+    "enterpriseValue": 5322765390
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2012-03-24",
+    "stockPrice": 21.09,
+    "numberOfShares": 263900000,
+    "marketCapitalization": 5565651000,
+    "minusCashAndCashEquivalents": 855097000,
+    "addTotalDebt": 1527027000,
+    "enterpriseValue": 6237581000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2011-12-24",
+    "stockPrice": 17.3,
+    "numberOfShares": 262717000,
+    "marketCapitalization": 4545004100,
+    "minusCashAndCashEquivalents": 793610000,
+    "addTotalDebt": 1507533000,
+    "enterpriseValue": 5258927100
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2011-09-24",
+    "stockPrice": 15.6,
+    "numberOfShares": 262164000,
+    "marketCapitalization": 4089758400,
+    "minusCashAndCashEquivalents": 712332000,
+    "addTotalDebt": 1521426000,
+    "enterpriseValue": 4898852400
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2011-06-25",
+    "stockPrice": 19.94,
+    "numberOfShares": 261784000,
+    "marketCapitalization": 5219972960,
+    "minusCashAndCashEquivalents": 613801000,
+    "addTotalDebt": 1470457000,
+    "enterpriseValue": 6076628960
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2011-03-26",
+    "stockPrice": 21.83,
+    "numberOfShares": 260825000,
+    "marketCapitalization": 5693809750,
+    "minusCashAndCashEquivalents": 572918000,
+    "addTotalDebt": 1452571000,
+    "enterpriseValue": 6573462750
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2010-12-25",
+    "stockPrice": 18.86,
+    "numberOfShares": 259624000,
+    "marketCapitalization": 4895210520,
+    "minusCashAndCashEquivalents": 608036000,
+    "addTotalDebt": 1435159000,
+    "enterpriseValue": 5722333520
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2010-09-25",
+    "stockPrice": 16.66,
+    "numberOfShares": 259187000,
+    "marketCapitalization": 4318055420,
+    "minusCashAndCashEquivalents": 515625000,
+    "addTotalDebt": 1448415000,
+    "enterpriseValue": 5250845420
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2010-06-26",
+    "stockPrice": 14.24,
+    "numberOfShares": 259107000,
+    "marketCapitalization": 3689683680,
+    "minusCashAndCashEquivalents": 491368000,
+    "addTotalDebt": 1430034000,
+    "enterpriseValue": 4628349680
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2010-03-27",
+    "stockPrice": 18.26,
+    "numberOfShares": 258653000,
+    "marketCapitalization": 4723003780,
+    "minusCashAndCashEquivalents": 431315000,
+    "addTotalDebt": 1458824000,
+    "enterpriseValue": 5750512780
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2009-12-26",
+    "stockPrice": 14.88,
+    "numberOfShares": 258024000,
+    "marketCapitalization": 3839397120,
+    "minusCashAndCashEquivalents": 345042000,
+    "addTotalDebt": 1513597000,
+    "enterpriseValue": 5007952120
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2009-09-26",
+    "stockPrice": 16.28,
+    "numberOfShares": 257037000,
+    "marketCapitalization": 4184562360,
+    "minusCashAndCashEquivalents": 293186000,
+    "addTotalDebt": 1552251000,
+    "enterpriseValue": 5443627360
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2009-06-27",
+    "stockPrice": 14.42,
+    "numberOfShares": 256556000,
+    "marketCapitalization": 3699537520,
+    "minusCashAndCashEquivalents": 243721000,
+    "addTotalDebt": 2006695000,
+    "enterpriseValue": 5462511520
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2009-03-28",
+    "stockPrice": 13.49,
+    "numberOfShares": 256374000,
+    "marketCapitalization": 3458485260,
+    "minusCashAndCashEquivalents": 217228000,
+    "addTotalDebt": 2114799000,
+    "enterpriseValue": 5356056260
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2008-12-27",
+    "stockPrice": 12.39,
+    "numberOfShares": 256212000,
+    "marketCapitalization": 3174466680,
+    "minusCashAndCashEquivalents": 171479000,
+    "addTotalDebt": 2171260000,
+    "enterpriseValue": 5174247680
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2008-09-27",
+    "stockPrice": 20,
+    "numberOfShares": 256060000,
+    "marketCapitalization": 5121200000,
+    "minusCashAndCashEquivalents": 95661000,
+    "addTotalDebt": 2200900000,
+    "enterpriseValue": 7226439000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2008-06-28",
+    "stockPrice": 22.02,
+    "numberOfShares": 255676000,
+    "marketCapitalization": 5629985520,
+    "minusCashAndCashEquivalents": 119863000,
+    "addTotalDebt": 1737299000,
+    "enterpriseValue": 7247421520
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2008-03-29",
+    "stockPrice": 27.8,
+    "numberOfShares": 255253000,
+    "marketCapitalization": 7096033400,
+    "minusCashAndCashEquivalents": 97803000,
+    "addTotalDebt": 1827281000,
+    "enterpriseValue": 8825511400
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2007-12-29",
+    "stockPrice": 34.83,
+    "numberOfShares": 216882000,
+    "marketCapitalization": 7552915650,
+    "minusCashAndCashEquivalents": 154663000,
+    "addTotalDebt": 2036588000,
+    "enterpriseValue": 9434840650
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2007-09-29",
+    "stockPrice": 30.5,
+    "numberOfShares": 108016000,
+    "marketCapitalization": 3294488000,
+    "minusCashAndCashEquivalents": 100403000,
+    "addTotalDebt": 11199000,
+    "enterpriseValue": 3205284000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2007-06-30",
+    "stockPrice": 27.66,
+    "numberOfShares": 107624000,
+    "marketCapitalization": 2976341720,
+    "minusCashAndCashEquivalents": 93800000,
+    "addTotalDebt": 9600000,
+    "enterpriseValue": 2892141720
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2007-03-31",
+    "stockPrice": 28.82,
+    "numberOfShares": 106620000,
+    "marketCapitalization": 3072788400,
+    "minusCashAndCashEquivalents": 54501000,
+    "addTotalDebt": 8852000,
+    "enterpriseValue": 3027139400
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2006-12-30",
+    "stockPrice": 23.64,
+    "numberOfShares": 105234000,
+    "marketCapitalization": 2487731760,
+    "minusCashAndCashEquivalents": 37309000,
+    "addTotalDebt": 47131000,
+    "enterpriseValue": 2497553760
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2006-09-30",
+    "stockPrice": 21.76,
+    "numberOfShares": 108800000,
+    "marketCapitalization": 2367488000,
+    "minusCashAndCashEquivalents": 29923000,
+    "addTotalDebt": 64084000,
+    "enterpriseValue": 2401649000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2006-06-24",
+    "stockPrice": 24,
+    "numberOfShares": 91152000,
+    "marketCapitalization": 2187648000,
+    "minusCashAndCashEquivalents": 110140000,
+    "addTotalDebt": 57772000,
+    "enterpriseValue": 2135280000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2006-03-25",
+    "stockPrice": 27.44,
+    "numberOfShares": 90378000,
+    "marketCapitalization": 2479972320,
+    "minusCashAndCashEquivalents": 108285000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2371687320
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2005-12-24",
+    "stockPrice": 19.73,
+    "numberOfShares": 88702000,
+    "marketCapitalization": 1750090460,
+    "minusCashAndCashEquivalents": 94514000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1655576460
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2005-09-24",
+    "stockPrice": 13.44,
+    "numberOfShares": 89332000,
+    "marketCapitalization": 1200622080,
+    "minusCashAndCashEquivalents": 113994000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1086628080
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2005-06-25",
+    "stockPrice": 9.54,
+    "numberOfShares": 87356000,
+    "marketCapitalization": 833594630,
+    "minusCashAndCashEquivalents": 102247000,
+    "addTotalDebt": 590000,
+    "enterpriseValue": 731937630
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2005-03-26",
+    "stockPrice": 7.94,
+    "numberOfShares": 84516000,
+    "marketCapitalization": 671057040,
+    "minusCashAndCashEquivalents": 95691000,
+    "addTotalDebt": 708000,
+    "enterpriseValue": 576074040
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2004-12-25",
+    "stockPrice": 7.03,
+    "numberOfShares": 82588000,
+    "marketCapitalization": 580180700,
+    "minusCashAndCashEquivalents": 72702000,
+    "addTotalDebt": 827000,
+    "enterpriseValue": 508305700
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2004-09-25",
+    "stockPrice": 4.76,
+    "numberOfShares": 81932000,
+    "marketCapitalization": 390405980,
+    "minusCashAndCashEquivalents": 68335000,
+    "addTotalDebt": 947000,
+    "enterpriseValue": 323017980
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2004-06-26",
+    "stockPrice": 5.72,
+    "numberOfShares": 81436000,
+    "marketCapitalization": 465406740,
+    "minusCashAndCashEquivalents": 56944000,
+    "addTotalDebt": 1533000,
+    "enterpriseValue": 409995740
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2004-03-27",
+    "stockPrice": 4.84,
+    "numberOfShares": 80844000,
+    "marketCapitalization": 390880740,
+    "minusCashAndCashEquivalents": 56133000,
+    "addTotalDebt": 1690000,
+    "enterpriseValue": 336437740
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2003-12-27",
+    "stockPrice": 4.28,
+    "numberOfShares": 79916000,
+    "marketCapitalization": 341640900,
+    "minusCashAndCashEquivalents": 45015000,
+    "addTotalDebt": 1854000,
+    "enterpriseValue": 298479900
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2003-09-27",
+    "stockPrice": 3.41,
+    "numberOfShares": 79212000,
+    "marketCapitalization": 269716860,
+    "minusCashAndCashEquivalents": 45177000,
+    "addTotalDebt": 2030000,
+    "enterpriseValue": 226569860
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2003-06-28",
+    "stockPrice": 3.2,
+    "numberOfShares": 78624000,
+    "marketCapitalization": 251203680,
+    "minusCashAndCashEquivalents": 39874000,
+    "addTotalDebt": 2094000,
+    "enterpriseValue": 213423680
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2003-03-29",
+    "stockPrice": 2.2,
+    "numberOfShares": 78320000,
+    "marketCapitalization": 172304000,
+    "minusCashAndCashEquivalents": 31421000,
+    "addTotalDebt": 2307000,
+    "enterpriseValue": 143190000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2002-12-28",
+    "stockPrice": 3.19,
+    "numberOfShares": 77900000,
+    "marketCapitalization": 248501000,
+    "minusCashAndCashEquivalents": 43209000,
+    "addTotalDebt": 2520000,
+    "enterpriseValue": 207812000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2002-09-28",
+    "stockPrice": 2.46,
+    "numberOfShares": 84400000,
+    "marketCapitalization": 207835000,
+    "minusCashAndCashEquivalents": 45836000,
+    "addTotalDebt": 2748000,
+    "enterpriseValue": 164747000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2002-06-29",
+    "stockPrice": 3.62,
+    "numberOfShares": 77028000,
+    "marketCapitalization": 278648790,
+    "minusCashAndCashEquivalents": 31936000,
+    "addTotalDebt": 28012000,
+    "enterpriseValue": 274724790
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2002-03-30",
+    "stockPrice": 3.86,
+    "numberOfShares": 75788000,
+    "marketCapitalization": 292731150,
+    "minusCashAndCashEquivalents": 26230000,
+    "addTotalDebt": 28535000,
+    "enterpriseValue": 295036150
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2001-12-29",
+    "stockPrice": 2.49,
+    "numberOfShares": 64276000,
+    "marketCapitalization": 160207930,
+    "minusCashAndCashEquivalents": 30602000,
+    "addTotalDebt": 29614000,
+    "enterpriseValue": 159219930
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2001-09-29",
+    "stockPrice": 1.26,
+    "numberOfShares": 62276000,
+    "marketCapitalization": 78623450,
+    "minusCashAndCashEquivalents": 12754000,
+    "addTotalDebt": 30899000,
+    "enterpriseValue": 96768450
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2001-06-30",
+    "stockPrice": 1.7,
+    "numberOfShares": 61904000,
+    "marketCapitalization": 105236800,
+    "minusCashAndCashEquivalents": 11908000,
+    "addTotalDebt": 28142000,
+    "enterpriseValue": 121470800
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2001-03-31",
+    "stockPrice": 1,
+    "numberOfShares": 61868000,
+    "marketCapitalization": 61868000,
+    "minusCashAndCashEquivalents": 16166000,
+    "addTotalDebt": 26592000,
+    "enterpriseValue": 72294000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2000-12-30",
+    "stockPrice": 1.33,
+    "numberOfShares": 61548000,
+    "marketCapitalization": 81743437,
+    "minusCashAndCashEquivalents": 22359000,
+    "addTotalDebt": 26630000,
+    "enterpriseValue": 86014437
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2000-09-30",
+    "stockPrice": 1.86,
+    "numberOfShares": 61300000,
+    "marketCapitalization": 113979687,
+    "minusCashAndCashEquivalents": 22778000,
+    "addTotalDebt": 25388000,
+    "enterpriseValue": 116589687
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2000-07-01",
+    "stockPrice": 1.69,
+    "numberOfShares": 61308000,
+    "marketCapitalization": 103457250,
+    "minusCashAndCashEquivalents": 34098000,
+    "addTotalDebt": 411000,
+    "enterpriseValue": 69770250
+  },
+  {
+    "symbol": "HOLX",
+    "date": "2000-03-25",
+    "stockPrice": 2.25,
+    "numberOfShares": 61272000,
+    "marketCapitalization": 137862000,
+    "minusCashAndCashEquivalents": 36722000,
+    "addTotalDebt": 412000,
+    "enterpriseValue": 101552000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1999-12-25",
+    "stockPrice": 1.5,
+    "numberOfShares": 61052632,
+    "marketCapitalization": 91578948,
+    "minusCashAndCashEquivalents": 36100000,
+    "addTotalDebt": 400000,
+    "enterpriseValue": 55878948
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1999-09-25",
+    "stockPrice": 1.05,
+    "numberOfShares": 61400000,
+    "marketCapitalization": 64278125,
+    "minusCashAndCashEquivalents": 36500000,
+    "addTotalDebt": 1100000,
+    "enterpriseValue": 28878125
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1999-06-26",
+    "stockPrice": 1.41,
+    "numberOfShares": 54545455,
+    "marketCapitalization": 76704546,
+    "minusCashAndCashEquivalents": 38400000,
+    "addTotalDebt": 1100000,
+    "enterpriseValue": 39404546
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1999-03-27",
+    "stockPrice": 2.19,
+    "numberOfShares": 55000000,
+    "marketCapitalization": 120312500,
+    "minusCashAndCashEquivalents": 36600000,
+    "addTotalDebt": 1500000,
+    "enterpriseValue": 85212500
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1998-12-26",
+    "stockPrice": 3,
+    "numberOfShares": 53333333,
+    "marketCapitalization": 159999999,
+    "minusCashAndCashEquivalents": 48400000,
+    "addTotalDebt": 2800000,
+    "enterpriseValue": 114399999
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1998-09-26",
+    "stockPrice": 3.22,
+    "numberOfShares": 55072464,
+    "marketCapitalization": 177264493,
+    "minusCashAndCashEquivalents": 48400000,
+    "addTotalDebt": 3800000,
+    "enterpriseValue": 132664493
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1998-06-27",
+    "stockPrice": 4.59,
+    "numberOfShares": 53750000,
+    "marketCapitalization": 246914062,
+    "minusCashAndCashEquivalents": 45900000,
+    "addTotalDebt": 1400000,
+    "enterpriseValue": 202414062
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1998-03-28",
+    "stockPrice": 7.13,
+    "numberOfShares": 51428571,
+    "marketCapitalization": 366428568,
+    "minusCashAndCashEquivalents": 43700000,
+    "addTotalDebt": 800000,
+    "enterpriseValue": 323528568
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1997-12-27",
+    "stockPrice": 5.25,
+    "numberOfShares": 52500000,
+    "marketCapitalization": 275625000,
+    "minusCashAndCashEquivalents": 45200000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 230425000
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1997-09-27",
+    "stockPrice": 6.41,
+    "numberOfShares": 57900000,
+    "marketCapitalization": 370921875,
+    "minusCashAndCashEquivalents": 28100000,
+    "addTotalDebt": 100000,
+    "enterpriseValue": 342921875
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1997-06-28",
+    "stockPrice": 6.63,
+    "numberOfShares": 53714286,
+    "marketCapitalization": 355857144,
+    "minusCashAndCashEquivalents": 33300000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 322557144
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1997-03-29",
+    "stockPrice": 6,
+    "numberOfShares": 55294118,
+    "marketCapitalization": 331764708,
+    "minusCashAndCashEquivalents": 42600000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 289164708
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1996-12-28",
+    "stockPrice": 6.19,
+    "numberOfShares": 55000000,
+    "marketCapitalization": 340312500,
+    "minusCashAndCashEquivalents": 33200000,
+    "addTotalDebt": 2700000,
+    "enterpriseValue": 309812500
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1996-09-28",
+    "stockPrice": 6.81,
+    "numberOfShares": 55300000,
+    "marketCapitalization": 376731250,
+    "minusCashAndCashEquivalents": 28800000,
+    "addTotalDebt": 2500000,
+    "enterpriseValue": 350431250
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1996-06-29",
+    "stockPrice": 11.06,
+    "numberOfShares": 48750000,
+    "marketCapitalization": 539296875,
+    "minusCashAndCashEquivalents": 31800000,
+    "addTotalDebt": 2400000,
+    "enterpriseValue": 509896875
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1996-03-30",
+    "stockPrice": 5.69,
+    "numberOfShares": 44444444,
+    "marketCapitalization": 252777775,
+    "minusCashAndCashEquivalents": 57900000,
+    "addTotalDebt": 2200000,
+    "enterpriseValue": 197077775
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1995-12-30",
+    "stockPrice": 5.13,
+    "numberOfShares": 37142857,
+    "marketCapitalization": 190357142,
+    "minusCashAndCashEquivalents": 8200000,
+    "addTotalDebt": 2100000,
+    "enterpriseValue": 184257142
+  },
+  {
+    "symbol": "HOLX",
+    "date": "1995-09-30",
+    "stockPrice": 2.88,
+    "numberOfShares": 42200000,
+    "marketCapitalization": 121325000,
+    "minusCashAndCashEquivalents": 7400000,
+    "addTotalDebt": 2100000,
+    "enterpriseValue": 116025000
+  }
+]

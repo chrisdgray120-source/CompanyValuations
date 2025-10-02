@@ -1,0 +1,162 @@
+[
+  {
+    "symbol": "SW",
+    "date": "2025-06-30",
+    "stockPrice": 43.15,
+    "numberOfShares": 521000000,
+    "marketCapitalization": 22481150000,
+    "minusCashAndCashEquivalents": 778000000,
+    "addTotalDebt": 1034000000,
+    "enterpriseValue": 22737150000
+  },
+  {
+    "symbol": "SW",
+    "date": "2025-03-31",
+    "stockPrice": 45.06,
+    "numberOfShares": 521000000,
+    "marketCapitalization": 23476260000,
+    "minusCashAndCashEquivalents": 797000000,
+    "addTotalDebt": 14219000000,
+    "enterpriseValue": 36898260000
+  },
+  {
+    "symbol": "SW",
+    "date": "2024-12-31",
+    "stockPrice": 53.86,
+    "numberOfShares": 453500000,
+    "marketCapitalization": 24425510000,
+    "minusCashAndCashEquivalents": 855000000,
+    "addTotalDebt": 13595000000,
+    "enterpriseValue": 37165510000
+  },
+  {
+    "symbol": "SW",
+    "date": "2024-09-30",
+    "stockPrice": 49.42,
+    "numberOfShares": 508000000,
+    "marketCapitalization": 25105360000,
+    "minusCashAndCashEquivalents": 951000000,
+    "addTotalDebt": 13919000000,
+    "enterpriseValue": 38073360000
+  },
+  {
+    "symbol": "SW",
+    "date": "2024-06-30",
+    "stockPrice": 42.96,
+    "numberOfShares": 258823529,
+    "marketCapitalization": 11118018335,
+    "minusCashAndCashEquivalents": 3103887500,
+    "addTotalDebt": 6004272000,
+    "enterpriseValue": 14018402835
+  },
+  {
+    "symbol": "SW",
+    "date": "2024-03-31",
+    "stockPrice": 44.66,
+    "numberOfShares": 259000000,
+    "marketCapitalization": 11567976000,
+    "minusCashAndCashEquivalents": 751553700,
+    "addTotalDebt": 3428790000,
+    "enterpriseValue": 14245212300
+  },
+  {
+    "symbol": "SW",
+    "date": "2023-12-31",
+    "stockPrice": 35.65,
+    "numberOfShares": 258000000,
+    "marketCapitalization": 9198790565,
+    "minusCashAndCashEquivalents": 890000000,
+    "addTotalDebt": 3745000000,
+    "enterpriseValue": 12053790565
+  },
+  {
+    "symbol": "SW",
+    "date": "2023-09-30",
+    "stockPrice": 31.14,
+    "numberOfShares": 258000000,
+    "marketCapitalization": 8035350659,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8035350659
+  },
+  {
+    "symbol": "SW",
+    "date": "2023-06-30",
+    "stockPrice": 29.84,
+    "numberOfShares": 260354342,
+    "marketCapitalization": 7769296404,
+    "minusCashAndCashEquivalents": 668347497,
+    "addTotalDebt": 3790000000,
+    "enterpriseValue": 10890948907
+  },
+  {
+    "symbol": "SW",
+    "date": "2023-03-31",
+    "stockPrice": 33.13,
+    "numberOfShares": 258000000,
+    "marketCapitalization": 8546884680,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8546884680
+  },
+  {
+    "symbol": "SW",
+    "date": "2022-12-31",
+    "stockPrice": 34.86,
+    "numberOfShares": 257400037,
+    "marketCapitalization": 8973605443,
+    "minusCashAndCashEquivalents": 777000000,
+    "addTotalDebt": 3780000000,
+    "enterpriseValue": 11976605443
+  },
+  {
+    "symbol": "SW",
+    "date": "2022-06-30",
+    "stockPrice": 31.7,
+    "numberOfShares": 258000000,
+    "marketCapitalization": 8177362116,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 8177362116
+  },
+  {
+    "symbol": "SW",
+    "date": "2021-12-31",
+    "stockPrice": 47.27,
+    "numberOfShares": 257059283,
+    "marketCapitalization": 12150613924,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 12150613924
+  },
+  {
+    "symbol": "SW",
+    "date": "2021-06-30",
+    "stockPrice": 45.13,
+    "numberOfShares": 257000000,
+    "marketCapitalization": 11598118561,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 11598118561
+  },
+  {
+    "symbol": "SW",
+    "date": "2020-12-31",
+    "stockPrice": 38.5,
+    "numberOfShares": 240602658,
+    "marketCapitalization": 9262314509,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9262314509
+  },
+  {
+    "symbol": "SW",
+    "date": "2020-06-30",
+    "stockPrice": 30.4,
+    "numberOfShares": 237000000,
+    "marketCapitalization": 7204878209,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 7204878209
+  }
+]

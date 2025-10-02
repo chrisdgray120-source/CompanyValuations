@@ -1,0 +1,942 @@
+[
+  {
+    "symbol": "NFLX",
+    "date": "2025-06-30",
+    "stockPrice": 1339.13,
+    "numberOfShares": 425211000,
+    "marketCapitalization": 569412806430,
+    "minusCashAndCashEquivalents": 7842714000,
+    "addTotalDebt": 16933967000,
+    "enterpriseValue": 578504059430
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2025-03-31",
+    "stockPrice": 932.53,
+    "numberOfShares": 427270000,
+    "marketCapitalization": 398442093100,
+    "minusCashAndCashEquivalents": 7199848000,
+    "addTotalDebt": 17423487000,
+    "enterpriseValue": 408665732100
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-12-31",
+    "stockPrice": 891.32,
+    "numberOfShares": 427716000,
+    "marketCapitalization": 381231825120,
+    "minusCashAndCashEquivalents": 7804733000,
+    "addTotalDebt": 17994974000,
+    "enterpriseValue": 391422066120
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-09-30",
+    "stockPrice": 709.27,
+    "numberOfShares": 428239000,
+    "marketCapitalization": 303737075530,
+    "minusCashAndCashEquivalents": 7457025000,
+    "addTotalDebt": 18508648000,
+    "enterpriseValue": 314788698530
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-06-30",
+    "stockPrice": 673.61,
+    "numberOfShares": 430065000,
+    "marketCapitalization": 289696084650,
+    "minusCashAndCashEquivalents": 6624939000,
+    "addTotalDebt": 16524194000,
+    "enterpriseValue": 299595339650
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2024-03-31",
+    "stockPrice": 614.31,
+    "numberOfShares": 432090000,
+    "marketCapitalization": 265437207899,
+    "minusCashAndCashEquivalents": 7024766000,
+    "addTotalDebt": 16511606000,
+    "enterpriseValue": 274924047899
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-12-31",
+    "stockPrice": 486.88,
+    "numberOfShares": 441571000,
+    "marketCapitalization": 214992088480,
+    "minusCashAndCashEquivalents": 7116913000,
+    "addTotalDebt": 16973374000,
+    "enterpriseValue": 224848549480
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-09-30",
+    "stockPrice": 377.6,
+    "numberOfShares": 441537000,
+    "marketCapitalization": 166724371200,
+    "minusCashAndCashEquivalents": 7353245000,
+    "addTotalDebt": 16764248000,
+    "enterpriseValue": 176135374200
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-06-30",
+    "stockPrice": 440.49,
+    "numberOfShares": 443881000,
+    "marketCapitalization": 195525141690,
+    "minusCashAndCashEquivalents": 7662788000,
+    "addTotalDebt": 16993691000,
+    "enterpriseValue": 204856044690
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2023-03-31",
+    "stockPrice": 345.48,
+    "numberOfShares": 445244000,
+    "marketCapitalization": 153822897120,
+    "minusCashAndCashEquivalents": 6714594000,
+    "addTotalDebt": 16955847000,
+    "enterpriseValue": 164064150120
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-12-31",
+    "stockPrice": 294.88,
+    "numberOfShares": 445200000,
+    "marketCapitalization": 131280576000,
+    "minusCashAndCashEquivalents": 5147176000,
+    "addTotalDebt": 16931564000,
+    "enterpriseValue": 143064964000
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-09-30",
+    "stockPrice": 235.44,
+    "numberOfShares": 444878000,
+    "marketCapitalization": 104742076320,
+    "minusCashAndCashEquivalents": 6113733000,
+    "addTotalDebt": 16432181000,
+    "enterpriseValue": 115060524320
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-06-30",
+    "stockPrice": 174.87,
+    "numberOfShares": 444557000,
+    "marketCapitalization": 77739682590,
+    "minusCashAndCashEquivalents": 5819449000,
+    "addTotalDebt": 16909057000,
+    "enterpriseValue": 88829290590
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2022-03-31",
+    "stockPrice": 374.59,
+    "numberOfShares": 444146000,
+    "marketCapitalization": 166372650140,
+    "minusCashAndCashEquivalents": 6008946000,
+    "addTotalDebt": 17299575000,
+    "enterpriseValue": 177663279140
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-12-31",
+    "stockPrice": 602.44,
+    "numberOfShares": 443462000,
+    "marketCapitalization": 267159247280,
+    "minusCashAndCashEquivalents": 6027804000,
+    "addTotalDebt": 18116570000,
+    "enterpriseValue": 279248013280
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-09-30",
+    "stockPrice": 610.34,
+    "numberOfShares": 442778000,
+    "marketCapitalization": 270245124520,
+    "minusCashAndCashEquivalents": 7526681000,
+    "addTotalDebt": 18006608000,
+    "enterpriseValue": 280725051520
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-06-30",
+    "stockPrice": 528.21,
+    "numberOfShares": 443159000,
+    "marketCapitalization": 234081015390,
+    "minusCashAndCashEquivalents": 7777530000,
+    "addTotalDebt": 17943124000,
+    "enterpriseValue": 244246609390
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2021-03-31",
+    "stockPrice": 521.66,
+    "numberOfShares": 443224000,
+    "marketCapitalization": 231212231840,
+    "minusCashAndCashEquivalents": 8403705000,
+    "addTotalDebt": 17739319000,
+    "enterpriseValue": 240547845840
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-12-31",
+    "stockPrice": 540.73,
+    "numberOfShares": 442220000,
+    "marketCapitalization": 239121620600,
+    "minusCashAndCashEquivalents": 8205550000,
+    "addTotalDebt": 18510826000,
+    "enterpriseValue": 249426896600
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-09-30",
+    "stockPrice": 500.03,
+    "numberOfShares": 441526000,
+    "marketCapitalization": 220776245780,
+    "minusCashAndCashEquivalents": 8392391000,
+    "addTotalDebt": 18137133000,
+    "enterpriseValue": 230520987780
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-06-30",
+    "stockPrice": 455.04,
+    "numberOfShares": 440569000,
+    "marketCapitalization": 200476517760,
+    "minusCashAndCashEquivalents": 7153248000,
+    "addTotalDebt": 17708159000,
+    "enterpriseValue": 211031428760
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2020-03-31",
+    "stockPrice": 375.5,
+    "numberOfShares": 439352000,
+    "marketCapitalization": 164976676000,
+    "minusCashAndCashEquivalents": 5151884000,
+    "addTotalDebt": 16265501000,
+    "enterpriseValue": 176090293000
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-12-31",
+    "stockPrice": 323.57,
+    "numberOfShares": 438547000,
+    "marketCapitalization": 141900652790,
+    "minusCashAndCashEquivalents": 5018437000,
+    "addTotalDebt": 16372494000,
+    "enterpriseValue": 153254709790
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-09-30",
+    "stockPrice": 267.62,
+    "numberOfShares": 438090000,
+    "marketCapitalization": 117241645800,
+    "minusCashAndCashEquivalents": 4435018000,
+    "addTotalDebt": 13539365000,
+    "enterpriseValue": 126345992800
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-06-30",
+    "stockPrice": 374.6,
+    "numberOfShares": 437587000,
+    "marketCapitalization": 163920090200,
+    "minusCashAndCashEquivalents": 5004247000,
+    "addTotalDebt": 13678117000,
+    "enterpriseValue": 172593960200
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2019-03-31",
+    "stockPrice": 366.96,
+    "numberOfShares": 436947000,
+    "marketCapitalization": 160342071120,
+    "minusCashAndCashEquivalents": 3348557000,
+    "addTotalDebt": 11192545000,
+    "enterpriseValue": 168186059120
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-12-31",
+    "stockPrice": 267.66,
+    "numberOfShares": 436385000,
+    "marketCapitalization": 116802809100,
+    "minusCashAndCashEquivalents": 3794483000,
+    "addTotalDebt": 10360058000,
+    "enterpriseValue": 123368384100
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-09-30",
+    "stockPrice": 381.43,
+    "numberOfShares": 435809000,
+    "marketCapitalization": 166230626870,
+    "minusCashAndCashEquivalents": 3067534000,
+    "addTotalDebt": 8336586000,
+    "enterpriseValue": 171499678870
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-06-30",
+    "stockPrice": 391.43,
+    "numberOfShares": 435097000,
+    "marketCapitalization": 170310018710,
+    "minusCashAndCashEquivalents": 3906357000,
+    "addTotalDebt": 8342067000,
+    "enterpriseValue": 174745728710
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2018-03-31",
+    "stockPrice": 295.35,
+    "numberOfShares": 434174000,
+    "marketCapitalization": 128233290900,
+    "minusCashAndCashEquivalents": 2593666000,
+    "addTotalDebt": 6542373000,
+    "enterpriseValue": 132181997900
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-12-31",
+    "stockPrice": 191.96,
+    "numberOfShares": 433108000,
+    "marketCapitalization": 83139411680,
+    "minusCashAndCashEquivalents": 2822795000,
+    "addTotalDebt": 6499432000,
+    "enterpriseValue": 86816048680
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-09-30",
+    "stockPrice": 181.35,
+    "numberOfShares": 432404000,
+    "marketCapitalization": 78416465400,
+    "minusCashAndCashEquivalents": 1746469000,
+    "addTotalDebt": 4888783000,
+    "enterpriseValue": 81558779400
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-06-30",
+    "stockPrice": 149.41,
+    "numberOfShares": 431396000,
+    "marketCapitalization": 64454876360,
+    "minusCashAndCashEquivalents": 1918777000,
+    "addTotalDebt": 4836502000,
+    "enterpriseValue": 67372601360
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2017-03-31",
+    "stockPrice": 147.81,
+    "numberOfShares": 430600000,
+    "marketCapitalization": 63646986000,
+    "minusCashAndCashEquivalents": 1077824000,
+    "addTotalDebt": 3383331000,
+    "enterpriseValue": 65952493000
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-12-31",
+    "stockPrice": 123.8,
+    "numberOfShares": 429738000,
+    "marketCapitalization": 53201564400,
+    "minusCashAndCashEquivalents": 1467576000,
+    "addTotalDebt": 3364311000,
+    "enterpriseValue": 55098299400
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-09-30",
+    "stockPrice": 98.55,
+    "numberOfShares": 428937000,
+    "marketCapitalization": 42271741350,
+    "minusCashAndCashEquivalents": 969158000,
+    "addTotalDebt": 2373966000,
+    "enterpriseValue": 43676549350
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-06-30",
+    "stockPrice": 91.48,
+    "numberOfShares": 428483000,
+    "marketCapitalization": 39197624840,
+    "minusCashAndCashEquivalents": 1390925000,
+    "addTotalDebt": 2373085000,
+    "enterpriseValue": 40179784840
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2016-03-31",
+    "stockPrice": 102.23,
+    "numberOfShares": 428117000,
+    "marketCapitalization": 43766400910,
+    "minusCashAndCashEquivalents": 1605244000,
+    "addTotalDebt": 2372218000,
+    "enterpriseValue": 44533374910
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-12-31",
+    "stockPrice": 114.38,
+    "numberOfShares": 427668000,
+    "marketCapitalization": 48916665840,
+    "minusCashAndCashEquivalents": 1809330000,
+    "addTotalDebt": 2371362000,
+    "enterpriseValue": 49478697840
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-09-30",
+    "stockPrice": 103.26,
+    "numberOfShares": 426869000,
+    "marketCapitalization": 44078492940,
+    "minusCashAndCashEquivalents": 2115437000,
+    "addTotalDebt": 2421800000,
+    "enterpriseValue": 44384855940
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-06-30",
+    "stockPrice": 93.85,
+    "numberOfShares": 425339999,
+    "marketCapitalization": 39917563430,
+    "minusCashAndCashEquivalents": 2293872000,
+    "addTotalDebt": 2408100000,
+    "enterpriseValue": 40031791430
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2015-03-31",
+    "stockPrice": 59.53,
+    "numberOfShares": 423626000,
+    "marketCapitalization": 25217227264,
+    "minusCashAndCashEquivalents": 2454777000,
+    "addTotalDebt": 2409000000,
+    "enterpriseValue": 25171450264
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-12-31",
+    "stockPrice": 48.8,
+    "numberOfShares": 422247000,
+    "marketCapitalization": 20606244745,
+    "minusCashAndCashEquivalents": 1113608000,
+    "addTotalDebt": 885849000,
+    "enterpriseValue": 20378485745
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-09-30",
+    "stockPrice": 64.45,
+    "numberOfShares": 421197000,
+    "marketCapitalization": 27147957797,
+    "minusCashAndCashEquivalents": 1183217000,
+    "addTotalDebt": 910100000,
+    "enterpriseValue": 26874840797
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-06-30",
+    "stockPrice": 62.94,
+    "numberOfShares": 419972000,
+    "marketCapitalization": 26434255598,
+    "minusCashAndCashEquivalents": 1214244000,
+    "addTotalDebt": 910900000,
+    "enterpriseValue": 26130911598
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2014-03-31",
+    "stockPrice": 50.29,
+    "numberOfShares": 418719000,
+    "marketCapitalization": 21057378510,
+    "minusCashAndCashEquivalents": 1157450000,
+    "addTotalDebt": 911300000,
+    "enterpriseValue": 20811228510
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-12-31",
+    "stockPrice": 52.6,
+    "numberOfShares": 416290000,
+    "marketCapitalization": 21895063953,
+    "minusCashAndCashEquivalents": 604965000,
+    "addTotalDebt": 500000000,
+    "enterpriseValue": 21790098953
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-09-30",
+    "stockPrice": 44.17,
+    "numberOfShares": 413756000,
+    "marketCapitalization": 18276802412,
+    "minusCashAndCashEquivalents": 439056000,
+    "addTotalDebt": 512800000,
+    "enterpriseValue": 18350546412
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-06-30",
+    "stockPrice": 32.04,
+    "numberOfShares": 407344000,
+    "marketCapitalization": 13051301760,
+    "minusCashAndCashEquivalents": 370678000,
+    "addTotalDebt": 563400000,
+    "enterpriseValue": 13244023760
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2013-03-31",
+    "stockPrice": 26.06,
+    "numberOfShares": 391804000,
+    "marketCapitalization": 10210960765,
+    "minusCashAndCashEquivalents": 418051000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 9792909765
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-12-31",
+    "stockPrice": 13.23,
+    "numberOfShares": 388934000,
+    "marketCapitalization": 5144468911,
+    "minusCashAndCashEquivalents": 290291000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4854177911
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-09-30",
+    "stockPrice": 8.01,
+    "numberOfShares": 388787000,
+    "marketCapitalization": 3113056387,
+    "minusCashAndCashEquivalents": 370298000,
+    "addTotalDebt": 400000000,
+    "enterpriseValue": 3142758387
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-06-30",
+    "stockPrice": 9.78,
+    "numberOfShares": 388682000,
+    "marketCapitalization": 3802709215,
+    "minusCashAndCashEquivalents": 402251000,
+    "addTotalDebt": 400000000,
+    "enterpriseValue": 3800458215
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2012-03-31",
+    "stockPrice": 16.43,
+    "numberOfShares": 388192000,
+    "marketCapitalization": 6379663785,
+    "minusCashAndCashEquivalents": 395992000,
+    "addTotalDebt": 400000000,
+    "enterpriseValue": 6383671785
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-12-31",
+    "stockPrice": 9.9,
+    "numberOfShares": 375074000,
+    "marketCapitalization": 3712707496,
+    "minusCashAndCashEquivalents": 508053000,
+    "addTotalDebt": 402319000,
+    "enterpriseValue": 3606973496
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-09-30",
+    "stockPrice": 16.18,
+    "numberOfShares": 367983000,
+    "marketCapitalization": 5954480116,
+    "minusCashAndCashEquivalents": 159199000,
+    "addTotalDebt": 234659000,
+    "enterpriseValue": 6029940116
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-06-30",
+    "stockPrice": 37.53,
+    "numberOfShares": 367290000,
+    "marketCapitalization": 13783328558,
+    "minusCashAndCashEquivalents": 175207000,
+    "addTotalDebt": 235185000,
+    "enterpriseValue": 13843306558
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2011-03-31",
+    "stockPrice": 33.97,
+    "numberOfShares": 369313000,
+    "marketCapitalization": 12545045571,
+    "minusCashAndCashEquivalents": 150419000,
+    "addTotalDebt": 235705000,
+    "enterpriseValue": 12630331571
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-12-31",
+    "stockPrice": 25.1,
+    "numberOfShares": 368102000,
+    "marketCapitalization": 9239360200,
+    "minusCashAndCashEquivalents": 194499000,
+    "addTotalDebt": 236206000,
+    "enterpriseValue": 9281067200
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-09-30",
+    "stockPrice": 23.17,
+    "numberOfShares": 364994000,
+    "marketCapitalization": 8455341505,
+    "minusCashAndCashEquivalents": 113108000,
+    "addTotalDebt": 236686000,
+    "enterpriseValue": 8578919505
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-06-30",
+    "stockPrice": 15.52,
+    "numberOfShares": 367402000,
+    "marketCapitalization": 5702593402,
+    "minusCashAndCashEquivalents": 107327000,
+    "addTotalDebt": 237156000,
+    "enterpriseValue": 5832422402
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2010-03-31",
+    "stockPrice": 10.53,
+    "numberOfShares": 370377000,
+    "marketCapitalization": 3901662431,
+    "minusCashAndCashEquivalents": 79861000,
+    "addTotalDebt": 237621000,
+    "enterpriseValue": 4059422431
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-12-31",
+    "stockPrice": 7.87,
+    "numberOfShares": 370377000,
+    "marketCapitalization": 2914866990,
+    "minusCashAndCashEquivalents": 134224000,
+    "addTotalDebt": 237982000,
+    "enterpriseValue": 3018624990
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-09-30",
+    "stockPrice": 6.6,
+    "numberOfShares": 393022000,
+    "marketCapitalization": 2592255205,
+    "minusCashAndCashEquivalents": 55717000,
+    "addTotalDebt": 38282000,
+    "enterpriseValue": 2574820205
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-06-30",
+    "stockPrice": 5.91,
+    "numberOfShares": 405104000,
+    "marketCapitalization": 2392422692,
+    "minusCashAndCashEquivalents": 87471000,
+    "addTotalDebt": 38576000,
+    "enterpriseValue": 2343527692
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2009-03-31",
+    "stockPrice": 6.13,
+    "numberOfShares": 411138000,
+    "marketCapitalization": 2520851533,
+    "minusCashAndCashEquivalents": 115131000,
+    "addTotalDebt": 38871000,
+    "enterpriseValue": 2444591533
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-12-31",
+    "stockPrice": 4.27,
+    "numberOfShares": 411138000,
+    "marketCapitalization": 1755559259,
+    "minusCashAndCashEquivalents": 139881000,
+    "addTotalDebt": 40292000,
+    "enterpriseValue": 1655970259
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-09-30",
+    "stockPrice": 4.41,
+    "numberOfShares": 422856000,
+    "marketCapitalization": 1865386958,
+    "minusCashAndCashEquivalents": 111524000,
+    "addTotalDebt": 39377000,
+    "enterpriseValue": 1793239958
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-06-30",
+    "stockPrice": 3.72,
+    "numberOfShares": 432474000,
+    "marketCapitalization": 1610662918,
+    "minusCashAndCashEquivalents": 144289000,
+    "addTotalDebt": 39611000,
+    "enterpriseValue": 1505984918
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2008-03-31",
+    "stockPrice": 4.95,
+    "numberOfShares": 439432000,
+    "marketCapitalization": 2175188400,
+    "minusCashAndCashEquivalents": 168989000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2006199400
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-12-31",
+    "stockPrice": 3.8,
+    "numberOfShares": 439432000,
+    "marketCapitalization": 1671115952,
+    "minusCashAndCashEquivalents": 177439000,
+    "addTotalDebt": 36475000,
+    "enterpriseValue": 1530151952
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-09-30",
+    "stockPrice": 3.03,
+    "numberOfShares": 465283000,
+    "marketCapitalization": 1410458886,
+    "minusCashAndCashEquivalents": 179804000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1230654886
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-06-30",
+    "stockPrice": 2.77,
+    "numberOfShares": 476217000,
+    "marketCapitalization": 1319121090,
+    "minusCashAndCashEquivalents": 184182000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1134939090
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2007-03-31",
+    "stockPrice": 3.31,
+    "numberOfShares": 480851000,
+    "marketCapitalization": 1593011277,
+    "minusCashAndCashEquivalents": 218458000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1374553277
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-12-31",
+    "stockPrice": 3.69,
+    "numberOfShares": 479430000,
+    "marketCapitalization": 1771158249,
+    "minusCashAndCashEquivalents": 400430000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1370728249
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-09-30",
+    "stockPrice": 3.25,
+    "numberOfShares": 476567000,
+    "marketCapitalization": 1550891988,
+    "minusCashAndCashEquivalents": 368741000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1182150988
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-06-30",
+    "stockPrice": 3.89,
+    "numberOfShares": 408681000,
+    "marketCapitalization": 1588583915,
+    "minusCashAndCashEquivalents": 341702000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1246881915
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2006-03-31",
+    "stockPrice": 4.14,
+    "numberOfShares": 386491000,
+    "marketCapitalization": 1600613827,
+    "minusCashAndCashEquivalents": 227765000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1372848827
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-12-31",
+    "stockPrice": 3.87,
+    "numberOfShares": 380807000,
+    "marketCapitalization": 1472085619,
+    "minusCashAndCashEquivalents": 212256000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1259829619
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-09-30",
+    "stockPrice": 3.71,
+    "numberOfShares": 375851000,
+    "marketCapitalization": 1395497177,
+    "minusCashAndCashEquivalents": 181886000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1213611177
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-06-30",
+    "stockPrice": 2.34,
+    "numberOfShares": 372330000,
+    "marketCapitalization": 872853219,
+    "minusCashAndCashEquivalents": 170972000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 701881219
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2005-03-31",
+    "stockPrice": 1.55,
+    "numberOfShares": 369712000,
+    "marketCapitalization": 573053600,
+    "minusCashAndCashEquivalents": 165822000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 407231600
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-12-31",
+    "stockPrice": 1.76,
+    "numberOfShares": 367906000,
+    "marketCapitalization": 648029628,
+    "minusCashAndCashEquivalents": 174461000,
+    "addTotalDebt": 68000,
+    "enterpriseValue": 473636628
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-09-30",
+    "stockPrice": 2.2,
+    "numberOfShares": 365477000,
+    "marketCapitalization": 805109283,
+    "minusCashAndCashEquivalents": 167814000,
+    "addTotalDebt": 164000,
+    "enterpriseValue": 637459283
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-06-30",
+    "stockPrice": 5.14,
+    "numberOfShares": 363286000,
+    "marketCapitalization": 1868343569,
+    "minusCashAndCashEquivalents": 153444000,
+    "addTotalDebt": 253000,
+    "enterpriseValue": 1715152569
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2004-03-31",
+    "stockPrice": 4.87,
+    "numberOfShares": 358974000,
+    "marketCapitalization": 1749746968,
+    "minusCashAndCashEquivalents": 100188000,
+    "addTotalDebt": 360000,
+    "enterpriseValue": 1649918968
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-12-31",
+    "stockPrice": 3.91,
+    "numberOfShares": 355945590,
+    "marketCapitalization": 1390501447,
+    "minusCashAndCashEquivalents": 89894000,
+    "addTotalDebt": 460000,
+    "enterpriseValue": 1301067447
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-09-30",
+    "stockPrice": 2.4,
+    "numberOfShares": 337204000,
+    "marketCapitalization": 808325351,
+    "minusCashAndCashEquivalents": 79170000,
+    "addTotalDebt": 556000,
+    "enterpriseValue": 729711351
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-06-30",
+    "stockPrice": 1.82,
+    "numberOfShares": 331072000,
+    "marketCapitalization": 604205795,
+    "minusCashAndCashEquivalents": 71229000,
+    "addTotalDebt": 1091000,
+    "enterpriseValue": 534067795
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2003-03-31",
+    "stockPrice": 1.45,
+    "numberOfShares": 318318000,
+    "marketCapitalization": 462697487,
+    "minusCashAndCashEquivalents": 66028000,
+    "addTotalDebt": 1316000,
+    "enterpriseValue": 397985487
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-12-31",
+    "stockPrice": 0.78643,
+    "numberOfShares": 314241130,
+    "marketCapitalization": 247127955,
+    "minusCashAndCashEquivalents": 59814000,
+    "addTotalDebt": 1691000,
+    "enterpriseValue": 189004955
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-09-30",
+    "stockPrice": 0.69286,
+    "numberOfShares": 306908000,
+    "marketCapitalization": 212643187,
+    "minusCashAndCashEquivalents": 54321000,
+    "addTotalDebt": 1876000,
+    "enterpriseValue": 160198187
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-06-30",
+    "stockPrice": 1.03,
+    "numberOfShares": 143024000,
+    "marketCapitalization": 147008092,
+    "minusCashAndCashEquivalents": 49759000,
+    "addTotalDebt": 2675000,
+    "enterpriseValue": 99924092
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2002-03-31",
+    "stockPrice": 1.2,
+    "numberOfShares": 57316000,
+    "marketCapitalization": 68574431,
+    "minusCashAndCashEquivalents": 15671000,
+    "addTotalDebt": 6592000,
+    "enterpriseValue": 59495431
+  }
+]

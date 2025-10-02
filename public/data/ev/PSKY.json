@@ -1,0 +1,1202 @@
+[
+  {
+    "symbol": "PSKY",
+    "date": "2025-06-30",
+    "stockPrice": 12.53,
+    "numberOfShares": 675000000,
+    "marketCapitalization": 8457750000,
+    "minusCashAndCashEquivalents": 2739000000,
+    "addTotalDebt": 15507000000,
+    "enterpriseValue": 21225750000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2025-03-31",
+    "stockPrice": 11.07,
+    "numberOfShares": 672000000,
+    "marketCapitalization": 7439040000,
+    "minusCashAndCashEquivalents": 2673000000,
+    "addTotalDebt": 15527000000,
+    "enterpriseValue": 20293040000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2024-12-31",
+    "stockPrice": 10.22,
+    "numberOfShares": 669000000,
+    "marketCapitalization": 6837180000,
+    "minusCashAndCashEquivalents": 2661000000,
+    "addTotalDebt": 15549000000,
+    "enterpriseValue": 19725180000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2024-09-30",
+    "stockPrice": 10.77,
+    "numberOfShares": 667000000,
+    "marketCapitalization": 7183590000,
+    "minusCashAndCashEquivalents": 2443000000,
+    "addTotalDebt": 15571000000,
+    "enterpriseValue": 20311590000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2024-06-30",
+    "stockPrice": 10.39,
+    "numberOfShares": 667000000,
+    "marketCapitalization": 6930130000,
+    "minusCashAndCashEquivalents": 2315000000,
+    "addTotalDebt": 15741000000,
+    "enterpriseValue": 20356130000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2024-03-31",
+    "stockPrice": 11.86,
+    "numberOfShares": 654000000,
+    "marketCapitalization": 7756440000,
+    "minusCashAndCashEquivalents": 2384000000,
+    "addTotalDebt": 15807000000,
+    "enterpriseValue": 21179440000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2023-12-31",
+    "stockPrice": 15.15,
+    "numberOfShares": 652000000,
+    "marketCapitalization": 9877800000,
+    "minusCashAndCashEquivalents": 2460000000,
+    "addTotalDebt": 15858000000,
+    "enterpriseValue": 23275800000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2023-09-30",
+    "stockPrice": 13.13,
+    "numberOfShares": 652000000,
+    "marketCapitalization": 8560760000,
+    "minusCashAndCashEquivalents": 1804000000,
+    "addTotalDebt": 16972000000,
+    "enterpriseValue": 23728760000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2023-06-30",
+    "stockPrice": 15.97,
+    "numberOfShares": 651000000,
+    "marketCapitalization": 10396470000,
+    "minusCashAndCashEquivalents": 1714000000,
+    "addTotalDebt": 17141000000,
+    "enterpriseValue": 25823470000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2023-03-31",
+    "stockPrice": 21.67,
+    "numberOfShares": 651000000,
+    "marketCapitalization": 14107170000,
+    "minusCashAndCashEquivalents": 2109000000,
+    "addTotalDebt": 17251000000,
+    "enterpriseValue": 29249170000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2022-12-31",
+    "stockPrice": 16.88,
+    "numberOfShares": 650000000,
+    "marketCapitalization": 10972000000,
+    "minusCashAndCashEquivalents": 2885000000,
+    "addTotalDebt": 17274000000,
+    "enterpriseValue": 25361000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2022-09-30",
+    "stockPrice": 19.04,
+    "numberOfShares": 649000000,
+    "marketCapitalization": 12356960000,
+    "minusCashAndCashEquivalents": 3383000000,
+    "addTotalDebt": 17302000000,
+    "enterpriseValue": 26275960000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2022-06-30",
+    "stockPrice": 24.68,
+    "numberOfShares": 649000000,
+    "marketCapitalization": 16017320000,
+    "minusCashAndCashEquivalents": 4037000000,
+    "addTotalDebt": 17324000000,
+    "enterpriseValue": 29304320000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2022-03-31",
+    "stockPrice": 37.81,
+    "numberOfShares": 649000000,
+    "marketCapitalization": 24538690000,
+    "minusCashAndCashEquivalents": 5302000000,
+    "addTotalDebt": 18391000000,
+    "enterpriseValue": 37627690000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2021-12-31",
+    "stockPrice": 30.18,
+    "numberOfShares": 646000000,
+    "marketCapitalization": 19496280000,
+    "minusCashAndCashEquivalents": 6267000000,
+    "addTotalDebt": 19307000000,
+    "enterpriseValue": 32536280000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2021-09-30",
+    "stockPrice": 39.51,
+    "numberOfShares": 646000000,
+    "marketCapitalization": 25523460000,
+    "minusCashAndCashEquivalents": 4823000000,
+    "addTotalDebt": 19236000000,
+    "enterpriseValue": 39936460000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2021-06-30",
+    "stockPrice": 45.2,
+    "numberOfShares": 646000000,
+    "marketCapitalization": 29199200000,
+    "minusCashAndCashEquivalents": 5375000000,
+    "addTotalDebt": 19192000000,
+    "enterpriseValue": 43016200000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2021-03-31",
+    "stockPrice": 45.1,
+    "numberOfShares": 622000000,
+    "marketCapitalization": 28052200000,
+    "minusCashAndCashEquivalents": 5499000000,
+    "addTotalDebt": 19304000000,
+    "enterpriseValue": 41857200000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2020-12-31",
+    "stockPrice": 37.26,
+    "numberOfShares": 616000000,
+    "marketCapitalization": 22952160000,
+    "minusCashAndCashEquivalents": 2984000000,
+    "addTotalDebt": 21316000000,
+    "enterpriseValue": 41284160000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2020-09-30",
+    "stockPrice": 28.01,
+    "numberOfShares": 616000000,
+    "marketCapitalization": 17254160000,
+    "minusCashAndCashEquivalents": 3086000000,
+    "addTotalDebt": 21490000000,
+    "enterpriseValue": 35658160000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2020-06-30",
+    "stockPrice": 23.32,
+    "numberOfShares": 615000000,
+    "marketCapitalization": 14341800000,
+    "minusCashAndCashEquivalents": 2288000000,
+    "addTotalDebt": 21884000000,
+    "enterpriseValue": 33937800000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2020-03-31",
+    "stockPrice": 14.01,
+    "numberOfShares": 614000000,
+    "marketCapitalization": 8602140000,
+    "minusCashAndCashEquivalents": 589000000,
+    "addTotalDebt": 20378000000,
+    "enterpriseValue": 28391140000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2019-12-31",
+    "stockPrice": 41.97,
+    "numberOfShares": 374000000,
+    "marketCapitalization": 15696780000,
+    "minusCashAndCashEquivalents": 632000000,
+    "addTotalDebt": 20628000000,
+    "enterpriseValue": 35692780000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2019-09-30",
+    "stockPrice": 40.37,
+    "numberOfShares": 374000000,
+    "marketCapitalization": 15098379999,
+    "minusCashAndCashEquivalents": 196000000,
+    "addTotalDebt": 10488000000,
+    "enterpriseValue": 25390379999
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2019-06-30",
+    "stockPrice": 50.55,
+    "numberOfShares": 374000000,
+    "marketCapitalization": 18905700000,
+    "minusCashAndCashEquivalents": 216000000,
+    "addTotalDebt": 10363000000,
+    "enterpriseValue": 29052700000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2019-03-31",
+    "stockPrice": 48.21,
+    "numberOfShares": 613000000,
+    "marketCapitalization": 29552730000,
+    "minusCashAndCashEquivalents": 500000000,
+    "addTotalDebt": 10224000000,
+    "enterpriseValue": 39276730000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2018-12-31",
+    "stockPrice": 43.72,
+    "numberOfShares": 374000000,
+    "marketCapitalization": 16351280000,
+    "minusCashAndCashEquivalents": 322000000,
+    "addTotalDebt": 19113000000,
+    "enterpriseValue": 35142280000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2018-09-30",
+    "stockPrice": 55.76,
+    "numberOfShares": 375000000,
+    "marketCapitalization": 20910000000,
+    "minusCashAndCashEquivalents": 182000000,
+    "addTotalDebt": 9853000000,
+    "enterpriseValue": 30581000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2018-06-30",
+    "stockPrice": 56.22,
+    "numberOfShares": 378000000,
+    "marketCapitalization": 21251160000,
+    "minusCashAndCashEquivalents": 252000000,
+    "addTotalDebt": 9850000000,
+    "enterpriseValue": 30849160000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2018-03-31",
+    "stockPrice": 51.39,
+    "numberOfShares": 382000000,
+    "marketCapitalization": 19630980000,
+    "minusCashAndCashEquivalents": 147000000,
+    "addTotalDebt": 9706000000,
+    "enterpriseValue": 29189980000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2017-12-31",
+    "stockPrice": 59,
+    "numberOfShares": 391000000,
+    "marketCapitalization": 23069000000,
+    "minusCashAndCashEquivalents": 285000000,
+    "addTotalDebt": 10162000000,
+    "enterpriseValue": 32946000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2017-09-30",
+    "stockPrice": 58,
+    "numberOfShares": 401000000,
+    "marketCapitalization": 23258000000,
+    "minusCashAndCashEquivalents": 144000000,
+    "addTotalDebt": 9689000000,
+    "enterpriseValue": 32803000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2017-06-30",
+    "stockPrice": 63.78,
+    "numberOfShares": 405000000,
+    "marketCapitalization": 25830900000,
+    "minusCashAndCashEquivalents": 170000000,
+    "addTotalDebt": 9184000000,
+    "enterpriseValue": 34844900000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2017-03-31",
+    "stockPrice": 69.36,
+    "numberOfShares": 410000000,
+    "marketCapitalization": 28437600000,
+    "minusCashAndCashEquivalents": 163000000,
+    "addTotalDebt": 8953000000,
+    "enterpriseValue": 37227600000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2016-12-31",
+    "stockPrice": 63.62,
+    "numberOfShares": 424000000,
+    "marketCapitalization": 26974880000,
+    "minusCashAndCashEquivalents": 598000000,
+    "addTotalDebt": 9375000000,
+    "enterpriseValue": 35751880000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2016-09-30",
+    "stockPrice": 54.74,
+    "numberOfShares": 442000000,
+    "marketCapitalization": 24195080000,
+    "minusCashAndCashEquivalents": 179000000,
+    "addTotalDebt": 8957000000,
+    "enterpriseValue": 32973080000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2016-06-30",
+    "stockPrice": 54.44,
+    "numberOfShares": 451000000,
+    "marketCapitalization": 24552440000,
+    "minusCashAndCashEquivalents": 176000000,
+    "addTotalDebt": 8409000000,
+    "enterpriseValue": 32785440000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2016-03-31",
+    "stockPrice": 55.09,
+    "numberOfShares": 459000000,
+    "marketCapitalization": 25286310000,
+    "minusCashAndCashEquivalents": 411000000,
+    "addTotalDebt": 8249000000,
+    "enterpriseValue": 33124310000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2015-12-31",
+    "stockPrice": 47.13,
+    "numberOfShares": 469000000,
+    "marketCapitalization": 22103970000,
+    "minusCashAndCashEquivalents": 323000000,
+    "addTotalDebt": 8448000000,
+    "enterpriseValue": 30228970000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2015-09-30",
+    "stockPrice": 39.9,
+    "numberOfShares": 480000000,
+    "marketCapitalization": 19152000000,
+    "minusCashAndCashEquivalents": 133000000,
+    "addTotalDebt": 8799000000,
+    "enterpriseValue": 27818000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2015-06-30",
+    "stockPrice": 55.5,
+    "numberOfShares": 490000000,
+    "marketCapitalization": 27195000000,
+    "minusCashAndCashEquivalents": 320000000,
+    "addTotalDebt": 8100000000,
+    "enterpriseValue": 34975000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2015-03-31",
+    "stockPrice": 60.63,
+    "numberOfShares": 498000000,
+    "marketCapitalization": 30193740000,
+    "minusCashAndCashEquivalents": 331000000,
+    "addTotalDebt": 7714000000,
+    "enterpriseValue": 37576740000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2014-12-31",
+    "stockPrice": 55.34,
+    "numberOfShares": 515000000,
+    "marketCapitalization": 28500100000,
+    "minusCashAndCashEquivalents": 428000000,
+    "addTotalDebt": 7146000000,
+    "enterpriseValue": 35218100000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2014-09-30",
+    "stockPrice": 53.5,
+    "numberOfShares": 532000000,
+    "marketCapitalization": 28462000000,
+    "minusCashAndCashEquivalents": 178000000,
+    "addTotalDebt": 6959000000,
+    "enterpriseValue": 35243000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2014-06-30",
+    "stockPrice": 62.14,
+    "numberOfShares": 570000000,
+    "marketCapitalization": 35419800000,
+    "minusCashAndCashEquivalents": 261000000,
+    "addTotalDebt": 6247000000,
+    "enterpriseValue": 41405800000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2014-03-31",
+    "stockPrice": 61.8,
+    "numberOfShares": 585000000,
+    "marketCapitalization": 36153000000,
+    "minusCashAndCashEquivalents": 311000000,
+    "addTotalDebt": 7994000000,
+    "enterpriseValue": 43836000000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2013-12-31",
+    "stockPrice": 63.74,
+    "numberOfShares": 599000000,
+    "marketCapitalization": 38180260000,
+    "minusCashAndCashEquivalents": 397000000,
+    "addTotalDebt": 6436000000,
+    "enterpriseValue": 44219260000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2013-09-30",
+    "stockPrice": 55.16,
+    "numberOfShares": 603000000,
+    "marketCapitalization": 33261479999,
+    "minusCashAndCashEquivalents": 226000000,
+    "addTotalDebt": 6306000000,
+    "enterpriseValue": 39341479999
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2013-06-30",
+    "stockPrice": 48.73,
+    "numberOfShares": 609000000,
+    "marketCapitalization": 29676570000,
+    "minusCashAndCashEquivalents": 282000000,
+    "addTotalDebt": 6423000000,
+    "enterpriseValue": 35817570000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2013-03-31",
+    "stockPrice": 45.74,
+    "numberOfShares": 621000000,
+    "marketCapitalization": 28404540000,
+    "minusCashAndCashEquivalents": 409000000,
+    "addTotalDebt": 6467000000,
+    "enterpriseValue": 34462540000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2012-12-21",
+    "stockPrice": 37.28,
+    "numberOfShares": 634000000,
+    "marketCapitalization": 23635520000,
+    "minusCashAndCashEquivalents": 708000000,
+    "addTotalDebt": 5922000000,
+    "enterpriseValue": 28849520000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2012-09-30",
+    "stockPrice": 35.52,
+    "numberOfShares": 640000000,
+    "marketCapitalization": 22732800000,
+    "minusCashAndCashEquivalents": 947000000,
+    "addTotalDebt": 5927000000,
+    "enterpriseValue": 27712800000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2012-06-30",
+    "stockPrice": 32.78,
+    "numberOfShares": 646000000,
+    "marketCapitalization": 21175880000,
+    "minusCashAndCashEquivalents": 1888000000,
+    "addTotalDebt": 6801000000,
+    "enterpriseValue": 26088880000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2012-03-31",
+    "stockPrice": 33.91,
+    "numberOfShares": 650000000,
+    "marketCapitalization": 22041499999,
+    "minusCashAndCashEquivalents": 794000000,
+    "addTotalDebt": 5924000000,
+    "enterpriseValue": 27171499999
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2011-12-31",
+    "stockPrice": 27.14,
+    "numberOfShares": 655000000,
+    "marketCapitalization": 17776700000,
+    "minusCashAndCashEquivalents": 660000000,
+    "addTotalDebt": 5982000000,
+    "enterpriseValue": 23098700000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2011-09-30",
+    "stockPrice": 20.38,
+    "numberOfShares": 659000000,
+    "marketCapitalization": 13430420000,
+    "minusCashAndCashEquivalents": 947000000,
+    "addTotalDebt": 5991000000,
+    "enterpriseValue": 18474420000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2011-06-30",
+    "stockPrice": 28.49,
+    "numberOfShares": 669000000,
+    "marketCapitalization": 19059810000,
+    "minusCashAndCashEquivalents": 1346000000,
+    "addTotalDebt": 5995000000,
+    "enterpriseValue": 23708810000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2011-03-31",
+    "stockPrice": 25.04,
+    "numberOfShares": 674000000,
+    "marketCapitalization": 16876960000,
+    "minusCashAndCashEquivalents": 972000000,
+    "addTotalDebt": 5994000000,
+    "enterpriseValue": 21898960000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2010-12-31",
+    "stockPrice": 19.05,
+    "numberOfShares": 679500000,
+    "marketCapitalization": 12944475000,
+    "minusCashAndCashEquivalents": 480000000,
+    "addTotalDebt": 6000800000,
+    "enterpriseValue": 18465275000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2010-09-30",
+    "stockPrice": 15.86,
+    "numberOfShares": 679500000,
+    "marketCapitalization": 10776870000,
+    "minusCashAndCashEquivalents": 1072000000,
+    "addTotalDebt": 6537200000,
+    "enterpriseValue": 16242070000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2010-06-30",
+    "stockPrice": 12.93,
+    "numberOfShares": 679000000,
+    "marketCapitalization": 8779470000,
+    "minusCashAndCashEquivalents": 838100000,
+    "addTotalDebt": 6542000000,
+    "enterpriseValue": 14483370000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2010-03-31",
+    "stockPrice": 13.94,
+    "numberOfShares": 676000000,
+    "marketCapitalization": 9423440000,
+    "minusCashAndCashEquivalents": 872700000,
+    "addTotalDebt": 6970800000,
+    "enterpriseValue": 15521540000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2009-12-31",
+    "stockPrice": 14.05,
+    "numberOfShares": 674800000,
+    "marketCapitalization": 9480940000,
+    "minusCashAndCashEquivalents": 716700000,
+    "addTotalDebt": 6996900000,
+    "enterpriseValue": 15761140000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2009-09-30",
+    "stockPrice": 12.05,
+    "numberOfShares": 674800000,
+    "marketCapitalization": 8131340000,
+    "minusCashAndCashEquivalents": 473800000,
+    "addTotalDebt": 6986400000,
+    "enterpriseValue": 14643940000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2009-06-30",
+    "stockPrice": 6.92,
+    "numberOfShares": 673400000,
+    "marketCapitalization": 4659928000,
+    "minusCashAndCashEquivalents": 341500000,
+    "addTotalDebt": 6986800000,
+    "enterpriseValue": 11305228000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2009-03-31",
+    "stockPrice": 3.84,
+    "numberOfShares": 671500000,
+    "marketCapitalization": 2578560000,
+    "minusCashAndCashEquivalents": 239600000,
+    "addTotalDebt": 7131200000,
+    "enterpriseValue": 9470160000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2008-12-31",
+    "stockPrice": 8.19,
+    "numberOfShares": 670900000,
+    "marketCapitalization": 5494671000,
+    "minusCashAndCashEquivalents": 419500000,
+    "addTotalDebt": 6996100000,
+    "enterpriseValue": 12071271000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2008-09-30",
+    "stockPrice": 14.58,
+    "numberOfShares": 670900000,
+    "marketCapitalization": 9781722000,
+    "minusCashAndCashEquivalents": 553100000,
+    "addTotalDebt": 7100100000,
+    "enterpriseValue": 16328722000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2008-06-30",
+    "stockPrice": 19.49,
+    "numberOfShares": 669400000,
+    "marketCapitalization": 13046605999,
+    "minusCashAndCashEquivalents": 813900000,
+    "addTotalDebt": 7089400000,
+    "enterpriseValue": 19322105999
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2008-03-31",
+    "stockPrice": 22.08,
+    "numberOfShares": 667900000,
+    "marketCapitalization": 14747231999,
+    "minusCashAndCashEquivalents": 2258900000,
+    "addTotalDebt": 7126600000,
+    "enterpriseValue": 19614931999
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2007-12-31",
+    "stockPrice": 27.25,
+    "numberOfShares": 707100000,
+    "marketCapitalization": 19268475000,
+    "minusCashAndCashEquivalents": 1346900000,
+    "addTotalDebt": 7087700000,
+    "enterpriseValue": 25009275000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2007-09-30",
+    "stockPrice": 31.06,
+    "numberOfShares": 707100000,
+    "marketCapitalization": 21962526000,
+    "minusCashAndCashEquivalents": 1226000000,
+    "addTotalDebt": 7055700000,
+    "enterpriseValue": 27792226000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2007-06-30",
+    "stockPrice": 33.32,
+    "numberOfShares": 720800000,
+    "marketCapitalization": 24017056000,
+    "minusCashAndCashEquivalents": 2796800000,
+    "addTotalDebt": 7015300000,
+    "enterpriseValue": 28235556000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2007-03-31",
+    "stockPrice": 30.59,
+    "numberOfShares": 756700000,
+    "marketCapitalization": 23147453000,
+    "minusCashAndCashEquivalents": 3378600000,
+    "addTotalDebt": 7725300000,
+    "enterpriseValue": 27494153000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2006-12-31",
+    "stockPrice": 31.18,
+    "numberOfShares": 766000000,
+    "marketCapitalization": 23883880000,
+    "minusCashAndCashEquivalents": 3074600000,
+    "addTotalDebt": 7042300000,
+    "enterpriseValue": 27851580000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2006-09-30",
+    "stockPrice": 28.17,
+    "numberOfShares": 766000000,
+    "marketCapitalization": 21578220000,
+    "minusCashAndCashEquivalents": 3176600000,
+    "addTotalDebt": 7047800000,
+    "enterpriseValue": 25449420000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2006-06-30",
+    "stockPrice": 27.05,
+    "numberOfShares": 764600000,
+    "marketCapitalization": 20682430000,
+    "minusCashAndCashEquivalents": 3061800000,
+    "addTotalDebt": 7035700000,
+    "enterpriseValue": 24656330000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2006-03-31",
+    "stockPrice": 23.98,
+    "numberOfShares": 762800000,
+    "marketCapitalization": 18291944000,
+    "minusCashAndCashEquivalents": 1286800000,
+    "addTotalDebt": 7102700000,
+    "enterpriseValue": 24107844000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2005-12-31",
+    "stockPrice": 25.5,
+    "numberOfShares": 761200000,
+    "marketCapitalization": 19410600000,
+    "minusCashAndCashEquivalents": 1655300000,
+    "addTotalDebt": 7900300000,
+    "enterpriseValue": 25655600000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2005-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 785100000,
+    "marketCapitalization": 20962170000,
+    "minusCashAndCashEquivalents": 810800000,
+    "addTotalDebt": 10698800000,
+    "enterpriseValue": 30850170000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2005-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 800100000,
+    "marketCapitalization": 21362670000,
+    "minusCashAndCashEquivalents": 666400000,
+    "addTotalDebt": 10554700000,
+    "enterpriseValue": 31250970000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2005-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 812500000,
+    "marketCapitalization": 21693750000,
+    "minusCashAndCashEquivalents": 467400000,
+    "addTotalDebt": 9910000000,
+    "enterpriseValue": 31136350000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2004-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 838503436,
+    "marketCapitalization": 22388041741,
+    "minusCashAndCashEquivalents": 928200000,
+    "addTotalDebt": 9715000000,
+    "enterpriseValue": 31174841741
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2004-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 862850000,
+    "marketCapitalization": 23038095000,
+    "minusCashAndCashEquivalents": 2453200000,
+    "addTotalDebt": 9671400000,
+    "enterpriseValue": 30256295000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2004-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 862150000,
+    "marketCapitalization": 23019405000,
+    "minusCashAndCashEquivalents": 1713300000,
+    "addTotalDebt": 9783100000,
+    "enterpriseValue": 31089205000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2004-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 865500000,
+    "marketCapitalization": 23108850000,
+    "minusCashAndCashEquivalents": 1059300000,
+    "addTotalDebt": 9820700000,
+    "enterpriseValue": 31870250000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2003-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 872500000,
+    "marketCapitalization": 23295750000,
+    "minusCashAndCashEquivalents": 850700000,
+    "addTotalDebt": 9879500000,
+    "enterpriseValue": 32324550000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2003-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 872500000,
+    "marketCapitalization": 23295750000,
+    "minusCashAndCashEquivalents": 758900000,
+    "addTotalDebt": 10046300000,
+    "enterpriseValue": 32583150000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2003-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 873100000,
+    "marketCapitalization": 23311770000,
+    "minusCashAndCashEquivalents": 881300000,
+    "addTotalDebt": 10722100000,
+    "enterpriseValue": 33152570000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2003-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 872950000,
+    "marketCapitalization": 23307765000,
+    "minusCashAndCashEquivalents": 664100000,
+    "addTotalDebt": 10075500000,
+    "enterpriseValue": 32719165000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2002-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 876400000,
+    "marketCapitalization": 23399880000,
+    "minusCashAndCashEquivalents": 631400000,
+    "addTotalDebt": 10404200000,
+    "enterpriseValue": 33172680000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2002-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 876400000,
+    "marketCapitalization": 23399880000,
+    "minusCashAndCashEquivalents": 521000000,
+    "addTotalDebt": 10821200000,
+    "enterpriseValue": 33700080000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2002-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 878050000,
+    "marketCapitalization": 23443935000,
+    "minusCashAndCashEquivalents": 654800000,
+    "addTotalDebt": 10700500000,
+    "enterpriseValue": 33489635000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2002-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 876750000,
+    "marketCapitalization": 23409225000,
+    "minusCashAndCashEquivalents": 545300000,
+    "addTotalDebt": 10838300000,
+    "enterpriseValue": 33702225000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2001-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 879900000,
+    "marketCapitalization": 23493330000,
+    "minusCashAndCashEquivalents": 727400000,
+    "addTotalDebt": 11122700000,
+    "enterpriseValue": 33888630000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2001-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 884000000,
+    "marketCapitalization": 23602800000,
+    "minusCashAndCashEquivalents": 525300000,
+    "addTotalDebt": 11991400000,
+    "enterpriseValue": 35068900000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2001-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 884300000,
+    "marketCapitalization": 23610810000,
+    "minusCashAndCashEquivalents": 863900000,
+    "addTotalDebt": 12364500000,
+    "enterpriseValue": 35111410000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2001-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 814200000,
+    "marketCapitalization": 21739140000,
+    "minusCashAndCashEquivalents": 947800000,
+    "addTotalDebt": 13037100000,
+    "enterpriseValue": 33828440000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2000-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 735569403,
+    "marketCapitalization": 19639703060,
+    "minusCashAndCashEquivalents": 934500000,
+    "addTotalDebt": 12697700000,
+    "enterpriseValue": 31402903060
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2000-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 751850000,
+    "marketCapitalization": 20074395000,
+    "minusCashAndCashEquivalents": 992700000,
+    "addTotalDebt": 12876900000,
+    "enterpriseValue": 31958595000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2000-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 603800000,
+    "marketCapitalization": 16121460000,
+    "minusCashAndCashEquivalents": 907000000,
+    "addTotalDebt": 11506200000,
+    "enterpriseValue": 26720660000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "2000-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 347400000,
+    "marketCapitalization": 9275580000,
+    "minusCashAndCashEquivalents": 697500000,
+    "addTotalDebt": 6828200000,
+    "enterpriseValue": 15406280000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1999-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 347400000,
+    "marketCapitalization": 9275580000,
+    "minusCashAndCashEquivalents": 680800000,
+    "addTotalDebt": 5992000000,
+    "enterpriseValue": 14586780000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1999-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 348350000,
+    "marketCapitalization": 9300945000,
+    "minusCashAndCashEquivalents": 674200000,
+    "addTotalDebt": 6273000000,
+    "enterpriseValue": 14899745000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1999-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 345300000,
+    "marketCapitalization": 9219510000,
+    "minusCashAndCashEquivalents": 616000000,
+    "addTotalDebt": 6752500000,
+    "enterpriseValue": 15356010000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1999-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 348050000,
+    "marketCapitalization": 9292935000,
+    "minusCashAndCashEquivalents": 382700000,
+    "addTotalDebt": 5745100000,
+    "enterpriseValue": 14655335000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1998-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 348032778,
+    "marketCapitalization": 9292475172,
+    "minusCashAndCashEquivalents": 767300000,
+    "addTotalDebt": 4190600000,
+    "enterpriseValue": 12715775172
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1998-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 177808785,
+    "marketCapitalization": 4747494559,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4747494559
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1998-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 177808785,
+    "marketCapitalization": 4747494559,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4747494559
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1998-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 177808785,
+    "marketCapitalization": 4747494559,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4747494559
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1997-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 292300000,
+    "addTotalDebt": 7799500000,
+    "enterpriseValue": 12384739793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1997-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 218500000,
+    "addTotalDebt": 9992600000,
+    "enterpriseValue": 14651639793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1997-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 201600000,
+    "addTotalDebt": 10883000000,
+    "enterpriseValue": 15558939793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1997-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 261000000,
+    "addTotalDebt": 10818000000,
+    "enterpriseValue": 15434539793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1996-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 209000000,
+    "addTotalDebt": 9918300000,
+    "enterpriseValue": 14586839793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1996-09-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4877539793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1996-06-30",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4877539793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1996-03-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 182679393,
+    "marketCapitalization": 4877539793,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 4877539793
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1989-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 12400000,
+    "addTotalDebt": 2283200000,
+    "enterpriseValue": 2270800000
+  },
+  {
+    "symbol": "PSKY",
+    "date": "1988-12-31",
+    "stockPrice": 26.7,
+    "numberOfShares": 0,
+    "marketCapitalization": 0,
+    "minusCashAndCashEquivalents": 16400000,
+    "addTotalDebt": 2343000000,
+    "enterpriseValue": 2326600000
+  }
+]

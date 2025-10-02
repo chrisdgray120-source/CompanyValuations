@@ -1,0 +1,1202 @@
+[
+  {
+    "symbol": "BDX",
+    "date": "2025-06-30",
+    "stockPrice": 172.25,
+    "numberOfShares": 287997000,
+    "marketCapitalization": 49607483250,
+    "minusCashAndCashEquivalents": 735000000,
+    "addTotalDebt": 19341000000,
+    "enterpriseValue": 68213483250
+  },
+  {
+    "symbol": "BDX",
+    "date": "2025-03-31",
+    "stockPrice": 229.06,
+    "numberOfShares": 288411000,
+    "marketCapitalization": 66063423660,
+    "minusCashAndCashEquivalents": 747000000,
+    "addTotalDebt": 19270000000,
+    "enterpriseValue": 84586423660
+  },
+  {
+    "symbol": "BDX",
+    "date": "2024-12-31",
+    "stockPrice": 226.87,
+    "numberOfShares": 289505000,
+    "marketCapitalization": 65679999350,
+    "minusCashAndCashEquivalents": 711000000,
+    "addTotalDebt": 18758000000,
+    "enterpriseValue": 83726999350
+  },
+  {
+    "symbol": "BDX",
+    "date": "2024-09-30",
+    "stockPrice": 241.1,
+    "numberOfShares": 289607000,
+    "marketCapitalization": 69824247700,
+    "minusCashAndCashEquivalents": 1717000000,
+    "addTotalDebt": 20919000000,
+    "enterpriseValue": 89026247700
+  },
+  {
+    "symbol": "BDX",
+    "date": "2024-06-30",
+    "stockPrice": 229.27,
+    "numberOfShares": 289562000,
+    "marketCapitalization": 66387879740,
+    "minusCashAndCashEquivalents": 4487000000,
+    "addTotalDebt": 19323000000,
+    "enterpriseValue": 81223879740
+  },
+  {
+    "symbol": "BDX",
+    "date": "2024-03-31",
+    "stockPrice": 244.05,
+    "numberOfShares": 289518000,
+    "marketCapitalization": 70656867900,
+    "minusCashAndCashEquivalents": 2394000000,
+    "addTotalDebt": 18011000000,
+    "enterpriseValue": 86273867900
+  },
+  {
+    "symbol": "BDX",
+    "date": "2023-12-31",
+    "stockPrice": 243.83,
+    "numberOfShares": 290113000,
+    "marketCapitalization": 70738252790,
+    "minusCashAndCashEquivalents": 1180000000,
+    "addTotalDebt": 16110000000,
+    "enterpriseValue": 85668252790
+  },
+  {
+    "symbol": "BDX",
+    "date": "2023-09-30",
+    "stockPrice": 258.53,
+    "numberOfShares": 290590000,
+    "marketCapitalization": 75126232699,
+    "minusCashAndCashEquivalents": 1416000000,
+    "addTotalDebt": 15879000000,
+    "enterpriseValue": 89589232699
+  },
+  {
+    "symbol": "BDX",
+    "date": "2023-06-30",
+    "stockPrice": 264.01,
+    "numberOfShares": 286317000,
+    "marketCapitalization": 75590551170,
+    "minusCashAndCashEquivalents": 923000000,
+    "addTotalDebt": 16782000000,
+    "enterpriseValue": 91449551170
+  },
+  {
+    "symbol": "BDX",
+    "date": "2023-03-31",
+    "stockPrice": 247.54,
+    "numberOfShares": 284292000,
+    "marketCapitalization": 70373641680,
+    "minusCashAndCashEquivalents": 1981000000,
+    "addTotalDebt": 18224000000,
+    "enterpriseValue": 86616641680
+  },
+  {
+    "symbol": "BDX",
+    "date": "2022-12-31",
+    "stockPrice": 254.3,
+    "numberOfShares": 283887000,
+    "marketCapitalization": 72192464100,
+    "minusCashAndCashEquivalents": 612000000,
+    "addTotalDebt": 16456000000,
+    "enterpriseValue": 88036464100
+  },
+  {
+    "symbol": "BDX",
+    "date": "2022-09-30",
+    "stockPrice": 222.83,
+    "numberOfShares": 284662000,
+    "marketCapitalization": 63431233460,
+    "minusCashAndCashEquivalents": 1006000000,
+    "addTotalDebt": 16065000000,
+    "enterpriseValue": 78490233460
+  },
+  {
+    "symbol": "BDX",
+    "date": "2022-06-30",
+    "stockPrice": 246.53,
+    "numberOfShares": 285441000,
+    "marketCapitalization": 70369769730,
+    "minusCashAndCashEquivalents": 2558000000,
+    "addTotalDebt": 16365000000,
+    "enterpriseValue": 84176769730
+  },
+  {
+    "symbol": "BDX",
+    "date": "2022-03-31",
+    "stockPrice": 259.33,
+    "numberOfShares": 285243000,
+    "marketCapitalization": 73972067190,
+    "minusCashAndCashEquivalents": 3147000000,
+    "addTotalDebt": 18635000000,
+    "enterpriseValue": 89460067190
+  },
+  {
+    "symbol": "BDX",
+    "date": "2021-12-31",
+    "stockPrice": 245.18,
+    "numberOfShares": 284685000,
+    "marketCapitalization": 69799068300,
+    "minusCashAndCashEquivalents": 1903000000,
+    "addTotalDebt": 17424000000,
+    "enterpriseValue": 85320068300
+  },
+  {
+    "symbol": "BDX",
+    "date": "2021-09-30",
+    "stockPrice": 239.66,
+    "numberOfShares": 285985000,
+    "marketCapitalization": 68539165100,
+    "minusCashAndCashEquivalents": 2283000000,
+    "addTotalDebt": 17610000000,
+    "enterpriseValue": 83866165100
+  },
+  {
+    "symbol": "BDX",
+    "date": "2021-06-30",
+    "stockPrice": 237.1,
+    "numberOfShares": 289522000,
+    "marketCapitalization": 68645666200,
+    "minusCashAndCashEquivalents": 3153000000,
+    "addTotalDebt": 17733000000,
+    "enterpriseValue": 83225666200
+  },
+  {
+    "symbol": "BDX",
+    "date": "2021-03-31",
+    "stockPrice": 237.06,
+    "numberOfShares": 291095000,
+    "marketCapitalization": 69006980700,
+    "minusCashAndCashEquivalents": 3734000000,
+    "addTotalDebt": 17719000000,
+    "enterpriseValue": 82991980700
+  },
+  {
+    "symbol": "BDX",
+    "date": "2020-12-31",
+    "stockPrice": 243.95,
+    "numberOfShares": 290590000,
+    "marketCapitalization": 70889430500,
+    "minusCashAndCashEquivalents": 3248000000,
+    "addTotalDebt": 17819000000,
+    "enterpriseValue": 85460430500
+  },
+  {
+    "symbol": "BDX",
+    "date": "2020-09-30",
+    "stockPrice": 226.85,
+    "numberOfShares": 290348000,
+    "marketCapitalization": 65865443800,
+    "minusCashAndCashEquivalents": 2825000000,
+    "addTotalDebt": 17930000000,
+    "enterpriseValue": 80970443800
+  },
+  {
+    "symbol": "BDX",
+    "date": "2020-06-30",
+    "stockPrice": 233.27,
+    "numberOfShares": 282385000,
+    "marketCapitalization": 65871948950,
+    "minusCashAndCashEquivalents": 2882000000,
+    "addTotalDebt": 18720000000,
+    "enterpriseValue": 81709948950
+  },
+  {
+    "symbol": "BDX",
+    "date": "2020-03-31",
+    "stockPrice": 224.01,
+    "numberOfShares": 272014000,
+    "marketCapitalization": 60933856140,
+    "minusCashAndCashEquivalents": 2351000000,
+    "addTotalDebt": 21166000000,
+    "enterpriseValue": 79748856140
+  },
+  {
+    "symbol": "BDX",
+    "date": "2019-12-31",
+    "stockPrice": 265.15,
+    "numberOfShares": 271102000,
+    "marketCapitalization": 71882695300,
+    "minusCashAndCashEquivalents": 560000000,
+    "addTotalDebt": 19405000000,
+    "enterpriseValue": 90727695300
+  },
+  {
+    "symbol": "BDX",
+    "date": "2019-09-30",
+    "stockPrice": 246.62,
+    "numberOfShares": 270610000,
+    "marketCapitalization": 66737838200,
+    "minusCashAndCashEquivalents": 536000000,
+    "addTotalDebt": 19390000000,
+    "enterpriseValue": 85591838200
+  },
+  {
+    "symbol": "BDX",
+    "date": "2019-06-30",
+    "stockPrice": 248.17,
+    "numberOfShares": 270249000,
+    "marketCapitalization": 67067694330,
+    "minusCashAndCashEquivalents": 523000000,
+    "addTotalDebt": 20184000000,
+    "enterpriseValue": 86728694330
+  },
+  {
+    "symbol": "BDX",
+    "date": "2019-03-31",
+    "stockPrice": 245.09,
+    "numberOfShares": 257142857,
+    "marketCapitalization": 63023142822,
+    "minusCashAndCashEquivalents": 686000000,
+    "addTotalDebt": 20613000000,
+    "enterpriseValue": 82950142822
+  },
+  {
+    "symbol": "BDX",
+    "date": "2018-12-31",
+    "stockPrice": 219.67,
+    "numberOfShares": 269035000,
+    "marketCapitalization": 59098918450,
+    "minusCashAndCashEquivalents": 943000000,
+    "addTotalDebt": 21071000000,
+    "enterpriseValue": 79226918450
+  },
+  {
+    "symbol": "BDX",
+    "date": "2018-09-30",
+    "stockPrice": 257.75,
+    "numberOfShares": 268500000,
+    "marketCapitalization": 69205875000,
+    "minusCashAndCashEquivalents": 1140000000,
+    "addTotalDebt": 21495000000,
+    "enterpriseValue": 89560875000
+  },
+  {
+    "symbol": "BDX",
+    "date": "2018-06-30",
+    "stockPrice": 233.56,
+    "numberOfShares": 267836000,
+    "marketCapitalization": 62555776160,
+    "minusCashAndCashEquivalents": 1384000000,
+    "addTotalDebt": 22250000000,
+    "enterpriseValue": 83421776160
+  },
+  {
+    "symbol": "BDX",
+    "date": "2018-03-31",
+    "stockPrice": 211.27,
+    "numberOfShares": 263157894,
+    "marketCapitalization": 55597368265,
+    "minusCashAndCashEquivalents": 1251000000,
+    "addTotalDebt": 22791000000,
+    "enterpriseValue": 77137368265
+  },
+  {
+    "symbol": "BDX",
+    "date": "2017-12-31",
+    "stockPrice": 208.7,
+    "numberOfShares": 228947368,
+    "marketCapitalization": 47781315701,
+    "minusCashAndCashEquivalents": 1124000000,
+    "addTotalDebt": 22798000000,
+    "enterpriseValue": 69455315701
+  },
+  {
+    "symbol": "BDX",
+    "date": "2017-09-30",
+    "stockPrice": 191.04,
+    "numberOfShares": 228218000,
+    "marketCapitalization": 43598766720,
+    "minusCashAndCashEquivalents": 14179000000,
+    "addTotalDebt": 18870000000,
+    "enterpriseValue": 48289766720
+  },
+  {
+    "symbol": "BDX",
+    "date": "2017-06-30",
+    "stockPrice": 190.22,
+    "numberOfShares": 218666666,
+    "marketCapitalization": 41594773206,
+    "minusCashAndCashEquivalents": 13852000000,
+    "addTotalDebt": 19016000000,
+    "enterpriseValue": 46758773206
+  },
+  {
+    "symbol": "BDX",
+    "date": "2017-03-31",
+    "stockPrice": 178.84,
+    "numberOfShares": 213583000,
+    "marketCapitalization": 38197183720,
+    "minusCashAndCashEquivalents": 548000000,
+    "addTotalDebt": 10306000000,
+    "enterpriseValue": 47955183720
+  },
+  {
+    "symbol": "BDX",
+    "date": "2016-12-31",
+    "stockPrice": 161.4,
+    "numberOfShares": 213064000,
+    "marketCapitalization": 34388529600,
+    "minusCashAndCashEquivalents": 919000000,
+    "addTotalDebt": 11017000000,
+    "enterpriseValue": 44486529600
+  },
+  {
+    "symbol": "BDX",
+    "date": "2016-09-30",
+    "stockPrice": 175.23,
+    "numberOfShares": 213571000,
+    "marketCapitalization": 37424046330,
+    "minusCashAndCashEquivalents": 1541000000,
+    "addTotalDebt": 11551000000,
+    "enterpriseValue": 47434046330
+  },
+  {
+    "symbol": "BDX",
+    "date": "2016-06-30",
+    "stockPrice": 165.34,
+    "numberOfShares": 213083000,
+    "marketCapitalization": 35231143220,
+    "minusCashAndCashEquivalents": 1686000000,
+    "addTotalDebt": 11912000000,
+    "enterpriseValue": 45457143220
+  },
+  {
+    "symbol": "BDX",
+    "date": "2016-03-31",
+    "stockPrice": 148.02,
+    "numberOfShares": 212469000,
+    "marketCapitalization": 31449661380,
+    "minusCashAndCashEquivalents": 1696000000,
+    "addTotalDebt": 12515000000,
+    "enterpriseValue": 42268661380
+  },
+  {
+    "symbol": "BDX",
+    "date": "2015-12-31",
+    "stockPrice": 150.23,
+    "numberOfShares": 211689000,
+    "marketCapitalization": 31802038469,
+    "minusCashAndCashEquivalents": 1583000000,
+    "addTotalDebt": 12809000000,
+    "enterpriseValue": 43028038469
+  },
+  {
+    "symbol": "BDX",
+    "date": "2015-09-30",
+    "stockPrice": 129.34,
+    "numberOfShares": 210985000,
+    "marketCapitalization": 27288799900,
+    "minusCashAndCashEquivalents": 1424000000,
+    "addTotalDebt": 12822000000,
+    "enterpriseValue": 38686799900
+  },
+  {
+    "symbol": "BDX",
+    "date": "2015-06-30",
+    "stockPrice": 138.1,
+    "numberOfShares": 210175000,
+    "marketCapitalization": 29025167500,
+    "minusCashAndCashEquivalents": 1559000000,
+    "addTotalDebt": 13171000000,
+    "enterpriseValue": 40637167500
+  },
+  {
+    "symbol": "BDX",
+    "date": "2015-03-31",
+    "stockPrice": 139.99,
+    "numberOfShares": 196085000,
+    "marketCapitalization": 27449939150,
+    "minusCashAndCashEquivalents": 1912000000,
+    "addTotalDebt": 13838000000,
+    "enterpriseValue": 39375939150
+  },
+  {
+    "symbol": "BDX",
+    "date": "2014-12-31",
+    "stockPrice": 135.67,
+    "numberOfShares": 192844000,
+    "marketCapitalization": 26163145479,
+    "minusCashAndCashEquivalents": 8540000000,
+    "addTotalDebt": 10142000000,
+    "enterpriseValue": 27765145479
+  },
+  {
+    "symbol": "BDX",
+    "date": "2014-09-30",
+    "stockPrice": 110.96,
+    "numberOfShares": 192332000,
+    "marketCapitalization": 21341158720,
+    "minusCashAndCashEquivalents": 1861000000,
+    "addTotalDebt": 3971000000,
+    "enterpriseValue": 23451158720
+  },
+  {
+    "symbol": "BDX",
+    "date": "2014-06-30",
+    "stockPrice": 115.34,
+    "numberOfShares": 193054000,
+    "marketCapitalization": 22266848360,
+    "minusCashAndCashEquivalents": 1661000000,
+    "addTotalDebt": 3973000000,
+    "enterpriseValue": 24578848360
+  },
+  {
+    "symbol": "BDX",
+    "date": "2014-03-31",
+    "stockPrice": 114.15,
+    "numberOfShares": 193609000,
+    "marketCapitalization": 22100467350,
+    "minusCashAndCashEquivalents": 1731000000,
+    "addTotalDebt": 3966000000,
+    "enterpriseValue": 24335467350
+  },
+  {
+    "symbol": "BDX",
+    "date": "2013-12-31",
+    "stockPrice": 107.72,
+    "numberOfShares": 194203000,
+    "marketCapitalization": 20919547160,
+    "minusCashAndCashEquivalents": 1679000000,
+    "addTotalDebt": 3969000000,
+    "enterpriseValue": 23209547160
+  },
+  {
+    "symbol": "BDX",
+    "date": "2013-09-30",
+    "stockPrice": 97.51,
+    "numberOfShares": 194697000,
+    "marketCapitalization": 18984904470,
+    "minusCashAndCashEquivalents": 1890000000,
+    "addTotalDebt": 3970000000,
+    "enterpriseValue": 21064904470
+  },
+  {
+    "symbol": "BDX",
+    "date": "2013-06-30",
+    "stockPrice": 96.76,
+    "numberOfShares": 194879000,
+    "marketCapitalization": 18856492040,
+    "minusCashAndCashEquivalents": 1962086000,
+    "addTotalDebt": 3969999000,
+    "enterpriseValue": 20864405040
+  },
+  {
+    "symbol": "BDX",
+    "date": "2013-03-31",
+    "stockPrice": 93.31,
+    "numberOfShares": 194609000,
+    "marketCapitalization": 18158965790,
+    "minusCashAndCashEquivalents": 2023860000,
+    "addTotalDebt": 4169513000,
+    "enterpriseValue": 20304618790
+  },
+  {
+    "symbol": "BDX",
+    "date": "2012-12-31",
+    "stockPrice": 76.23,
+    "numberOfShares": 196427000,
+    "marketCapitalization": 14973630210,
+    "minusCashAndCashEquivalents": 1917472000,
+    "addTotalDebt": 4169835000,
+    "enterpriseValue": 17225993210
+  },
+  {
+    "symbol": "BDX",
+    "date": "2012-09-30",
+    "stockPrice": 76.97,
+    "numberOfShares": 199072000,
+    "marketCapitalization": 15322571840,
+    "minusCashAndCashEquivalents": 1671165000,
+    "addTotalDebt": 4166000000,
+    "enterpriseValue": 17817406840
+  },
+  {
+    "symbol": "BDX",
+    "date": "2012-06-30",
+    "stockPrice": 72.88,
+    "numberOfShares": 202015000,
+    "marketCapitalization": 14722853200,
+    "minusCashAndCashEquivalents": 1658719000,
+    "addTotalDebt": 4171379000,
+    "enterpriseValue": 17235513200
+  },
+  {
+    "symbol": "BDX",
+    "date": "2012-03-31",
+    "stockPrice": 75.7,
+    "numberOfShares": 206426000,
+    "marketCapitalization": 15626448200,
+    "minusCashAndCashEquivalents": 1839490000,
+    "addTotalDebt": 4170473000,
+    "enterpriseValue": 17957431200
+  },
+  {
+    "symbol": "BDX",
+    "date": "2011-12-31",
+    "stockPrice": 72.85,
+    "numberOfShares": 214300000,
+    "marketCapitalization": 15611754999,
+    "minusCashAndCashEquivalents": 2196278000,
+    "addTotalDebt": 4176088000,
+    "enterpriseValue": 17591564999
+  },
+  {
+    "symbol": "BDX",
+    "date": "2011-09-30",
+    "stockPrice": 71.48,
+    "numberOfShares": 214300000,
+    "marketCapitalization": 15318164000,
+    "minusCashAndCashEquivalents": 1175282000,
+    "addTotalDebt": 2719597000,
+    "enterpriseValue": 16862479000
+  },
+  {
+    "symbol": "BDX",
+    "date": "2011-06-30",
+    "stockPrice": 84.01,
+    "numberOfShares": 218966000,
+    "marketCapitalization": 18395333660,
+    "minusCashAndCashEquivalents": 1158037000,
+    "addTotalDebt": 2724737000,
+    "enterpriseValue": 19962033660
+  },
+  {
+    "symbol": "BDX",
+    "date": "2011-03-31",
+    "stockPrice": 77.62,
+    "numberOfShares": 220894000,
+    "marketCapitalization": 17145792280,
+    "minusCashAndCashEquivalents": 748588000,
+    "addTotalDebt": 2725599000,
+    "enterpriseValue": 19122803280
+  },
+  {
+    "symbol": "BDX",
+    "date": "2010-12-31",
+    "stockPrice": 82.4,
+    "numberOfShares": 228083000,
+    "marketCapitalization": 18794039200,
+    "minusCashAndCashEquivalents": 1249355000,
+    "addTotalDebt": 2720314000,
+    "enterpriseValue": 20264998200
+  },
+  {
+    "symbol": "BDX",
+    "date": "2010-09-30",
+    "stockPrice": 72.24,
+    "numberOfShares": 228083000,
+    "marketCapitalization": 16476715919,
+    "minusCashAndCashEquivalents": 1215989000,
+    "addTotalDebt": 1698115000,
+    "enterpriseValue": 16958841919
+  },
+  {
+    "symbol": "BDX",
+    "date": "2010-06-30",
+    "stockPrice": 65.93,
+    "numberOfShares": 233242000,
+    "marketCapitalization": 15377645060,
+    "minusCashAndCashEquivalents": 750106000,
+    "addTotalDebt": 1695621000,
+    "enterpriseValue": 16323160060
+  },
+  {
+    "symbol": "BDX",
+    "date": "2010-03-31",
+    "stockPrice": 76.76,
+    "numberOfShares": 235325000,
+    "marketCapitalization": 18063547000,
+    "minusCashAndCashEquivalents": 830688000,
+    "addTotalDebt": 1690835000,
+    "enterpriseValue": 18923694000
+  },
+  {
+    "symbol": "BDX",
+    "date": "2009-12-31",
+    "stockPrice": 76.88,
+    "numberOfShares": 237360000,
+    "marketCapitalization": 18248236800,
+    "minusCashAndCashEquivalents": 1182306000,
+    "addTotalDebt": 1693285000,
+    "enterpriseValue": 18759215800
+  },
+  {
+    "symbol": "BDX",
+    "date": "2009-09-30",
+    "stockPrice": 68,
+    "numberOfShares": 237360000,
+    "marketCapitalization": 16140480000,
+    "minusCashAndCashEquivalents": 1394244000,
+    "addTotalDebt": 1891425000,
+    "enterpriseValue": 16637661000
+  },
+  {
+    "symbol": "BDX",
+    "date": "2009-06-30",
+    "stockPrice": 69.52,
+    "numberOfShares": 240109000,
+    "marketCapitalization": 16692377679,
+    "minusCashAndCashEquivalents": 1331601000,
+    "addTotalDebt": 1889297000,
+    "enterpriseValue": 17250073679
+  },
+  {
+    "symbol": "BDX",
+    "date": "2009-03-31",
+    "stockPrice": 65.55,
+    "numberOfShares": 240239000,
+    "marketCapitalization": 15747666450,
+    "minusCashAndCashEquivalents": 542712000,
+    "addTotalDebt": 1153224000,
+    "enterpriseValue": 16358178450
+  },
+  {
+    "symbol": "BDX",
+    "date": "2008-12-31",
+    "stockPrice": 66.68,
+    "numberOfShares": 242397000,
+    "marketCapitalization": 16163031960,
+    "minusCashAndCashEquivalents": 597619000,
+    "addTotalDebt": 1156660000,
+    "enterpriseValue": 16722072960
+  },
+  {
+    "symbol": "BDX",
+    "date": "2008-09-30",
+    "stockPrice": 78.25,
+    "numberOfShares": 242397000,
+    "marketCapitalization": 18967565250,
+    "minusCashAndCashEquivalents": 830477000,
+    "addTotalDebt": 1154538000,
+    "enterpriseValue": 19291626250
+  },
+  {
+    "symbol": "BDX",
+    "date": "2008-06-30",
+    "stockPrice": 79.26,
+    "numberOfShares": 244273000,
+    "marketCapitalization": 19361077980,
+    "minusCashAndCashEquivalents": 735908000,
+    "addTotalDebt": 1159204000,
+    "enterpriseValue": 19784373980
+  },
+  {
+    "symbol": "BDX",
+    "date": "2008-03-31",
+    "stockPrice": 83.7,
+    "numberOfShares": 244411504,
+    "marketCapitalization": 20457242884,
+    "minusCashAndCashEquivalents": 560999000,
+    "addTotalDebt": 1168197000,
+    "enterpriseValue": 21064440884
+  },
+  {
+    "symbol": "BDX",
+    "date": "2007-12-31",
+    "stockPrice": 81.49,
+    "numberOfShares": 244637838,
+    "marketCapitalization": 19935537418,
+    "minusCashAndCashEquivalents": 750762000,
+    "addTotalDebt": 1165833000,
+    "enterpriseValue": 20350608418
+  },
+  {
+    "symbol": "BDX",
+    "date": "2007-09-30",
+    "stockPrice": 80.69,
+    "numberOfShares": 244637838,
+    "marketCapitalization": 19739827148,
+    "minusCashAndCashEquivalents": 511482000,
+    "addTotalDebt": 1163347000,
+    "enterpriseValue": 20391692148
+  },
+  {
+    "symbol": "BDX",
+    "date": "2007-06-30",
+    "stockPrice": 72.63,
+    "numberOfShares": 244809000,
+    "marketCapitalization": 17780477670,
+    "minusCashAndCashEquivalents": 444164000,
+    "addTotalDebt": 1158884000,
+    "enterpriseValue": 18495197670
+  },
+  {
+    "symbol": "BDX",
+    "date": "2007-03-31",
+    "stockPrice": 74.96,
+    "numberOfShares": 244982828,
+    "marketCapitalization": 18363912786,
+    "minusCashAndCashEquivalents": 409655000,
+    "addTotalDebt": 1164589000,
+    "enterpriseValue": 19118846786
+  },
+  {
+    "symbol": "BDX",
+    "date": "2006-12-31",
+    "stockPrice": 68.39,
+    "numberOfShares": 246343103,
+    "marketCapitalization": 16847404814,
+    "minusCashAndCashEquivalents": 533425000,
+    "addTotalDebt": 1161980000,
+    "enterpriseValue": 17475959814
+  },
+  {
+    "symbol": "BDX",
+    "date": "2006-09-30",
+    "stockPrice": 68.9,
+    "numberOfShares": 246343103,
+    "marketCapitalization": 16973039796,
+    "minusCashAndCashEquivalents": 1000289000,
+    "addTotalDebt": 1384189000,
+    "enterpriseValue": 17356939796
+  },
+  {
+    "symbol": "BDX",
+    "date": "2006-06-30",
+    "stockPrice": 59.6,
+    "numberOfShares": 245682143,
+    "marketCapitalization": 14642655722,
+    "minusCashAndCashEquivalents": 720995000,
+    "addTotalDebt": 1262940000,
+    "enterpriseValue": 15184600722
+  },
+  {
+    "symbol": "BDX",
+    "date": "2006-03-31",
+    "stockPrice": 60.04,
+    "numberOfShares": 248496774,
+    "marketCapitalization": 14919746310,
+    "minusCashAndCashEquivalents": 776534000,
+    "addTotalDebt": 1262537000,
+    "enterpriseValue": 15405749310
+  },
+  {
+    "symbol": "BDX",
+    "date": "2005-12-31",
+    "stockPrice": 58.57,
+    "numberOfShares": 247568182,
+    "marketCapitalization": 14500068419,
+    "minusCashAndCashEquivalents": 1168973000,
+    "addTotalDebt": 1364537000,
+    "enterpriseValue": 14695632419
+  },
+  {
+    "symbol": "BDX",
+    "date": "2005-09-30",
+    "stockPrice": 51.12,
+    "numberOfShares": 247568182,
+    "marketCapitalization": 12655685463,
+    "minusCashAndCashEquivalents": 1042890000,
+    "addTotalDebt": 1267342000,
+    "enterpriseValue": 12880137463
+  },
+  {
+    "symbol": "BDX",
+    "date": "2005-06-30",
+    "stockPrice": 51.16,
+    "numberOfShares": 252890667,
+    "marketCapitalization": 12937886523,
+    "minusCashAndCashEquivalents": 918391000,
+    "addTotalDebt": 1311016000,
+    "enterpriseValue": 13330511523
+  },
+  {
+    "symbol": "BDX",
+    "date": "2005-03-31",
+    "stockPrice": 56.96,
+    "numberOfShares": 254256757,
+    "marketCapitalization": 14482464878,
+    "minusCashAndCashEquivalents": 825497000,
+    "addTotalDebt": 1192421000,
+    "enterpriseValue": 14849388878
+  },
+  {
+    "symbol": "BDX",
+    "date": "2004-12-31",
+    "stockPrice": 55.38,
+    "numberOfShares": 249979487,
+    "marketCapitalization": 13843863990,
+    "minusCashAndCashEquivalents": 822037000,
+    "addTotalDebt": 1169604000,
+    "enterpriseValue": 14191430990
+  },
+  {
+    "symbol": "BDX",
+    "date": "2004-09-30",
+    "stockPrice": 50.4,
+    "numberOfShares": 249979487,
+    "marketCapitalization": 12598966144,
+    "minusCashAndCashEquivalents": 719378000,
+    "addTotalDebt": 1220795000,
+    "enterpriseValue": 13100383144
+  },
+  {
+    "symbol": "BDX",
+    "date": "2004-06-30",
+    "stockPrice": 50.5,
+    "numberOfShares": 253200000,
+    "marketCapitalization": 12786600000,
+    "minusCashAndCashEquivalents": 659511000,
+    "addTotalDebt": 1155236000,
+    "enterpriseValue": 13282325000
+  },
+  {
+    "symbol": "BDX",
+    "date": "2004-03-31",
+    "stockPrice": 47.27,
+    "numberOfShares": 253269231,
+    "marketCapitalization": 11972036549,
+    "minusCashAndCashEquivalents": 660469000,
+    "addTotalDebt": 1189895000,
+    "enterpriseValue": 12501462549
+  },
+  {
+    "symbol": "BDX",
+    "date": "2003-12-31",
+    "stockPrice": 40.11,
+    "numberOfShares": 249704000,
+    "marketCapitalization": 10015627440,
+    "minusCashAndCashEquivalents": 534640000,
+    "addTotalDebt": 1175427000,
+    "enterpriseValue": 10656414440
+  },
+  {
+    "symbol": "BDX",
+    "date": "2003-09-30",
+    "stockPrice": 35.21,
+    "numberOfShares": 249704000,
+    "marketCapitalization": 8792077840,
+    "minusCashAndCashEquivalents": 519886000,
+    "addTotalDebt": 1305951000,
+    "enterpriseValue": 9578142840
+  },
+  {
+    "symbol": "BDX",
+    "date": "2003-06-30",
+    "stockPrice": 37.88,
+    "numberOfShares": 253803922,
+    "marketCapitalization": 9614092565,
+    "minusCashAndCashEquivalents": 455217000,
+    "addTotalDebt": 1381689000,
+    "enterpriseValue": 10540564565
+  },
+  {
+    "symbol": "BDX",
+    "date": "2003-03-31",
+    "stockPrice": 33.58,
+    "numberOfShares": 252580357,
+    "marketCapitalization": 8481648388,
+    "minusCashAndCashEquivalents": 285471000,
+    "addTotalDebt": 1291511000,
+    "enterpriseValue": 9487688388
+  },
+  {
+    "symbol": "BDX",
+    "date": "2002-12-31",
+    "stockPrice": 29.92,
+    "numberOfShares": 256890909,
+    "marketCapitalization": 7686175997,
+    "minusCashAndCashEquivalents": 226427000,
+    "addTotalDebt": 1235049000,
+    "enterpriseValue": 8694797997
+  },
+  {
+    "symbol": "BDX",
+    "date": "2002-09-30",
+    "stockPrice": 27.69,
+    "numberOfShares": 256890909,
+    "marketCapitalization": 7113309270,
+    "minusCashAndCashEquivalents": 243115000,
+    "addTotalDebt": 1237609000,
+    "enterpriseValue": 8107803270
+  },
+  {
+    "symbol": "BDX",
+    "date": "2002-06-30",
+    "stockPrice": 32.93,
+    "numberOfShares": 258893478,
+    "marketCapitalization": 8525362230,
+    "minusCashAndCashEquivalents": 175981000,
+    "addTotalDebt": 1253433000,
+    "enterpriseValue": 9602814230
+  },
+  {
+    "symbol": "BDX",
+    "date": "2002-03-31",
+    "stockPrice": 36.04,
+    "numberOfShares": 257084000,
+    "marketCapitalization": 9265307360,
+    "minusCashAndCashEquivalents": 180127000,
+    "addTotalDebt": 1322528000,
+    "enterpriseValue": 10407708360
+  },
+  {
+    "symbol": "BDX",
+    "date": "2001-12-31",
+    "stockPrice": 32.32,
+    "numberOfShares": 260576316,
+    "marketCapitalization": 8421826533,
+    "minusCashAndCashEquivalents": 153544000,
+    "addTotalDebt": 1255677000,
+    "enterpriseValue": 9523959533
+  },
+  {
+    "symbol": "BDX",
+    "date": "2001-09-30",
+    "stockPrice": 35.78,
+    "numberOfShares": 260576316,
+    "marketCapitalization": 9323420586,
+    "minusCashAndCashEquivalents": 82129000,
+    "addTotalDebt": 1237008000,
+    "enterpriseValue": 10478299586
+  },
+  {
+    "symbol": "BDX",
+    "date": "2001-06-30",
+    "stockPrice": 34.89,
+    "numberOfShares": 258086000,
+    "marketCapitalization": 9004620540,
+    "minusCashAndCashEquivalents": 71291000,
+    "addTotalDebt": 1312053000,
+    "enterpriseValue": 10245382540
+  },
+  {
+    "symbol": "BDX",
+    "date": "2001-03-31",
+    "stockPrice": 34.43,
+    "numberOfShares": 255819565,
+    "marketCapitalization": 8807867622,
+    "minusCashAndCashEquivalents": 79926000,
+    "addTotalDebt": 1395452000,
+    "enterpriseValue": 10123393622
+  },
+  {
+    "symbol": "BDX",
+    "date": "2000-12-31",
+    "stockPrice": 33.76,
+    "numberOfShares": 254465000,
+    "marketCapitalization": 8590738400,
+    "minusCashAndCashEquivalents": 79012000,
+    "addTotalDebt": 1440184000,
+    "enterpriseValue": 9951910400
+  },
+  {
+    "symbol": "BDX",
+    "date": "2000-09-30",
+    "stockPrice": 25.77,
+    "numberOfShares": 249670833,
+    "marketCapitalization": 6434017366,
+    "minusCashAndCashEquivalents": 49196000,
+    "addTotalDebt": 1417304000,
+    "enterpriseValue": 7802125366
+  },
+  {
+    "symbol": "BDX",
+    "date": "2000-06-30",
+    "stockPrice": 27.97,
+    "numberOfShares": 252651111,
+    "marketCapitalization": 7066651574,
+    "minusCashAndCashEquivalents": 76940000,
+    "addTotalDebt": 1489022000,
+    "enterpriseValue": 8478733574
+  },
+  {
+    "symbol": "BDX",
+    "date": "2000-03-31",
+    "stockPrice": 25.65,
+    "numberOfShares": 252055000,
+    "marketCapitalization": 6465210750,
+    "minusCashAndCashEquivalents": 65064000,
+    "addTotalDebt": 1549648000,
+    "enterpriseValue": 7949794750
+  },
+  {
+    "symbol": "BDX",
+    "date": "1999-12-31",
+    "stockPrice": 26.26,
+    "numberOfShares": 248666667,
+    "marketCapitalization": 6529986675,
+    "minusCashAndCashEquivalents": 70900000,
+    "addTotalDebt": 1564700000,
+    "enterpriseValue": 8023786675
+  },
+  {
+    "symbol": "BDX",
+    "date": "1999-09-30",
+    "stockPrice": 27.36,
+    "numberOfShares": 251000000,
+    "marketCapitalization": 6867360000,
+    "minusCashAndCashEquivalents": 59900000,
+    "addTotalDebt": 1585500000,
+    "enterpriseValue": 8392960000
+  },
+  {
+    "symbol": "BDX",
+    "date": "1999-06-30",
+    "stockPrice": 29.25,
+    "numberOfShares": 248461538,
+    "marketCapitalization": 7267499986,
+    "minusCashAndCashEquivalents": 67000000,
+    "addTotalDebt": 1351800000,
+    "enterpriseValue": 8552299986
+  },
+  {
+    "symbol": "BDX",
+    "date": "1999-03-31",
+    "stockPrice": 37.35,
+    "numberOfShares": 248055556,
+    "marketCapitalization": 9264875016,
+    "minusCashAndCashEquivalents": 73900000,
+    "addTotalDebt": 1419200000,
+    "enterpriseValue": 10610175016
+  },
+  {
+    "symbol": "BDX",
+    "date": "1998-12-31",
+    "stockPrice": 41.62,
+    "numberOfShares": 251333333,
+    "marketCapitalization": 10460493319,
+    "minusCashAndCashEquivalents": 128600000,
+    "addTotalDebt": 1226500000,
+    "enterpriseValue": 11558393319
+  },
+  {
+    "symbol": "BDX",
+    "date": "1998-09-30",
+    "stockPrice": 40.09,
+    "numberOfShares": 251333333,
+    "marketCapitalization": 10075953319,
+    "minusCashAndCashEquivalents": 83300000,
+    "addTotalDebt": 1150400000,
+    "enterpriseValue": 11143053319
+  },
+  {
+    "symbol": "BDX",
+    "date": "1998-06-30",
+    "stockPrice": 37.84,
+    "numberOfShares": 270000000,
+    "marketCapitalization": 10216800000,
+    "minusCashAndCashEquivalents": 103400000,
+    "addTotalDebt": 1212800000,
+    "enterpriseValue": 11326200000
+  },
+  {
+    "symbol": "BDX",
+    "date": "1998-03-31",
+    "stockPrice": 33.18,
+    "numberOfShares": 247297297,
+    "marketCapitalization": 8205324314,
+    "minusCashAndCashEquivalents": 113100000,
+    "addTotalDebt": 1112800000,
+    "enterpriseValue": 9205024314
+  },
+  {
+    "symbol": "BDX",
+    "date": "1997-12-31",
+    "stockPrice": 24.37,
+    "numberOfShares": 244230769,
+    "marketCapitalization": 5951903840,
+    "minusCashAndCashEquivalents": 118500000,
+    "addTotalDebt": 764300000,
+    "enterpriseValue": 6597703840
+  },
+  {
+    "symbol": "BDX",
+    "date": "1997-09-30",
+    "stockPrice": 23.34,
+    "numberOfShares": 244230769,
+    "marketCapitalization": 5700346148,
+    "minusCashAndCashEquivalents": 112600000,
+    "addTotalDebt": 797800000,
+    "enterpriseValue": 6385546148
+  },
+  {
+    "symbol": "BDX",
+    "date": "1997-06-30",
+    "stockPrice": 24.68,
+    "numberOfShares": 250357143,
+    "marketCapitalization": 6178814289,
+    "minusCashAndCashEquivalents": 121000000,
+    "addTotalDebt": 827900000,
+    "enterpriseValue": 6885714289
+  },
+  {
+    "symbol": "BDX",
+    "date": "1997-04-30",
+    "stockPrice": 22.42,
+    "numberOfShares": 248181818,
+    "marketCapitalization": 5564236359,
+    "minusCashAndCashEquivalents": 151300000,
+    "addTotalDebt": 668000000,
+    "enterpriseValue": 6080936359
+  },
+  {
+    "symbol": "BDX",
+    "date": "1996-12-31",
+    "stockPrice": 21.14,
+    "numberOfShares": 248695652,
+    "marketCapitalization": 5257426083,
+    "minusCashAndCashEquivalents": 152700000,
+    "addTotalDebt": 629700000,
+    "enterpriseValue": 5734426083
+  },
+  {
+    "symbol": "BDX",
+    "date": "1996-09-30",
+    "stockPrice": 21.57,
+    "numberOfShares": 248695652,
+    "marketCapitalization": 5364365213,
+    "minusCashAndCashEquivalents": 135200000,
+    "addTotalDebt": 695600000,
+    "enterpriseValue": 5924765213
+  },
+  {
+    "symbol": "BDX",
+    "date": "1996-06-30",
+    "stockPrice": 19.53,
+    "numberOfShares": 263448276,
+    "marketCapitalization": 5145144830,
+    "minusCashAndCashEquivalents": 187800000,
+    "addTotalDebt": 799100000,
+    "enterpriseValue": 5756444830
+  },
+  {
+    "symbol": "BDX",
+    "date": "1996-03-31",
+    "stockPrice": 19.99,
+    "numberOfShares": 263928571,
+    "marketCapitalization": 5275932134,
+    "minusCashAndCashEquivalents": 156600000,
+    "addTotalDebt": 750600000,
+    "enterpriseValue": 5869932134
+  },
+  {
+    "symbol": "BDX",
+    "date": "1995-12-31",
+    "stockPrice": 18.28,
+    "numberOfShares": 256470588,
+    "marketCapitalization": 4688282348,
+    "minusCashAndCashEquivalents": 199200000,
+    "addTotalDebt": 778500000,
+    "enterpriseValue": 5267582348
+  },
+  {
+    "symbol": "BDX",
+    "date": "1995-09-30",
+    "stockPrice": 15.32,
+    "numberOfShares": 256470588,
+    "marketCapitalization": 3929129408,
+    "minusCashAndCashEquivalents": 198500000,
+    "addTotalDebt": 763400000,
+    "enterpriseValue": 4494029408
+  }
+]

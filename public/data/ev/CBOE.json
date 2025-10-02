@@ -1,0 +1,662 @@
+[
+  {
+    "symbol": "CBOE",
+    "date": "2025-06-30",
+    "stockPrice": 233.21,
+    "numberOfShares": 104700000,
+    "marketCapitalization": 24417087000,
+    "minusCashAndCashEquivalents": 1288400000,
+    "addTotalDebt": 1600800000,
+    "enterpriseValue": 24729487000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2025-03-31",
+    "stockPrice": 226.29,
+    "numberOfShares": 104700000,
+    "marketCapitalization": 23692563000,
+    "minusCashAndCashEquivalents": 1047200000,
+    "addTotalDebt": 1603600000,
+    "enterpriseValue": 24248963000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2024-12-31",
+    "stockPrice": 195.4,
+    "numberOfShares": 104800000,
+    "marketCapitalization": 20477920000,
+    "minusCashAndCashEquivalents": 920300000,
+    "addTotalDebt": 1599300000,
+    "enterpriseValue": 21156920000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2024-09-30",
+    "stockPrice": 204.87,
+    "numberOfShares": 104700000,
+    "marketCapitalization": 21449889000,
+    "minusCashAndCashEquivalents": 763200000,
+    "addTotalDebt": 1584500000,
+    "enterpriseValue": 22271189000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2024-06-30",
+    "stockPrice": 171.92,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 18206328000,
+    "minusCashAndCashEquivalents": 619800000,
+    "addTotalDebt": 1588000000,
+    "enterpriseValue": 19174528000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2024-03-31",
+    "stockPrice": 181.87,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 19260033000,
+    "minusCashAndCashEquivalents": 541200000,
+    "addTotalDebt": 1604900000,
+    "enterpriseValue": 20323733000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2023-12-31",
+    "stockPrice": 178.56,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 18909504000,
+    "minusCashAndCashEquivalents": 548300000,
+    "addTotalDebt": 1610800000,
+    "enterpriseValue": 19972004000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2023-09-30",
+    "stockPrice": 156.21,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 16542639000,
+    "minusCashAndCashEquivalents": 403100000,
+    "addTotalDebt": 1660500000,
+    "enterpriseValue": 17800039000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2023-06-30",
+    "stockPrice": 138.01,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 14615258999,
+    "minusCashAndCashEquivalents": 413600000,
+    "addTotalDebt": 1726600000,
+    "enterpriseValue": 15928258999
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2023-03-31",
+    "stockPrice": 134.24,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 14216016000,
+    "minusCashAndCashEquivalents": 435600000,
+    "addTotalDebt": 1869500000,
+    "enterpriseValue": 15649916000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2022-12-31",
+    "stockPrice": 125.47,
+    "numberOfShares": 106200000,
+    "marketCapitalization": 13324914000,
+    "minusCashAndCashEquivalents": 432700000,
+    "addTotalDebt": 1871300000,
+    "enterpriseValue": 14763514000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2022-09-30",
+    "stockPrice": 117.37,
+    "numberOfShares": 106200000,
+    "marketCapitalization": 12464694000,
+    "minusCashAndCashEquivalents": 353300000,
+    "addTotalDebt": 1991600000,
+    "enterpriseValue": 14102994000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2022-06-30",
+    "stockPrice": 113.19,
+    "numberOfShares": 106300000,
+    "marketCapitalization": 12032097000,
+    "minusCashAndCashEquivalents": 373300000,
+    "addTotalDebt": 2098600000,
+    "enterpriseValue": 13757397000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2022-03-31",
+    "stockPrice": 114.42,
+    "numberOfShares": 106600000,
+    "marketCapitalization": 12197172000,
+    "minusCashAndCashEquivalents": 659400000,
+    "addTotalDebt": 1734900000,
+    "enterpriseValue": 13272672000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2021-12-31",
+    "stockPrice": 130.4,
+    "numberOfShares": 106800000,
+    "marketCapitalization": 13926720000,
+    "minusCashAndCashEquivalents": 341900000,
+    "addTotalDebt": 1428500000,
+    "enterpriseValue": 15013320000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2021-09-30",
+    "stockPrice": 123.86,
+    "numberOfShares": 106800000,
+    "marketCapitalization": 13228248000,
+    "minusCashAndCashEquivalents": 392400000,
+    "addTotalDebt": 1431800000,
+    "enterpriseValue": 14267648000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2021-06-30",
+    "stockPrice": 119.05,
+    "numberOfShares": 106800000,
+    "marketCapitalization": 12714540000,
+    "minusCashAndCashEquivalents": 450900000,
+    "addTotalDebt": 1432500000,
+    "enterpriseValue": 13696140000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2021-03-31",
+    "stockPrice": 98.69,
+    "numberOfShares": 107300000,
+    "marketCapitalization": 10589437000,
+    "minusCashAndCashEquivalents": 263300000,
+    "addTotalDebt": 1316900000,
+    "enterpriseValue": 11643037000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2020-12-31",
+    "stockPrice": 93.12,
+    "numberOfShares": 107900000,
+    "marketCapitalization": 10047648000,
+    "minusCashAndCashEquivalents": 245400000,
+    "addTotalDebt": 1336000000,
+    "enterpriseValue": 11138248000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2020-09-30",
+    "stockPrice": 87.74,
+    "numberOfShares": 108700000,
+    "marketCapitalization": 9537338000,
+    "minusCashAndCashEquivalents": 212700000,
+    "addTotalDebt": 1074700000,
+    "enterpriseValue": 10399338000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2020-06-30",
+    "stockPrice": 93.28,
+    "numberOfShares": 109500000,
+    "marketCapitalization": 10214160000,
+    "minusCashAndCashEquivalents": 210100000,
+    "addTotalDebt": 1005900000,
+    "enterpriseValue": 11009960000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2020-03-31",
+    "stockPrice": 89.25,
+    "numberOfShares": 110400000,
+    "marketCapitalization": 9853200000,
+    "minusCashAndCashEquivalents": 165200000,
+    "addTotalDebt": 996400000,
+    "enterpriseValue": 10684400000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2019-12-31",
+    "stockPrice": 120,
+    "numberOfShares": 110900000,
+    "marketCapitalization": 13308000000,
+    "minusCashAndCashEquivalents": 229300000,
+    "addTotalDebt": 914300000,
+    "enterpriseValue": 13993000000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2019-09-30",
+    "stockPrice": 114.91,
+    "numberOfShares": 111600000,
+    "marketCapitalization": 12823956000,
+    "minusCashAndCashEquivalents": 150000000,
+    "addTotalDebt": 914500000,
+    "enterpriseValue": 13588456000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2019-06-30",
+    "stockPrice": 106.7,
+    "numberOfShares": 111500000,
+    "marketCapitalization": 11897050000,
+    "minusCashAndCashEquivalents": 161300000,
+    "addTotalDebt": 963500000,
+    "enterpriseValue": 12699250000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2019-03-31",
+    "stockPrice": 96.83,
+    "numberOfShares": 111500000,
+    "marketCapitalization": 10796545000,
+    "minusCashAndCashEquivalents": 346200000,
+    "addTotalDebt": 1266100000,
+    "enterpriseValue": 11716445000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2018-12-31",
+    "stockPrice": 97.83,
+    "numberOfShares": 111300000,
+    "marketCapitalization": 10888479000,
+    "minusCashAndCashEquivalents": 275100000,
+    "addTotalDebt": 1215400000,
+    "enterpriseValue": 11828779000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2018-09-30",
+    "stockPrice": 97.03,
+    "numberOfShares": 111400000,
+    "marketCapitalization": 10809142000,
+    "minusCashAndCashEquivalents": 136800000,
+    "addTotalDebt": 1214700000,
+    "enterpriseValue": 11887042000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2018-06-30",
+    "stockPrice": 104.07,
+    "numberOfShares": 112000000,
+    "marketCapitalization": 11655840000,
+    "minusCashAndCashEquivalents": 140000000,
+    "addTotalDebt": 1214100000,
+    "enterpriseValue": 12729940000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2018-03-31",
+    "stockPrice": 114.1,
+    "numberOfShares": 112400000,
+    "marketCapitalization": 12824840000,
+    "minusCashAndCashEquivalents": 166300000,
+    "addTotalDebt": 1213400000,
+    "enterpriseValue": 13871940000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2017-12-31",
+    "stockPrice": 124.59,
+    "numberOfShares": 112300000,
+    "marketCapitalization": 13991457000,
+    "minusCashAndCashEquivalents": 143500000,
+    "addTotalDebt": 1237900000,
+    "enterpriseValue": 15085857000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2017-09-30",
+    "stockPrice": 107.63,
+    "numberOfShares": 112300000,
+    "marketCapitalization": 12086849000,
+    "minusCashAndCashEquivalents": 124800000,
+    "addTotalDebt": 1312400000,
+    "enterpriseValue": 13274449000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2017-06-30",
+    "stockPrice": 91.4,
+    "numberOfShares": 112100000,
+    "marketCapitalization": 10245940000,
+    "minusCashAndCashEquivalents": 148600000,
+    "addTotalDebt": 1411300000,
+    "enterpriseValue": 11508640000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2017-03-31",
+    "stockPrice": 81.07,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 8585312999,
+    "minusCashAndCashEquivalents": 153300000,
+    "addTotalDebt": 1486700000,
+    "enterpriseValue": 9918712999
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2016-12-31",
+    "stockPrice": 73.89,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 7824951000,
+    "minusCashAndCashEquivalents": 97298000,
+    "addTotalDebt": 1843000,
+    "enterpriseValue": 7729496000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2016-09-30",
+    "stockPrice": 64.85,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6867614999,
+    "minusCashAndCashEquivalents": 72759000,
+    "addTotalDebt": 1922000,
+    "enterpriseValue": 6796777999
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2016-06-30",
+    "stockPrice": 66.62,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 7055058000,
+    "minusCashAndCashEquivalents": 52193000,
+    "addTotalDebt": 1902000,
+    "enterpriseValue": 7004767000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2016-03-31",
+    "stockPrice": 65.33,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6918447000,
+    "minusCashAndCashEquivalents": 107482000,
+    "addTotalDebt": 1881000,
+    "enterpriseValue": 6812846000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2015-12-31",
+    "stockPrice": 64.9,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6872910000,
+    "minusCashAndCashEquivalents": 102253000,
+    "addTotalDebt": 1896000,
+    "enterpriseValue": 6772553000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2015-09-30",
+    "stockPrice": 67.08,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 7103772000,
+    "minusCashAndCashEquivalents": 121678000,
+    "addTotalDebt": 1976000000,
+    "enterpriseValue": 8958094000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2015-06-30",
+    "stockPrice": 57.22,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6059598000,
+    "minusCashAndCashEquivalents": 89634000,
+    "addTotalDebt": 1957000000,
+    "enterpriseValue": 7926964000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2015-03-31",
+    "stockPrice": 57.41,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6079719000,
+    "minusCashAndCashEquivalents": 137558000,
+    "addTotalDebt": 1938000,
+    "enterpriseValue": 5944099000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2014-12-31",
+    "stockPrice": 63.42,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 6716178000,
+    "minusCashAndCashEquivalents": 147927000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 6568251000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2014-09-30",
+    "stockPrice": 53.53,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 5668827000,
+    "minusCashAndCashEquivalents": 126519000,
+    "addTotalDebt": 1694000000,
+    "enterpriseValue": 7236308000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2014-06-30",
+    "stockPrice": 49.21,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 5211339000,
+    "minusCashAndCashEquivalents": 145111000,
+    "addTotalDebt": 1674000000,
+    "enterpriseValue": 6740228000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2014-03-31",
+    "stockPrice": 56.6,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 5993940000,
+    "minusCashAndCashEquivalents": 199065000,
+    "addTotalDebt": 1654000,
+    "enterpriseValue": 5796529000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2013-12-31",
+    "stockPrice": 51.96,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 5502564000,
+    "minusCashAndCashEquivalents": 221341000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 5281223000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2013-09-30",
+    "stockPrice": 45.23,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 4789857000,
+    "minusCashAndCashEquivalents": 226378000,
+    "addTotalDebt": 2216000000,
+    "enterpriseValue": 6779479000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2013-06-30",
+    "stockPrice": 47.39,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 5018601000,
+    "minusCashAndCashEquivalents": 207766000,
+    "addTotalDebt": 2195000000,
+    "enterpriseValue": 7005835000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2013-03-31",
+    "stockPrice": 36.71,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3887589000,
+    "minusCashAndCashEquivalents": 210486000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3677103000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2012-12-31",
+    "stockPrice": 29.46,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3119814000,
+    "minusCashAndCashEquivalents": 135597000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2984217000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2012-09-30",
+    "stockPrice": 29.56,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3130404000,
+    "minusCashAndCashEquivalents": 160281000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2970123000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2012-06-30",
+    "stockPrice": 27.68,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2931312000,
+    "minusCashAndCashEquivalents": 127137000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2804175000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2012-03-31",
+    "stockPrice": 28.42,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3009678000,
+    "minusCashAndCashEquivalents": 148629000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2861049000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2011-12-31",
+    "stockPrice": 25.86,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2738574000,
+    "minusCashAndCashEquivalents": 134936000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2603638000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2011-09-30",
+    "stockPrice": 24.47,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2591373000,
+    "minusCashAndCashEquivalents": 147220000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2444153000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2011-06-29",
+    "stockPrice": 24.39,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2582901000,
+    "minusCashAndCashEquivalents": 106545000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2476356000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2011-03-31",
+    "stockPrice": 28.97,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3067923000,
+    "minusCashAndCashEquivalents": 115689000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2952234000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2010-12-31",
+    "stockPrice": 22.86,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2420874000,
+    "minusCashAndCashEquivalents": 53789000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 2367085000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2010-09-30",
+    "stockPrice": 20.2,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 2139180000,
+    "minusCashAndCashEquivalents": 322936000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 1816244000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2010-06-30",
+    "stockPrice": 32.55,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3447044999,
+    "minusCashAndCashEquivalents": 324066000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3122978999
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2010-03-31",
+    "stockPrice": 32.49,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3440691000,
+    "minusCashAndCashEquivalents": 439497000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3001194000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2009-12-31",
+    "stockPrice": 32.49,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3440691000,
+    "minusCashAndCashEquivalents": 383730000,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3056961000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2009-09-30",
+    "stockPrice": 32.49,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3440691000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3440691000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2009-06-30",
+    "stockPrice": 32.49,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3440691000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3440691000
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2009-03-31",
+    "stockPrice": 32.49,
+    "numberOfShares": 105900000,
+    "marketCapitalization": 3440691000,
+    "minusCashAndCashEquivalents": 0,
+    "addTotalDebt": 0,
+    "enterpriseValue": 3440691000
+  }
+]
