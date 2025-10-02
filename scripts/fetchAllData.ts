@@ -68,8 +68,7 @@ async function saveCheckpoint(index: number) {
 async function fetchCoreForTicker(ticker: string) {
   try {
     // Profile
-    const profileFile = `public/data/profiles/${ticker}.json`;
-    if (!fs.existsSync(profileFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=${apiKey}`;
       const arr = await fetchJSON(url);
       const profile = arr[0] || {};
@@ -77,32 +76,28 @@ async function fetchCoreForTicker(ticker: string) {
     }
 
     // Historical Prices
-    const histFile = `public/data/historical/${ticker}.json`;
-    if (!fs.existsSync(histFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/historical-price-full/${ticker}?serietype=line&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/historical", `${ticker}.json`, data);
     }
 
     // Quarterly Fundamentals
-    const fundFile = `public/data/fundamentals/${ticker}.json`;
-    if (!fs.existsSync(fundFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/income-statement/${ticker}?period=quarter&limit=120&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/fundamentals", `${ticker}.json`, data);
     }
 
     // Annual Fundamentals
-    const fundAnnualFile = `public/data/fundamentals/${ticker}_annual.json`;
-    if (!fs.existsSync(fundAnnualFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/income-statement/${ticker}?period=annual&limit=40&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/fundamentals", `${ticker}_annual.json`, data);
     }
 
     // Balance Sheet
-    const balanceFile = `public/data/balance/${ticker}.json`;
-    if (!fs.existsSync(balanceFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/balance-sheet-statement/${ticker}?period=quarter&limit=120&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/balance", `${ticker}.json`, data);
@@ -119,19 +114,31 @@ async function fetchCoreForTicker(ticker: string) {
 async function fetchExtraForTicker(ticker: string) {
   try {
     // Enterprise Values
-    const evFile = `public/data/ev/${ticker}.json`;
-    if (!fs.existsSync(evFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/enterprise-values/${ticker}?period=quarter&limit=120&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/ev", `${ticker}.json`, data);
     }
 
     // Ratios
-    const ratioFile = `public/data/ratios/${ticker}.json`;
-    if (!fs.existsSync(ratioFile)) {
+    {
       const url = `https://financialmodelingprep.com/api/v3/ratios/${ticker}?period=quarter&limit=120&apikey=${apiKey}`;
       const data = await fetchJSON(url);
       await saveJSON("public/data/ratios", `${ticker}.json`, data);
+    }
+
+    // Earnings Calendar
+    {
+      const url = `https://financialmodelingprep.com/api/v3/historical/earning_calendar/${ticker}?limit=40&apikey=${apiKey}`;
+      const data = await fetchJSON(url);
+      await saveJSON("public/data/events/earnings", `${ticker}.json`, data);
+    }
+
+    // Dividends
+    {
+      const url = `https://financialmodelingprep.com/api/v3/historical-price-full/stock_dividend/${ticker}?apikey=${apiKey}`;
+      const data = await fetchJSON(url);
+      await saveJSON("public/data/events/dividends", `${ticker}.json`, data);
     }
 
     return true;
@@ -167,7 +174,7 @@ async function run() {
   await saveCheckpoint(0);
 
   // Pass 2: extra data
-  console.log("\n=== Pass 2: Extra Data (EV, ratios) ===\n");
+  console.log("\n=== Pass 2: Extra Data (EV, ratios, earnings, dividends) ===\n");
   for (let i = 0; i < tickers.length; i += BATCH_SIZE) {
     const batch = tickers.slice(i, i + BATCH_SIZE);
     console.log(`\n📦 Batch ${i + 1} – ${i + batch.length}...`);
@@ -182,4 +189,11 @@ async function run() {
   await fsp.unlink(checkpointFile).catch(() => {});
 }
 
-run();
+//run();
+
+// Temporary manual test
+for (const [i, ticker] of tickers.entries()) {
+  console.log(`[${i + 1}/${tickers.length}] Fetching extras for ${ticker}...`);
+  await fetchExtraForTicker(ticker);
+  await delay(8000); // 8s pause like your main script
+}

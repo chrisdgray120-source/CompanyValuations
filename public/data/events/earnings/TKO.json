@@ -1,0 +1,233 @@
+[
+  {
+    "date": "2026-05-06",
+    "symbol": "TKO",
+    "eps": null,
+    "epsEstimated": null,
+    "time": "amc",
+    "revenue": null,
+    "revenueEstimated": null,
+    "updatedFromDate": "2025-10-02",
+    "fiscalDateEnding": "2026-03-30"
+  },
+  {
+    "date": "2026-02-24",
+    "symbol": "TKO",
+    "eps": null,
+    "epsEstimated": null,
+    "time": "amc",
+    "revenue": null,
+    "revenueEstimated": null,
+    "updatedFromDate": "2025-10-02",
+    "fiscalDateEnding": "2025-12-30"
+  },
+  {
+    "date": "2025-11-05",
+    "symbol": "TKO",
+    "eps": null,
+    "epsEstimated": 0.58,
+    "time": "bmo",
+    "revenue": null,
+    "revenueEstimated": 1125600860,
+    "updatedFromDate": "2025-10-02",
+    "fiscalDateEnding": "2025-09-30"
+  },
+  {
+    "date": "2025-08-06",
+    "symbol": "TKO",
+    "eps": 1.17,
+    "epsEstimated": 1.16,
+    "time": "amc",
+    "revenue": 1308442000,
+    "revenueEstimated": 1230497201,
+    "updatedFromDate": "2025-10-02",
+    "fiscalDateEnding": "2025-06-30"
+  },
+  {
+    "date": "2025-05-08",
+    "symbol": "TKO",
+    "eps": 0.69,
+    "epsEstimated": 0.609,
+    "time": "amc",
+    "revenue": 1268800000,
+    "revenueEstimated": 876050281,
+    "updatedFromDate": "2025-08-08",
+    "fiscalDateEnding": "2025-03-31"
+  },
+  {
+    "date": "2025-02-26",
+    "symbol": "TKO",
+    "eps": 0.35,
+    "epsEstimated": 0.16,
+    "time": "amc",
+    "revenue": 642196000,
+    "revenueEstimated": 605553851,
+    "updatedFromDate": "2025-05-23",
+    "fiscalDateEnding": "2024-12-31"
+  },
+  {
+    "date": "2024-11-06",
+    "symbol": "TKO",
+    "eps": 0.53,
+    "epsEstimated": 0.517,
+    "time": "amc",
+    "revenue": 681273000,
+    "revenueEstimated": 665122883,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2024-09-30"
+  },
+  {
+    "date": "2024-08-08",
+    "symbol": "TKO",
+    "eps": 0.72,
+    "epsEstimated": 0.87,
+    "time": "bmo",
+    "revenue": 851161000,
+    "revenueEstimated": 771543744,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2024-06-30"
+  },
+  {
+    "date": "2024-05-08",
+    "symbol": "TKO",
+    "eps": 2.14,
+    "epsEstimated": 0.4247,
+    "time": "amc",
+    "revenue": 629711000,
+    "revenueEstimated": 611953131,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2024-03-31"
+  },
+  {
+    "date": "2024-02-27",
+    "symbol": "TKO",
+    "eps": -0.09,
+    "epsEstimated": 0.5,
+    "time": "amc",
+    "revenue": 614000000,
+    "revenueEstimated": 623292452,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2023-12-31"
+  },
+  {
+    "date": "2023-11-07",
+    "symbol": "TKO",
+    "eps": 0.52,
+    "epsEstimated": 0.26,
+    "time": "amc",
+    "revenue": 449100000,
+    "revenueEstimated": 647071806,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2023-09-30"
+  },
+  {
+    "date": "2023-08-02",
+    "symbol": "TKO",
+    "eps": 0.91,
+    "epsEstimated": 0.91,
+    "time": "amc",
+    "revenue": 305185000,
+    "revenueEstimated": 397588889,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2023-06-30"
+  },
+  {
+    "date": "2023-03-30",
+    "symbol": "TKO",
+    "eps": 1.05,
+    "epsEstimated": 0.4191,
+    "time": "amc",
+    "revenue": 306730000,
+    "revenueEstimated": 291466976,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2023-03-31"
+  },
+  {
+    "date": "2022-12-30",
+    "symbol": "TKO",
+    "eps": 0.771,
+    "epsEstimated": 0.588,
+    "time": "amc",
+    "revenue": 271771000,
+    "revenueEstimated": 333773200,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2022-12-31"
+  },
+  {
+    "date": "2022-09-29",
+    "symbol": "TKO",
+    "eps": 1.55,
+    "epsEstimated": 0.503,
+    "time": "amc",
+    "revenue": 340699000,
+    "revenueEstimated": 283111111,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2022-09-30"
+  },
+  {
+    "date": "2022-06-29",
+    "symbol": "TKO",
+    "eps": 1.07,
+    "epsEstimated": 0.567,
+    "time": "amc",
+    "revenue": 268058000,
+    "revenueEstimated": 324433333,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2022-06-30"
+  },
+  {
+    "date": "2022-03-30",
+    "symbol": "TKO",
+    "eps": 1.15,
+    "epsEstimated": 0.655,
+    "time": "amc",
+    "revenue": 259619000,
+    "revenueEstimated": 324933333,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2022-03-31"
+  },
+  {
+    "date": "2021-12-29",
+    "symbol": "TKO",
+    "eps": 0.727,
+    "epsEstimated": null,
+    "time": "amc",
+    "revenue": 310257000,
+    "revenueEstimated": null,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2021-12-31"
+  },
+  {
+    "date": "2021-09-28",
+    "symbol": "TKO",
+    "eps": 0.516,
+    "epsEstimated": 0.537,
+    "time": "amc",
+    "revenue": 255853000,
+    "revenueEstimated": 325108544,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2021-09-30"
+  },
+  {
+    "date": "2021-06-28",
+    "symbol": "TKO",
+    "eps": 0.3417,
+    "epsEstimated": null,
+    "time": "amc",
+    "revenue": 265540000,
+    "revenueEstimated": null,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2021-06-30"
+  },
+  {
+    "date": "2021-03-29",
+    "symbol": "TKO",
+    "eps": 0.512,
+    "epsEstimated": null,
+    "time": "amc",
+    "revenue": 263524000,
+    "revenueEstimated": null,
+    "updatedFromDate": "2025-04-25",
+    "fiscalDateEnding": "2021-03-31"
+  }
+]

@@ -1,32 +1,36 @@
 import { NextResponse } from "next/server";
 
-export async function GET(
-  req: Request,
-  context: { params: Promise<{ ticker: string }> }
-) {
-  const { ticker } = await context.params; // ✅ await params
-  const upperTicker = ticker.toUpperCase().replace(/^\$/, ""); // strip leading $
+const CACHE: Record<string, { data: any; timestamp: number }> = {};
+const CACHE_TTL = 30 * 1000; // 30 seconds
 
-  const { searchParams } = new URL(req.url);
-  const max = searchParams.get("max");
-  const url = max
-    ? `https://api.stocktwits.com/api/2/streams/symbol/${upperTicker}.json?max=${max}`
-    : `https://api.stocktwits.com/api/2/streams/symbol/${upperTicker}.json`;
+export async function GET(
+  _req: Request,
+  { params }: { params: { ticker: string } }
+) {
+  const { ticker } = params;
+  const now = Date.now();
+
+  // return cached if not expired
+  if (CACHE[ticker] && now - CACHE[ticker].timestamp < CACHE_TTL) {
+    return NextResponse.json(CACHE[ticker].data);
+  }
 
   try {
-    const r = await fetch(url, { cache: "no-store" });
-    if (!r.ok) {
-      return NextResponse.json({ messages: [] }, { status: r.status });
-    }
-    const data = await r.json();
-    return NextResponse.json(
-      {
-        messages: data.messages ?? [],
-        cursor: data.cursor ?? null,
-      },
-      { status: 200 }
+    const resp = await fetch(
+      `https://api.stocktwits.com/api/2/streams/symbol/${ticker}.json`
     );
-  } catch {
-    return NextResponse.json({ messages: [], cursor: null }, { status: 200 });
+    if (!resp.ok) {
+      return NextResponse.json({ error: "Failed to fetch" }, { status: resp.status });
+    }
+
+    const data = await resp.json();
+
+    // cache it
+    CACHE[ticker] = { data, timestamp: now };
+
+    return NextResponse.json(data);
+  } catch (err) {
+    console.error("Stocktwits fetch failed:", err);
+    return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }

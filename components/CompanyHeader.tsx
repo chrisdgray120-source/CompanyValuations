@@ -22,7 +22,7 @@ export default function CompanyHeader({ ticker, profile, ytdChange }: Props) {
           }}
         />
         <h1 className="text-2xl font-bold text-gray-900">
-          {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
+          {profile?.companyName ?? ticker} ({ticker})
         </h1>
 
         {/* 🔹 YTD badge */}

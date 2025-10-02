@@ -15,6 +15,10 @@ import FundamentalsChart from "@/components/FundamentalsChart";
 import PriceChart from "@/components/PriceChart";
 import CompanyHeader from "@/components/CompanyHeader";
 import QuoteBox from "@/components/QuoteBox";
+import StocktwitsFeed from "@/components/StocktwitsFeed";
+import NewsFeed from "@/components/NewsFeed";
+import FinancialsTableToggle from "@/components/FinancialsTableToggle";
+
 
 function formatNumber(num: number | null) {
   if (!num) return "-";
@@ -156,6 +160,10 @@ fetch(`/data/profiles/${ticker}.json`)
 {/* 🔹 Quote Data*/}
 <QuoteBox quote={quote} profile={profile} ticker={ticker} formatNumber={formatNumber} />
 
+        {/* 🔹 Ad placeholder */}
+        <div className="bg-gray-100 text-center py-6 rounded-lg border">
+          <p className="text-gray-500">Ad Space</p>
+        </div>
 
 {/* 🔹 Price Chart with SMA */}
 <PriceChart
@@ -187,16 +195,24 @@ fetch(`/data/profiles/${ticker}.json`)
         {/* 🔹 Fundamentals Chart */}
         <FundamentalsChart ticker={ticker} />
 
+{/* New toggleable version (annual/quarterly) */}
+<FinancialsTableToggle ticker={ticker} />
+
         {/* 🔹 Ad placeholder */}
         <div className="bg-gray-100 text-center py-6 rounded-lg border">
           <p className="text-gray-500">Ad Space</p>
         </div>
 
-        {/* 🔹 Financials Table */}
-        {financials && <FinancialsTable data={financials} />}
+<NewsFeed ticker={ticker} />
 
-        {/* 🔹 Stocktwits Feed */}
-        {/* (keep your existing Stocktwits code here) */}
+{/* 🔹 Stocktwits Feed */}
+<StocktwitsFeed
+  feed={feed}
+  cursor={cursor}
+  onLoadMore={loadMore}
+  loadingMore={loadingMore}
+/>
+
 
       </div>
     </main>

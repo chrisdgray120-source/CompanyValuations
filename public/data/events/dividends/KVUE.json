@@ -1,0 +1,86 @@
+{
+  "symbol": "KVUE",
+  "historical": [
+    {
+      "date": "2025-08-13",
+      "label": "August 13, 25",
+      "adjDividend": 0.2075,
+      "dividend": 0.2075,
+      "recordDate": "2025-08-13",
+      "paymentDate": "2025-08-27",
+      "declarationDate": "2025-07-30"
+    },
+    {
+      "date": "2025-05-14",
+      "label": "May 14, 25",
+      "adjDividend": 0.205,
+      "dividend": 0.205,
+      "recordDate": "2025-05-14",
+      "paymentDate": "2025-05-28",
+      "declarationDate": "2025-04-16"
+    },
+    {
+      "date": "2025-02-12",
+      "label": "February 12, 25",
+      "adjDividend": 0.205,
+      "dividend": 0.205,
+      "recordDate": "2025-02-12",
+      "paymentDate": "2025-02-26",
+      "declarationDate": "2025-01-16"
+    },
+    {
+      "date": "2024-11-13",
+      "label": "November 13, 24",
+      "adjDividend": 0.205,
+      "dividend": 0.205,
+      "recordDate": "2024-11-13",
+      "paymentDate": "2024-11-27",
+      "declarationDate": "2024-10-17"
+    },
+    {
+      "date": "2024-08-14",
+      "label": "August 14, 24",
+      "adjDividend": 0.205,
+      "dividend": 0.205,
+      "recordDate": "2024-08-14",
+      "paymentDate": "2024-08-28",
+      "declarationDate": "2024-07-25"
+    },
+    {
+      "date": "2024-05-07",
+      "label": "May 07, 24",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2024-05-08",
+      "paymentDate": "2024-05-22",
+      "declarationDate": "2024-04-25"
+    },
+    {
+      "date": "2024-02-13",
+      "label": "February 13, 24",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2024-02-14",
+      "paymentDate": "2024-02-28",
+      "declarationDate": "2024-01-25"
+    },
+    {
+      "date": "2023-11-07",
+      "label": "November 07, 23",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2023-12-08",
+      "paymentDate": "2023-11-22",
+      "declarationDate": "2023-10-26"
+    },
+    {
+      "date": "2023-08-25",
+      "label": "August 25, 23",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2023-08-28",
+      "paymentDate": "2023-09-07",
+      "declarationDate": "2023-07-20"
+    }
+  ]
+}
