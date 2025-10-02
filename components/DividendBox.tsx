@@ -157,7 +157,7 @@ export default function DividendBox({ ticker }: { ticker: string }) {
             </thead>
             <tbody>
               {past.map((d, i) => (
-                <tr key={`past-${i}`} className="border-t">
+                <tr key={`past-${i}`} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="py-1 pr-2">{d.date}</td>
                   <td className="py-1 px-2 text-right">
                     {d.paymentDate ?? "-"}

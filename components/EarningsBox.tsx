@@ -73,7 +73,7 @@ export default function EarningsBox({ ticker }: { ticker: string }) {
             </thead>
             <tbody>
               {upcoming.slice(0, 3).map((d, i) => (
-                <tr key={i} className="border-t">
+                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="py-1 pr-2">{d.date}</td>
                   <td className="py-1 px-2 text-right">
                     {d.epsEstimated != null ? d.epsEstimated.toFixed(2) : "-"}
