@@ -12,6 +12,9 @@ import {
   CartesianGrid,
 } from "recharts";
 import FundamentalsChart from "@/components/FundamentalsChart";
+import PriceChart from "@/components/PriceChart";
+import CompanyHeader from "@/components/CompanyHeader";
+import QuoteBox from "@/components/QuoteBox";
 
 function formatNumber(num: number | null) {
   if (!num) return "-";
@@ -33,6 +36,30 @@ function calculateSMA(data: any[], period: number) {
   });
 }
 
+// 🔹 Helper: Calculate YTD % change (safe for IPOs / missing data)
+function calculateYTD(data: any[]) {
+  if (!data.length) return null;
+
+  const year = new Date().getFullYear();
+  const latest = data[data.length - 1];
+
+  // find the first data point in the current year
+  const startOfYear = data.find((d) => d.date.startsWith(`${year}-`));
+
+  if (!latest?.close || !startOfYear?.close) {
+    return null; // no valid data → hide badge
+  }
+
+  const change = ((latest.close - startOfYear.close) / startOfYear.close) * 100;
+
+  // sanity check: avoid NaN or extreme garbage values
+  if (!isFinite(change)) return null;
+
+  return change;
+}
+
+
+
 export default function CompanyClient({ ticker }: { ticker: string }) {
   const [profile, setProfile] = useState<any | null>(null);
   const [quote, setQuote] = useState<any | null>(null);
@@ -45,6 +72,7 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   const [cursor, setCursor] = useState<any | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [financials, setFinancials] = useState<any | null>(null);
+  const ytdChange = calculateYTD(chartData);
 
   // 🔹 Filter timeframe
   function filterData(data: any[]) {
@@ -124,144 +152,23 @@ fetch(`/data/profiles/${ticker}.json`)
       <div className="max-w-6xl mx-auto space-y-6">
 
         {/* 🔹 Title + logo */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-3">
-          <div className="flex items-center space-x-3">
-            <img
-              src={`/logos/${ticker}.png`}
-              alt={`${profile?.companyName ?? ticker} logo`}
-              className="w-10 h-10 rounded"
-              onError={(e) => {
-                (e.currentTarget as HTMLImageElement).src = "/logos/_fallback.png";
-              }}
-            />
-            <h1 className="text-2xl font-bold text-gray-900">
-              {profile?.companyName ?? ticker} ({ticker}) — Market Cap &amp; Valuation
-            </h1>
-          </div>
-        </div>
+<CompanyHeader ticker={ticker} profile={profile} ytdChange={ytdChange} />
+{/* 🔹 Quote Data*/}
+<QuoteBox quote={quote} profile={profile} ticker={ticker} formatNumber={formatNumber} />
 
-        {/* 🔹 Quote + Company Profile */}
-        <div className="bg-white shadow rounded-xl p-6 mb-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* Left = Quote */}
-            <div>
-              {quote ? (
-                <>
-                  <p className="mb-2">
-                    <strong>Price:</strong>{" "}
-                    {quote?.price != null ? `$${quote.price.toFixed(2)}` : "-"}
-                  </p>
-                  <p
-                    className={`mb-2 font-medium ${
-                      quote?.change != null && quote.change >= 0
-                        ? "text-green-600"
-                        : "text-red-600"
-                    }`}
-                  >
-                    {quote?.change != null && quote?.changePercent != null ? (
-                      <>
-                        {quote.change >= 0 ? "▲" : "▼"} {quote.change.toFixed(2)} (
-                        {quote.changePercent.toFixed(2)}%)
-                      </>
-                    ) : (
-                      "-"
-                    )}
-                  </p>
-                  <p className="mb-2">
-                    <strong>Market Cap:</strong>{" "}
-                    {quote?.marketCap ? formatNumber(quote.marketCap) : "-"}
-                  </p>
-                  <p className="mb-2">
-                    <strong>Day Range:</strong>{" "}
-                    {quote?.dayLow != null && quote?.dayHigh != null
-                      ? `${quote.dayLow} – ${quote.dayHigh}`
-                      : "-"}
-                  </p>
-                  <p className="mb-2">
-                    <strong>52W Range:</strong>{" "}
-                    {quote?.yearLow != null && quote?.yearHigh != null
-                      ? `${quote.yearLow} – ${quote.yearHigh}`
-                      : "-"}
-                  </p>
-                  <p className="mb-2">
-                    <strong>Volume:</strong>{" "}
-                    {quote?.volume ? quote.volume.toLocaleString() : "-"}
-                  </p>
-                  <p className="text-xs text-gray-500 mt-2">
-                    {quote?.exchange ?? "-"} · delayed at{" "}
-                    {quote?.timestamp
-                      ? new Date(quote.timestamp * 1000).toLocaleString()
-                      : "N/A"}
-                  </p>
-                </>
-              ) : (
-                <p className="text-gray-500">No quote data available.</p>
-              )}
-            </div>
-
-            {/* Right = Profile (static) */}
-            <div className="text-sm space-y-2">
-              {profile?.ceo && (
-                <p>
-                  <strong>CEO:</strong> {profile.ceo}
-                </p>
-              )}
-              {profile?.fullTimeEmployees && (
-                <p>
-                  <strong>Employees:</strong> {profile.fullTimeEmployees}
-                </p>
-              )}
-              {profile?.sector && (
-                <p>
-                  <strong>Sector:</strong> {profile.sector}
-                </p>
-              )}
-              {profile?.industry && (
-                <p>
-                  <strong>Industry:</strong> {profile.industry}
-                </p>
-              )}
-              {profile?.sharesOutstanding && (
-                <p>
-                  <strong>Shares Outstanding:</strong>{" "}
-                  {profile.sharesOutstanding.toLocaleString()}
-                </p>
-              )}
-              {profile?.ipoDate && (
-                <p>
-                  <strong>IPO Date:</strong>{" "}
-                  {new Date(profile.ipoDate).toLocaleDateString()}
-                </p>
-              )}
-              {profile?.earningsAnnouncement && (
-                <p>
-                  <strong>Earnings Date:</strong>{" "}
-                  {new Date(profile.earningsAnnouncement).toLocaleDateString()}
-                </p>
-              )}
-              {profile?.website && (
-                <p>
-                  <strong>Website:</strong>{" "}
-                  <a
-                    href={profile.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
-                  >
-                    {profile.website}
-                  </a>
-                </p>
-              )}
-              {profile?.address && (
-                <p>
-                  <strong>HQ:</strong> {profile.address}, {profile.city},{" "}
-                  {profile.state}, {profile.country}
-                </p>
-              )}
-            </div>
-          </div>
-        </div>
+{/* 🔹 Price Chart with SMA */}
+<PriceChart
+  chartData={filteredChartData}
+  timeframe={timeframe}
+  setTimeframe={setTimeframe}
+  showSMA20={showSMA20}
+  setShowSMA20={setShowSMA20}
+  showSMA50={showSMA50}
+  setShowSMA50={setShowSMA50}
+  showSMA200={showSMA200}
+  setShowSMA200={setShowSMA200}
+/>
 
         {/* 🔹 About */}
         <div className="bg-white shadow rounded-xl p-6">
@@ -273,149 +180,7 @@ fetch(`/data/profiles/${ticker}.json`)
           </p>
         </div>
 
-{/* 🔹 Price Chart with SMA */}
-<div className="bg-white shadow rounded-xl p-6">
-  <h2 className="text-lg font-semibold mb-2">Price Chart</h2>
 
-  {/* Timeframe + SMA buttons */}
-  <div className="flex gap-2 mb-3 flex-wrap">
-    {["1M", "6M", "1Y", "MAX"].map((tf) => (
-      <button
-        key={tf}
-        onClick={() => setTimeframe(tf)}
-        className={`px-3 py-1 rounded ${
-          timeframe === tf ? "bg-blue-600 text-white" : "bg-gray-200"
-        }`}
-      >
-        {tf}
-      </button>
-    ))}
-    <button
-      onClick={() => setShowSMA20(!showSMA20)}
-      className={`px-3 py-1 rounded ${
-        showSMA20 ? "bg-yellow-400 text-black" : "bg-gray-200"
-      }`}
-    >
-      20 SMA
-    </button>
-    <button
-      onClick={() => setShowSMA50(!showSMA50)}
-      className={`px-3 py-1 rounded ${
-        showSMA50 ? "bg-green-600 text-white" : "bg-gray-200"
-      }`}
-    >
-      50 SMA
-    </button>
-    <button
-      onClick={() => setShowSMA200(!showSMA200)}
-      className={`px-3 py-1 rounded ${
-        showSMA200 ? "bg-red-600 text-white" : "bg-gray-200"
-      }`}
-    >
-      200 SMA
-    </button>
-  </div>
-
-  {chartData.length > 0 ? (
-    <div className="w-full h-[480px] bg-gray-50 rounded-xl p-3">
-      <ResponsiveContainer width="100%" height="100%">
-        <ComposedChart data={filteredChartData}>
-          <defs>
-            <linearGradient id="priceGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#2563eb" stopOpacity={0.3} />
-              <stop offset="100%" stopColor="#2563eb" stopOpacity={0} />
-            </linearGradient>
-          </defs>
-
-          <XAxis
-            dataKey="date"
-            stroke="#17191dff"
-            tick={{ fontSize: 12, fill: "#17191dff" }}
-            tickFormatter={(d) =>
-              new Date(d).toLocaleDateString("en-US", {
-                month: "short",
-                year: "2-digit",
-              })
-            }
-          />
-          <YAxis
-            domain={["auto", "auto"]}
-            stroke="#17191dff"
-            tick={{ fontSize: 12, fill: "#17191dff" }}
-            tickFormatter={(v) => `$${v.toFixed(0)}`}
-          />
-          <CartesianGrid stroke="#e5e7eb" strokeDasharray="3 3" />
-
-          <Tooltip
-            contentStyle={{
-              backgroundColor: "#fff",
-              border: "1px solid #e5e7eb",
-              borderRadius: "0.5rem",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
-              color: "#17191dff",
-            }}
-            labelStyle={{ fontWeight: "600", color: "#17191dff" }}
-            formatter={(value: number, name: string) => {
-              const labels: Record<string, string> = {
-                close: "Close Price",
-                sma20: "20 SMA",
-                sma50: "50 SMA",
-                sma200: "200 SMA",
-              };
-              const label = labels[name] || name;
-              return [`$${value.toFixed(2)}`, label];
-            }}
-          />
-
-          {/* 🔹 Area under price */}
-          <Area
-            type="monotone"
-            dataKey="close"
-            stroke="none"
-            fill="url(#priceGradient)"
-          />
-
-          {/* 🔹 Price line */}
-          <Line
-            type="monotone"
-            dataKey="close"
-            stroke="#2563eb"
-            dot={false}
-            strokeWidth={2}
-          />
-
-          {/* 🔹 SMA lines */}
-          <Line
-            type="monotone"
-            dataKey="sma20"
-            stroke="#facc15" // yellow
-            dot={false}
-            strokeWidth={1.5}
-            hide={!showSMA20}
-          />
-          <Line
-            type="monotone"
-            dataKey="sma50"
-            stroke="#10b981" // green
-            dot={false}
-            strokeWidth={1.5}
-            hide={!showSMA50}
-          />
-          <Line
-            type="monotone"
-            dataKey="sma200"
-            stroke="#ef4444" // red
-            dot={false}
-            strokeWidth={1.5}
-            hide={!showSMA200}
-          />
-        </ComposedChart>
-      </ResponsiveContainer>
-    </div>
-  ) : (
-    <p className="text-gray-400">No chart data available.</p>
-  )}
-</div>
 
         
 
