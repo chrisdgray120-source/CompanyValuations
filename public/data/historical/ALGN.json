@@ -2,6 +2,10 @@
   "symbol": "ALGN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 128.7
+    },
+    {
       "date": "2025-10-01",
       "close": 127.52
     },

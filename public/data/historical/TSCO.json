@@ -2,6 +2,10 @@
   "symbol": "TSCO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 56.23
+    },
+    {
       "date": "2025-10-01",
       "close": 55.92
     },

@@ -2,6 +2,10 @@
   "symbol": "JBL",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 215.69
+    },
+    {
       "date": "2025-10-01",
       "close": 214.84
     },

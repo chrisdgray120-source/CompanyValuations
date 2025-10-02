@@ -2,6 +2,10 @@
   "symbol": "BRK-B",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 495.92
+    },
+    {
       "date": "2025-10-01",
       "close": 498.2
     },

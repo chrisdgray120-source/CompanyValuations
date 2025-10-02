@@ -2,6 +2,10 @@
   "symbol": "TER",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 144.53
+    },
+    {
       "date": "2025-10-01",
       "close": 141.12
     },

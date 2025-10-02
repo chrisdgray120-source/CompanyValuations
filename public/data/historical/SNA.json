@@ -2,6 +2,10 @@
   "symbol": "SNA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 349.13
+    },
+    {
       "date": "2025-10-01",
       "close": 345.24
     },

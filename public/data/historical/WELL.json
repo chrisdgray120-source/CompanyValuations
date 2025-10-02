@@ -2,6 +2,10 @@
   "symbol": "WELL",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 175.5
+    },
+    {
       "date": "2025-10-01",
       "close": 179.38
     },

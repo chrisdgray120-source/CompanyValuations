@@ -2,6 +2,10 @@
   "symbol": "AXP",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 330.48
+    },
+    {
       "date": "2025-10-01",
       "close": 328.56
     },

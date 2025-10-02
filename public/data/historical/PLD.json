@@ -2,6 +2,10 @@
   "symbol": "PLD",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 116.12
+    },
+    {
       "date": "2025-10-01",
       "close": 116.48
     },

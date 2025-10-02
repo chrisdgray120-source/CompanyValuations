@@ -2,6 +2,10 @@
   "symbol": "UAL",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 94.83
+    },
+    {
       "date": "2025-10-01",
       "close": 93.15
     },

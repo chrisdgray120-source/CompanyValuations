@@ -2,6 +2,10 @@
   "symbol": "DHR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 210.33
+    },
+    {
       "date": "2025-10-01",
       "close": 212.88
     },

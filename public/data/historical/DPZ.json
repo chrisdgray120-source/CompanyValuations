@@ -2,6 +2,10 @@
   "symbol": "DPZ",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 431.24
+    },
+    {
       "date": "2025-10-01",
       "close": 428.16
     },

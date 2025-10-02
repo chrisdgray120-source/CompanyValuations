@@ -2,6 +2,10 @@
   "symbol": "STX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 254.74
+    },
+    {
       "date": "2025-10-01",
       "close": 256.84
     },

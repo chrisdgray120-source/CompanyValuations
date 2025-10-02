@@ -2,6 +2,10 @@
   "symbol": "RMD",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 276.64
+    },
+    {
       "date": "2025-10-01",
       "close": 270.85
     },

@@ -1,0 +1,59 @@
+{
+  "symbol": "GOOG",
+  "historical": [
+    {
+      "date": "2025-09-08",
+      "label": "September 08, 25",
+      "adjDividend": 0.21,
+      "dividend": 0.21,
+      "recordDate": "2025-09-08",
+      "paymentDate": "2025-09-15",
+      "declarationDate": "2025-07-21"
+    },
+    {
+      "date": "2025-06-09",
+      "label": "June 09, 25",
+      "adjDividend": 0.21,
+      "dividend": 0.21,
+      "recordDate": "2025-06-09",
+      "paymentDate": "2025-06-16",
+      "declarationDate": "2025-04-23"
+    },
+    {
+      "date": "2025-03-10",
+      "label": "March 10, 25",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2025-03-10",
+      "paymentDate": "2025-03-17",
+      "declarationDate": "2025-02-04"
+    },
+    {
+      "date": "2024-12-09",
+      "label": "December 09, 24",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2024-12-09",
+      "paymentDate": "2024-12-16",
+      "declarationDate": "2024-10-28"
+    },
+    {
+      "date": "2024-09-09",
+      "label": "September 09, 24",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2024-09-09",
+      "paymentDate": "2024-09-16",
+      "declarationDate": "2024-07-17"
+    },
+    {
+      "date": "2024-06-10",
+      "label": "June 10, 24",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2024-06-10",
+      "paymentDate": "2024-06-17",
+      "declarationDate": "2024-04-25"
+    }
+  ]
+}

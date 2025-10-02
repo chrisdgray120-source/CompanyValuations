@@ -2,6 +2,10 @@
   "symbol": "FTNT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 86.29
+    },
+    {
       "date": "2025-10-01",
       "close": 85.18
     },

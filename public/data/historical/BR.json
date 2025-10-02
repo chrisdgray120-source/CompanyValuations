@@ -2,6 +2,10 @@
   "symbol": "BR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 233.69
+    },
+    {
       "date": "2025-10-01",
       "close": 234.6
     },

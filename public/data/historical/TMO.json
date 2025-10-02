@@ -2,6 +2,10 @@
   "symbol": "TMO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 524.96
+    },
+    {
       "date": "2025-10-01",
       "close": 530.73
     },

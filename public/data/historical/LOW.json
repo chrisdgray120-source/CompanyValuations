@@ -2,6 +2,10 @@
   "symbol": "LOW",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 247.33
+    },
+    {
       "date": "2025-10-01",
       "close": 247.99
     },

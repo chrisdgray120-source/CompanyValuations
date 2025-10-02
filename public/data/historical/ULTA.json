@@ -2,6 +2,10 @@
   "symbol": "ULTA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 557.82
+    },
+    {
       "date": "2025-10-01",
       "close": 556.04
     },

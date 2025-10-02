@@ -2,6 +2,10 @@
   "symbol": "BDX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 191.6
+    },
+    {
       "date": "2025-10-01",
       "close": 190.94
     },

@@ -2,6 +2,10 @@
   "symbol": "MTCH",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 34.76
+    },
+    {
       "date": "2025-10-01",
       "close": 34.63
     },

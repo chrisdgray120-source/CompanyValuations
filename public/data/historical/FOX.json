@@ -2,6 +2,10 @@
   "symbol": "FOX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 55.88
+    },
+    {
       "date": "2025-10-01",
       "close": 55.95
     },

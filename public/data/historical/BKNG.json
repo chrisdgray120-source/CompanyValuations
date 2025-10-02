@@ -2,6 +2,10 @@
   "symbol": "BKNG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 5424.55
+    },
+    {
       "date": "2025-10-01",
       "close": 5350.56
     },

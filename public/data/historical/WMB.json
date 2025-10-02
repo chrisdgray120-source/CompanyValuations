@@ -2,6 +2,10 @@
   "symbol": "WMB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 64.06
+    },
+    {
       "date": "2025-10-01",
       "close": 63.69
     },

@@ -2,6 +2,10 @@
   "symbol": "ATO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 168.85
+    },
+    {
       "date": "2025-10-01",
       "close": 169.38
     },

@@ -2,6 +2,10 @@
   "symbol": "NEE",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 78.18
+    },
+    {
       "date": "2025-10-01",
       "close": 78.67
     },

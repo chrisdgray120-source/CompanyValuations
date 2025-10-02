@@ -2,6 +2,10 @@
   "symbol": "MTB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 195.63
+    },
+    {
       "date": "2025-10-01",
       "close": 195.29
     },

@@ -2,6 +2,10 @@
   "symbol": "WRB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 76.18
+    },
+    {
       "date": "2025-10-01",
       "close": 75.41
     },

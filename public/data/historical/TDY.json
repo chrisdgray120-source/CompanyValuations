@@ -2,6 +2,10 @@
   "symbol": "TDY",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 582.17
+    },
+    {
       "date": "2025-10-01",
       "close": 575.07
     },

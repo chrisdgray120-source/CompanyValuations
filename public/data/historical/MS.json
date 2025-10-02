@@ -2,6 +2,10 @@
   "symbol": "MS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 155.3
+    },
+    {
       "date": "2025-10-01",
       "close": 156.89
     },

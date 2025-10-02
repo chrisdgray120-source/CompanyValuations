@@ -2,6 +2,10 @@
   "symbol": "KMX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 46.07
+    },
+    {
       "date": "2025-10-01",
       "close": 46.04
     },

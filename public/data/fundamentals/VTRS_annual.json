@@ -44,8 +44,8 @@
     "symbol": "VTRS",
     "reportedCurrency": "USD",
     "cik": "0001792044",
-    "fillingDate": "2024-02-27",
-    "acceptedDate": "2024-02-26 19:00:00",
+    "fillingDate": "2024-02-28",
+    "acceptedDate": "2024-02-28 16:15:49",
     "calendarYear": "2023",
     "period": "FY",
     "revenue": 15426900000,
@@ -76,7 +76,7 @@
     "epsdiluted": 0.0453,
     "weightedAverageShsOut": 1200300000,
     "weightedAverageShsOutDil": 1206900000,
-    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/0001792044-24-000008-index.html",
+    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/0001792044-24-000008-index.htm",
     "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/vtrs-20231231.htm"
   },
   {
@@ -84,8 +84,8 @@
     "symbol": "VTRS",
     "reportedCurrency": "USD",
     "cik": "0001792044",
-    "fillingDate": "2023-04-28",
-    "acceptedDate": "2023-04-28 16:35:22",
+    "fillingDate": "2023-02-27",
+    "acceptedDate": "2023-02-27 16:06:58",
     "calendarYear": "2022",
     "period": "FY",
     "revenue": 16262700000,
@@ -116,16 +116,16 @@
     "epsdiluted": 1.71,
     "weightedAverageShsOut": 1212100000,
     "weightedAverageShsOutDil": 1217400000,
-    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000119312523127172/0001193125-23-127172-index.htm",
-    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000119312523127172/d487324d10ka.htm"
+    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204423000008/0001792044-23-000008-index.htm",
+    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000179204423000008/vtrs-20221231.htm"
   },
   {
     "date": "2021-12-31",
     "symbol": "VTRS",
     "reportedCurrency": "USD",
     "cik": "0001792044",
-    "fillingDate": "2022-04-29",
-    "acceptedDate": "2022-04-29 17:04:22",
+    "fillingDate": "2022-02-28",
+    "acceptedDate": "2022-02-28 16:10:26",
     "calendarYear": "2021",
     "period": "FY",
     "revenue": 17886300000,
@@ -156,8 +156,8 @@
     "epsdiluted": -1.05,
     "weightedAverageShsOut": 1208800000,
     "weightedAverageShsOutDil": 1208800000,
-    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000119312522134158/0001193125-22-134158-index.htm",
-    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000119312522134158/d307200d10ka.htm"
+    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204422000010/0001792044-22-000010-index.htm",
+    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000179204422000010/vtrs-20211231.htm"
   },
   {
     "date": "2020-12-31",

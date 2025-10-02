@@ -2,6 +2,10 @@
   "symbol": "LYV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 156.67
+    },
+    {
       "date": "2025-10-01",
       "close": 158.88
     },

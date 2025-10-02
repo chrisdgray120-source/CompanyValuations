@@ -2,6 +2,10 @@
   "symbol": "TFC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 45.36
+    },
+    {
       "date": "2025-10-01",
       "close": 45.57
     },

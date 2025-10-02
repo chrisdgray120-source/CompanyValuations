@@ -2,6 +2,10 @@
   "symbol": "PNW",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 87.89
+    },
+    {
       "date": "2025-10-01",
       "close": 88.18
     },

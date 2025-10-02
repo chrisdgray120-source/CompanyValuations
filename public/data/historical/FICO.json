@@ -2,6 +2,10 @@
   "symbol": "FICO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 1784.065
+    },
+    {
       "date": "2025-10-01",
       "close": 1512.71
     },

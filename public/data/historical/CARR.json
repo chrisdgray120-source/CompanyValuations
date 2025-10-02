@@ -2,6 +2,10 @@
   "symbol": "CARR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 58.9
+    },
+    {
       "date": "2025-10-01",
       "close": 59.46
     },

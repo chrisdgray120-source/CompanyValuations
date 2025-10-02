@@ -2,6 +2,10 @@
   "symbol": "AON",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 360.73
+    },
+    {
       "date": "2025-10-01",
       "close": 360.13
     },

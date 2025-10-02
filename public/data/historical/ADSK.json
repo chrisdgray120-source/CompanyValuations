@@ -2,6 +2,10 @@
   "symbol": "ADSK",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 320.91
+    },
+    {
       "date": "2025-10-01",
       "close": 315.73
     },

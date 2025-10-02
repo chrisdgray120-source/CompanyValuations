@@ -2,6 +2,10 @@
   "symbol": "EW",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 76.65
+    },
+    {
       "date": "2025-10-01",
       "close": 76.31
     },

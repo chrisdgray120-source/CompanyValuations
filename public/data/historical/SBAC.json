@@ -2,6 +2,10 @@
   "symbol": "SBAC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 191.7
+    },
+    {
       "date": "2025-10-01",
       "close": 191.79
     },

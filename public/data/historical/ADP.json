@@ -2,6 +2,10 @@
   "symbol": "ADP",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 289.87
+    },
+    {
       "date": "2025-10-01",
       "close": 291.61
     },

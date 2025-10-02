@@ -2,6 +2,10 @@
   "symbol": "PWR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 420.86
+    },
+    {
       "date": "2025-10-01",
       "close": 420.65
     },

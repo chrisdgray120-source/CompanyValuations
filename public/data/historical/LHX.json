@@ -2,6 +2,10 @@
   "symbol": "LHX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 296.1
+    },
+    {
       "date": "2025-10-01",
       "close": 300.47
     },

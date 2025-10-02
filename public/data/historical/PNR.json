@@ -2,6 +2,10 @@
   "symbol": "PNR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 112.36
+    },
+    {
       "date": "2025-10-01",
       "close": 110.5
     },

@@ -2,6 +2,10 @@
   "symbol": "ALB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 87.61
+    },
+    {
       "date": "2025-10-01",
       "close": 84.47
     },

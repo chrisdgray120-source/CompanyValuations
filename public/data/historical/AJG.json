@@ -2,6 +2,10 @@
   "symbol": "AJG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 308.67
+    },
+    {
       "date": "2025-10-01",
       "close": 305.84
     },

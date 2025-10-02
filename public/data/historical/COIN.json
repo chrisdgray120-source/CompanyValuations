@@ -2,6 +2,10 @@
   "symbol": "COIN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 372.07
+    },
+    {
       "date": "2025-10-01",
       "close": 346.17
     },

@@ -1,0 +1,14 @@
+{
+  "symbol": "MNST",
+  "historical": [
+    {
+      "date": "1990-11-08",
+      "label": "November 08, 90",
+      "adjDividend": 0.005208,
+      "dividend": 0.5,
+      "recordDate": "1990-11-07",
+      "paymentDate": "1990-12-21",
+      "declarationDate": "1990-11-07"
+    }
+  ]
+}

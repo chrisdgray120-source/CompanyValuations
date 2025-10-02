@@ -2,6 +2,10 @@
   "symbol": "VTR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 69.59
+    },
+    {
       "date": "2025-10-01",
       "close": 70.32
     },

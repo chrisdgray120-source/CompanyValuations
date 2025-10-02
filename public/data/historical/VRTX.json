@@ -2,6 +2,10 @@
   "symbol": "VRTX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 408.85
+    },
+    {
       "date": "2025-10-01",
       "close": 404.21
     },

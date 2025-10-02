@@ -2,6 +2,10 @@
   "symbol": "TSLA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 436
+    },
+    {
       "date": "2025-10-01",
       "close": 459.46
     },

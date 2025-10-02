@@ -2,6 +2,10 @@
   "symbol": "DOV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 166.75
+    },
+    {
       "date": "2025-10-01",
       "close": 166.4
     },

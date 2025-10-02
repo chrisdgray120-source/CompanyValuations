@@ -2,6 +2,10 @@
   "symbol": "SOLV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 74.6
+    },
+    {
       "date": "2025-10-01",
       "close": 73.04
     },

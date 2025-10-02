@@ -2,6 +2,10 @@
   "symbol": "FIS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 66.45
+    },
+    {
       "date": "2025-10-01",
       "close": 66.51
     },

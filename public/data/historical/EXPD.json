@@ -2,6 +2,10 @@
   "symbol": "EXPD",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 123.06
+    },
+    {
       "date": "2025-10-01",
       "close": 121.53
     },

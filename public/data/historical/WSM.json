@@ -2,6 +2,10 @@
   "symbol": "WSM",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 196.14
+    },
+    {
       "date": "2025-10-01",
       "close": 195.3
     },

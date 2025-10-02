@@ -2,6 +2,10 @@
   "symbol": "PSA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 289.16
+    },
+    {
       "date": "2025-10-01",
       "close": 290.68
     },

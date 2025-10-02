@@ -2,6 +2,10 @@
   "symbol": "AMGN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 297.4
+    },
+    {
       "date": "2025-10-01",
       "close": 298.5
     },

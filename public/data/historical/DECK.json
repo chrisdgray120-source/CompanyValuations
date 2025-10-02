@@ -2,6 +2,10 @@
   "symbol": "DECK",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 103.8
+    },
+    {
       "date": "2025-10-01",
       "close": 101.18
     },

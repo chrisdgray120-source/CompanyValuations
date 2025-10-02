@@ -1,0 +1,68 @@
+{
+  "symbol": "CRM",
+  "historical": [
+    {
+      "date": "2025-09-17",
+      "label": "September 17, 25",
+      "adjDividend": 0.416,
+      "dividend": 0.416,
+      "recordDate": "2025-09-17",
+      "paymentDate": "2025-10-09",
+      "declarationDate": "2025-09-04"
+    },
+    {
+      "date": "2025-06-18",
+      "label": "June 18, 25",
+      "adjDividend": 0.416,
+      "dividend": 0.416,
+      "recordDate": "2025-06-18",
+      "paymentDate": "2025-07-10",
+      "declarationDate": "2025-06-05"
+    },
+    {
+      "date": "2025-04-10",
+      "label": "April 10, 25",
+      "adjDividend": 0.416,
+      "dividend": 0.416,
+      "recordDate": "2025-04-10",
+      "paymentDate": "2025-04-24",
+      "declarationDate": "2025-03-27"
+    },
+    {
+      "date": "2024-12-18",
+      "label": "December 18, 24",
+      "adjDividend": 0.4,
+      "dividend": 0.4,
+      "recordDate": "2024-12-18",
+      "paymentDate": "2025-01-09",
+      "declarationDate": "2024-12-05"
+    },
+    {
+      "date": "2024-09-18",
+      "label": "September 18, 24",
+      "adjDividend": 0.4,
+      "dividend": 0.4,
+      "recordDate": "2024-09-18",
+      "paymentDate": "2024-10-08",
+      "declarationDate": "2024-09-05"
+    },
+    {
+      "date": "2024-07-09",
+      "label": "July 09, 24",
+      "adjDividend": 0.4,
+      "dividend": 0.4,
+      "recordDate": "2024-07-09",
+      "paymentDate": "2024-07-25",
+      "declarationDate": "2024-06-27"
+    },
+    {
+      "date": "2024-03-13",
+      "label": "March 13, 24",
+      "adjDividend": 0.4,
+      "dividend": 0.4,
+      "recordDate": "2024-03-14",
+      "paymentDate": "2024-04-11",
+      "declarationDate": "2024-02-28"
+    }
+  ]
+}

@@ -2,6 +2,10 @@
   "symbol": "AEE",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 102.92
+    },
+    {
       "date": "2025-10-01",
       "close": 103.43
     },

@@ -2,6 +2,10 @@
   "symbol": "IBKR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 70.95
+    },
+    {
       "date": "2025-10-01",
       "close": 68.78
     },

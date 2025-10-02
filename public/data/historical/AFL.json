@@ -2,6 +2,10 @@
   "symbol": "AFL",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 110.6
+    },
+    {
       "date": "2025-10-01",
       "close": 110.75
     },

@@ -2,6 +2,10 @@
   "symbol": "ADI",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 241.67
+    },
+    {
       "date": "2025-10-01",
       "close": 239.28
     },

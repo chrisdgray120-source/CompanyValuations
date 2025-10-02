@@ -2,6 +2,10 @@
   "symbol": "APA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 23.88
+    },
+    {
       "date": "2025-10-01",
       "close": 25.06
     },

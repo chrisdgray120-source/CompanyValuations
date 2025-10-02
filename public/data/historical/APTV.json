@@ -2,6 +2,10 @@
   "symbol": "APTV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 87.36
+    },
+    {
       "date": "2025-10-01",
       "close": 87.1
     },

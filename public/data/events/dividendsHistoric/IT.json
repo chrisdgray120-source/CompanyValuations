@@ -1,0 +1,14 @@
+{
+  "symbol": "IT",
+  "historical": [
+    {
+      "date": "1999-07-19",
+      "label": "July 19, 99",
+      "adjDividend": 1.195,
+      "dividend": 1.1945,
+      "recordDate": "1999-07-16",
+      "paymentDate": "1999-07-22",
+      "declarationDate": ""
+    }
+  ]
+}

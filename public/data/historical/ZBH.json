@@ -2,6 +2,10 @@
   "symbol": "ZBH",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 99.17
+    },
+    {
       "date": "2025-10-01",
       "close": 98.89
     },

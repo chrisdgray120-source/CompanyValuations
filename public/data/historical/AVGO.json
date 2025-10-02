@@ -2,6 +2,10 @@
   "symbol": "AVGO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 338.18
+    },
+    {
       "date": "2025-10-01",
       "close": 333.39
     },

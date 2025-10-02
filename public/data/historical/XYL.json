@@ -2,6 +2,10 @@
   "symbol": "XYL",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 149.01
+    },
+    {
       "date": "2025-10-01",
       "close": 147.88
     },

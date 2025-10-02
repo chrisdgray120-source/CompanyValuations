@@ -2,6 +2,10 @@
   "symbol": "TDG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 1283.81
+    },
+    {
       "date": "2025-10-01",
       "close": 1300.8
     },

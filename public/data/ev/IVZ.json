@@ -5,9 +5,9 @@
     "stockPrice": 15.77,
     "numberOfShares": 453800000,
     "marketCapitalization": 7156426000,
-    "minusCashAndCashEquivalents": 922700000,
-    "addTotalDebt": 0,
-    "enterpriseValue": 6233726000
+    "minusCashAndCashEquivalents": 1491900000,
+    "addTotalDebt": 1883900000,
+    "enterpriseValue": 7548426000
   },
   {
     "symbol": "IVZ",

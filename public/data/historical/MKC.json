@@ -2,6 +2,10 @@
   "symbol": "MKC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 68.09
+    },
+    {
       "date": "2025-10-01",
       "close": 67.76
     },

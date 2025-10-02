@@ -2,6 +2,10 @@
   "symbol": "CAH",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 158.46
+    },
+    {
       "date": "2025-10-01",
       "close": 157.93
     },

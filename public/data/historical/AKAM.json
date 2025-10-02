@@ -2,6 +2,10 @@
   "symbol": "AKAM",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 78.01
+    },
+    {
       "date": "2025-10-01",
       "close": 75.84
     },

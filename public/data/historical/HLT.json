@@ -2,6 +2,10 @@
   "symbol": "HLT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 258.91
+    },
+    {
       "date": "2025-10-01",
       "close": 256.75
     },

@@ -2,6 +2,10 @@
   "symbol": "AMZN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 222.41
+    },
+    {
       "date": "2025-10-01",
       "close": 220.63
     },

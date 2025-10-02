@@ -232,8 +232,8 @@
     "incomeTaxExpense": 90700000,
     "netIncome": 113900000,
     "netIncomeRatio": 0.0310913359,
-    "eps": 0.1,
-    "epsdiluted": 0.09,
+    "eps": 0.0953,
+    "epsdiluted": 0.0942,
     "weightedAverageShsOut": 1195200000,
     "weightedAverageShsOutDil": 1209500000,
     "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000017/0001792044-24-000017-index.htm",
@@ -244,8 +244,8 @@
     "symbol": "VTRS",
     "reportedCurrency": "USD",
     "cik": "0001792044",
-    "fillingDate": "2024-04-26",
-    "acceptedDate": "2024-04-26 16:31:10",
+    "fillingDate": "2024-02-27",
+    "acceptedDate": "2024-02-26 19:00:00",
     "calendarYear": "2023",
     "period": "Q4",
     "revenue": 3837300000,
@@ -276,8 +276,8 @@
     "epsdiluted": -0.64,
     "weightedAverageShsOut": 1200100000,
     "weightedAverageShsOutDil": 1200100000,
-    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000119312524118165/0001193125-24-118165-index.htm",
-    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000119312524118165/d758146d10ka.htm"
+    "link": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/0001792044-24-000008-index.html",
+    "finalLink": "https://www.sec.gov/Archives/edgar/data/1792044/000179204424000008/vtrs-20231231.htm"
   },
   {
     "date": "2023-09-30",

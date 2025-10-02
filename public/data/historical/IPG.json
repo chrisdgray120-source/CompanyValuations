@@ -2,6 +2,10 @@
   "symbol": "IPG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 26.26
+    },
+    {
       "date": "2025-10-01",
       "close": 26.51
     },

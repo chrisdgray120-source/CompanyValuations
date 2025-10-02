@@ -2,6 +2,10 @@
   "symbol": "SCHW",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 92.7
+    },
+    {
       "date": "2025-10-01",
       "close": 92.25
     },

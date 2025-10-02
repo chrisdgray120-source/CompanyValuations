@@ -2,6 +2,10 @@
   "symbol": "PSKY",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 18.62
+    },
+    {
       "date": "2025-10-01",
       "close": 18.89
     },

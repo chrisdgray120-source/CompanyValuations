@@ -1,16 +1,6 @@
 "use client";
 import FinancialsTable from "@/components/FinancialsTable";
 import { useEffect, useState } from "react";
-import {
-  ComposedChart,
-  Line,
-  Area,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  CartesianGrid,
-} from "recharts";
 import FundamentalsChart from "@/components/FundamentalsChart";
 import PriceChart from "@/components/PriceChart";
 import CompanyHeader from "@/components/CompanyHeader";
@@ -18,7 +8,8 @@ import QuoteBox from "@/components/QuoteBox";
 import StocktwitsFeed from "@/components/StocktwitsFeed";
 import NewsFeed from "@/components/NewsFeed";
 import FinancialsTableToggle from "@/components/FinancialsTableToggle";
-
+import EarningsBox from "@/components/EarningsBox";
+import DividendBox from "@/components/DividendBox";
 
 function formatNumber(num: number | null) {
   if (!num) return "-";
@@ -26,18 +17,6 @@ function formatNumber(num: number | null) {
   if (num >= 1e9) return (num / 1e9).toFixed(2) + "B";
   if (num >= 1e6) return (num / 1e6).toFixed(2) + "M";
   return num.toString();
-}
-
-// 🔹 Helper: Calculate SMA for given period
-function calculateSMA(data: any[], period: number) {
-  return data.map((row, i) => {
-    if (i < period - 1) {
-      return { ...row, [`sma${period}`]: null };
-    }
-    const slice = data.slice(i - period + 1, i + 1);
-    const avg = slice.reduce((sum, d) => sum + d.close, 0) / period;
-    return { ...row, [`sma${period}`]: avg };
-  });
 }
 
 // 🔹 Helper: Calculate YTD % change (safe for IPOs / missing data)
@@ -62,8 +41,6 @@ function calculateYTD(data: any[]) {
   return change;
 }
 
-
-
 export default function CompanyClient({ ticker }: { ticker: string }) {
   const [profile, setProfile] = useState<any | null>(null);
   const [quote, setQuote] = useState<any | null>(null);
@@ -71,6 +48,7 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   const [timeframe, setTimeframe] = useState("1Y");
   const [showSMA20, setShowSMA20] = useState(true);
   const [showSMA50, setShowSMA50] = useState(true);
+  const [showSMA100, setShowSMA100] = useState(true); // 🔹 Added SMA100 toggle
   const [showSMA200, setShowSMA200] = useState(true);
   const [feed, setFeed] = useState<any[]>([]);
   const [cursor, setCursor] = useState<any | null>(null);
@@ -78,31 +56,17 @@ export default function CompanyClient({ ticker }: { ticker: string }) {
   const [financials, setFinancials] = useState<any | null>(null);
   const ytdChange = calculateYTD(chartData);
 
-  // 🔹 Filter timeframe
-  function filterData(data: any[]) {
-    if (timeframe === "1M") return data.slice(-21);
-    if (timeframe === "6M") return data.slice(-126);
-    if (timeframe === "1Y") return data.slice(-252);
-    return data; // MAX
-  }
-  const filteredChartData = filterData(chartData);
-
   useEffect(() => {
     // profile (static from local cache)
-// profile from static JSON
-fetch(`/data/profiles/${ticker}.json`)
-  .then((res) => res.json())
-  .then((data) => setProfile(data || null))
-  .catch(() => setProfile(null));
-    // chart data
+    fetch(`/data/profiles/${ticker}.json`)
+      .then((res) => res.json())
+      .then((data) => setProfile(data || null))
+      .catch(() => setProfile(null));
+
+    // chart data (raw, no SMA calc here anymore)
     fetch(`/data/charts/${ticker}.json`)
       .then((res) => res.json())
-      .then((data) => {
-        let enriched = calculateSMA(data, 20);
-        enriched = calculateSMA(enriched, 50);
-        enriched = calculateSMA(enriched, 200);
-        setChartData(enriched);
-      })
+      .then((data) => setChartData(data))
       .catch(() => setChartData([]));
 
     // financials
@@ -154,29 +118,11 @@ fetch(`/data/profiles/${ticker}.json`)
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-6xl mx-auto space-y-6">
-
         {/* 🔹 Title + logo */}
-<CompanyHeader ticker={ticker} profile={profile} ytdChange={ytdChange} />
-{/* 🔹 Quote Data*/}
-<QuoteBox quote={quote} profile={profile} ticker={ticker} formatNumber={formatNumber} />
+        <CompanyHeader ticker={ticker} profile={profile} ytdChange={ytdChange} />
 
-        {/* 🔹 Ad placeholder */}
-        <div className="bg-gray-100 text-center py-6 rounded-lg border">
-          <p className="text-gray-500">Ad Space</p>
-        </div>
-
-{/* 🔹 Price Chart with SMA */}
-<PriceChart
-  chartData={filteredChartData}
-  timeframe={timeframe}
-  setTimeframe={setTimeframe}
-  showSMA20={showSMA20}
-  setShowSMA20={setShowSMA20}
-  showSMA50={showSMA50}
-  setShowSMA50={setShowSMA50}
-  showSMA200={showSMA200}
-  setShowSMA200={setShowSMA200}
-/>
+        {/* 🔹 Quote Data */}
+        <QuoteBox quote={quote} profile={profile} ticker={ticker} formatNumber={formatNumber} />
 
         {/* 🔹 About */}
         <div className="bg-white shadow rounded-xl p-6">
@@ -188,32 +134,48 @@ fetch(`/data/profiles/${ticker}.json`)
           </p>
         </div>
 
-
-
-        
-
-        {/* 🔹 Fundamentals Chart */}
-        <FundamentalsChart ticker={ticker} />
-
-{/* New toggleable version (annual/quarterly) */}
-<FinancialsTableToggle ticker={ticker} />
+        {/* 🔹 Price Chart with SMA */}
+        <PriceChart
+          chartData={chartData}   // raw data, SMA done in PriceChart
+          timeframe={timeframe}
+          setTimeframe={setTimeframe}
+          showSMA20={showSMA20}
+          setShowSMA20={setShowSMA20}
+          showSMA50={showSMA50}
+          setShowSMA50={setShowSMA50}
+          showSMA100={showSMA100}
+          setShowSMA100={setShowSMA100}
+          showSMA200={showSMA200}
+          setShowSMA200={setShowSMA200}
+        />
 
         {/* 🔹 Ad placeholder */}
         <div className="bg-gray-100 text-center py-6 rounded-lg border">
           <p className="text-gray-500">Ad Space</p>
         </div>
 
-<NewsFeed ticker={ticker} />
+        {/* 🔹 Fundamentals Chart */}
+        <FundamentalsChart ticker={ticker} />
 
-{/* 🔹 Stocktwits Feed */}
-<StocktwitsFeed
-  feed={feed}
-  cursor={cursor}
-  onLoadMore={loadMore}
-  loadingMore={loadingMore}
-/>
+        {/* New toggleable version (annual/quarterly) */}
+        <FinancialsTableToggle ticker={ticker} />
+        <EarningsBox ticker={ticker} />
+        <DividendBox ticker={ticker} />
 
+        {/* 🔹 Ad placeholder */}
+        <div className="bg-gray-100 text-center py-6 rounded-lg border">
+          <p className="text-gray-500">Ad Space</p>
+        </div>
 
+        <NewsFeed ticker={ticker} />
+
+        {/* 🔹 Stocktwits Feed */}
+        <StocktwitsFeed
+          feed={feed}
+          cursor={cursor}
+          onLoadMore={loadMore}
+          loadingMore={loadingMore}
+        />
       </div>
     </main>
   );

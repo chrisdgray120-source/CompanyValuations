@@ -2,6 +2,10 @@
   "symbol": "MCHP",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 66.13
+    },
+    {
       "date": "2025-10-01",
       "close": 64.11
     },

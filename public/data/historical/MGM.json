@@ -2,6 +2,10 @@
   "symbol": "MGM",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 34.75
+    },
+    {
       "date": "2025-10-01",
       "close": 34.69
     },

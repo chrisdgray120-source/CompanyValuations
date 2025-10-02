@@ -2,6 +2,10 @@
   "symbol": "BMY",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 45.73
+    },
+    {
       "date": "2025-10-01",
       "close": 47.43
     },

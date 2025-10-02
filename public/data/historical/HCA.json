@@ -2,6 +2,10 @@
   "symbol": "HCA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 426.69
+    },
+    {
       "date": "2025-10-01",
       "close": 426.07
     },

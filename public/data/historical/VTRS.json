@@ -2,6 +2,10 @@
   "symbol": "VTRS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 10.11
+    },
+    {
       "date": "2025-10-01",
       "close": 10.09
     },

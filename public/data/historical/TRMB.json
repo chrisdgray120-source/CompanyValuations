@@ -2,6 +2,10 @@
   "symbol": "TRMB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 80.21
+    },
+    {
       "date": "2025-10-01",
       "close": 79.41
     },

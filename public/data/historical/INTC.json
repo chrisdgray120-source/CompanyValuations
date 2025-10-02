@@ -2,6 +2,10 @@
   "symbol": "INTC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 37.3
+    },
+    {
       "date": "2025-10-01",
       "close": 35.94
     },

@@ -2,6 +2,10 @@
   "symbol": "STZ",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 140.51
+    },
+    {
       "date": "2025-10-01",
       "close": 138.95
     },

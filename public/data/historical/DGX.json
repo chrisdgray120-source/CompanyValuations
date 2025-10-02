@@ -2,6 +2,10 @@
   "symbol": "DGX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 180.96
+    },
+    {
       "date": "2025-10-01",
       "close": 182.07
     },

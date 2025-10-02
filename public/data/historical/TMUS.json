@@ -2,6 +2,10 @@
   "symbol": "TMUS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 230.14
+    },
+    {
       "date": "2025-10-01",
       "close": 233.26
     },

@@ -2,6 +2,10 @@
   "symbol": "VLO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 164.7
+    },
+    {
       "date": "2025-10-01",
       "close": 167.67
     },

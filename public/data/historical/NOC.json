@@ -2,6 +2,10 @@
   "symbol": "NOC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 605.01
+    },
+    {
       "date": "2025-10-01",
       "close": 605.42
     },

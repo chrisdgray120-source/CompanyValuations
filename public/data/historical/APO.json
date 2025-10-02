@@ -2,6 +2,10 @@
   "symbol": "APO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 127.23
+    },
+    {
       "date": "2025-10-01",
       "close": 129.95
     },

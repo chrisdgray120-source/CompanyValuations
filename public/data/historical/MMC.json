@@ -2,6 +2,10 @@
   "symbol": "MMC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 199.57
+    },
+    {
       "date": "2025-10-01",
       "close": 201.29
     },

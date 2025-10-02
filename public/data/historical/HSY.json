@@ -2,6 +2,10 @@
   "symbol": "HSY",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 189.02
+    },
+    {
       "date": "2025-10-01",
       "close": 188.83
     },

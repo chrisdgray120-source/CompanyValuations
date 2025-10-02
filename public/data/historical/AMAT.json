@@ -2,6 +2,10 @@
   "symbol": "AMAT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 223.59
+    },
+    {
       "date": "2025-10-01",
       "close": 217.74
     },

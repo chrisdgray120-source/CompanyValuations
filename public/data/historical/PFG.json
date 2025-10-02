@@ -2,6 +2,10 @@
   "symbol": "PFG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 84.26
+    },
+    {
       "date": "2025-10-01",
       "close": 83.04
     },

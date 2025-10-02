@@ -2,6 +2,10 @@
   "symbol": "IP",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 46.65
+    },
+    {
       "date": "2025-10-01",
       "close": 46.25
     },

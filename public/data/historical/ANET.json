@@ -2,6 +2,10 @@
   "symbol": "ANET",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 144.46
+    },
+    {
       "date": "2025-10-01",
       "close": 149.27
     },

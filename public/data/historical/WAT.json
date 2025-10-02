@@ -2,6 +2,10 @@
   "symbol": "WAT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 321.92
+    },
+    {
       "date": "2025-10-01",
       "close": 319.81
     },

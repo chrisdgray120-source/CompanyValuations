@@ -2,6 +2,10 @@
   "symbol": "IDXX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 633.84
+    },
+    {
       "date": "2025-10-01",
       "close": 620.11
     },

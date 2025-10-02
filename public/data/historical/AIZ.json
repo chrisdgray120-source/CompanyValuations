@@ -2,6 +2,10 @@
   "symbol": "AIZ",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 218.36
+    },
+    {
       "date": "2025-10-01",
       "close": 217.48
     },

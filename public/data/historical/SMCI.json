@@ -2,6 +2,10 @@
   "symbol": "SMCI",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 52.5
+    },
+    {
       "date": "2025-10-01",
       "close": 52.39
     },

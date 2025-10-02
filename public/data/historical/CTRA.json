@@ -2,6 +2,10 @@
   "symbol": "CTRA",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 23.15
+    },
+    {
       "date": "2025-10-01",
       "close": 23.96
     },

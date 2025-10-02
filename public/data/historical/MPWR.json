@@ -2,6 +2,10 @@
   "symbol": "MPWR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 930.51
+    },
+    {
       "date": "2025-10-01",
       "close": 915.87
     },

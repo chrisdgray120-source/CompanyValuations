@@ -1,0 +1,1148 @@
+{
+  "symbol": "REG",
+  "historical": [
+    {
+      "date": "2025-09-11",
+      "label": "September 11, 25",
+      "adjDividend": 0.705,
+      "dividend": 0.705,
+      "recordDate": "2025-09-11",
+      "paymentDate": "2025-10-02",
+      "declarationDate": "2025-08-05"
+    },
+    {
+      "date": "2025-06-11",
+      "label": "June 11, 25",
+      "adjDividend": 0.705,
+      "dividend": 0.705,
+      "recordDate": "2025-06-11",
+      "paymentDate": "2025-07-02",
+      "declarationDate": "2025-05-06"
+    },
+    {
+      "date": "2025-03-12",
+      "label": "March 12, 25",
+      "adjDividend": 0.705,
+      "dividend": 0.705,
+      "recordDate": "2025-03-12",
+      "paymentDate": "2025-04-02",
+      "declarationDate": "2025-02-06"
+    },
+    {
+      "date": "2024-12-16",
+      "label": "December 16, 24",
+      "adjDividend": 0.705,
+      "dividend": 0.705,
+      "recordDate": "2024-12-16",
+      "paymentDate": "2025-01-03",
+      "declarationDate": "2024-11-05"
+    },
+    {
+      "date": "2024-09-12",
+      "label": "September 12, 24",
+      "adjDividend": 0.67,
+      "dividend": 0.67,
+      "recordDate": "2024-09-12",
+      "paymentDate": "2024-10-03",
+      "declarationDate": "2024-07-31"
+    },
+    {
+      "date": "2024-06-12",
+      "label": "June 12, 24",
+      "adjDividend": 0.67,
+      "dividend": 0.67,
+      "recordDate": "2024-06-12",
+      "paymentDate": "2024-07-03",
+      "declarationDate": "2024-05-02"
+    },
+    {
+      "date": "2024-03-12",
+      "label": "March 12, 24",
+      "adjDividend": 0.67,
+      "dividend": 0.67,
+      "recordDate": "2024-03-13",
+      "paymentDate": "2024-04-03",
+      "declarationDate": "2024-02-07"
+    },
+    {
+      "date": "2023-12-13",
+      "label": "December 13, 23",
+      "adjDividend": 0.67,
+      "dividend": 0.67,
+      "recordDate": "2023-12-14",
+      "paymentDate": "2024-01-13",
+      "declarationDate": "2023-11-02"
+    },
+    {
+      "date": "2023-09-13",
+      "label": "September 13, 23",
+      "adjDividend": 0.65,
+      "dividend": 0.65,
+      "recordDate": "2023-09-14",
+      "paymentDate": "2023-10-04",
+      "declarationDate": "2023-08-03"
+    },
+    {
+      "date": "2023-06-13",
+      "label": "June 13, 23",
+      "adjDividend": 0.65,
+      "dividend": 0.65,
+      "recordDate": "2023-06-14",
+      "paymentDate": "2023-07-06",
+      "declarationDate": "2023-05-02"
+    },
+    {
+      "date": "2023-03-14",
+      "label": "March 14, 23",
+      "adjDividend": 0.65,
+      "dividend": 0.65,
+      "recordDate": "2023-03-15",
+      "paymentDate": "2023-04-05",
+      "declarationDate": "2023-02-09"
+    },
+    {
+      "date": "2022-12-15",
+      "label": "December 15, 22",
+      "adjDividend": 0.65,
+      "dividend": 0.65,
+      "recordDate": "2022-12-16",
+      "paymentDate": "2023-01-04",
+      "declarationDate": "2022-11-02"
+    },
+    {
+      "date": "2022-09-14",
+      "label": "September 14, 22",
+      "adjDividend": 0.625,
+      "dividend": 0.625,
+      "recordDate": "2022-09-15",
+      "paymentDate": "2022-10-04",
+      "declarationDate": "2022-08-02"
+    },
+    {
+      "date": "2022-06-14",
+      "label": "June 14, 22",
+      "adjDividend": 0.625,
+      "dividend": 0.625,
+      "recordDate": "2022-06-15",
+      "paymentDate": "2022-07-06",
+      "declarationDate": "2022-04-29"
+    },
+    {
+      "date": "2022-03-14",
+      "label": "March 14, 22",
+      "adjDividend": 0.625,
+      "dividend": 0.625,
+      "recordDate": "2022-03-15",
+      "paymentDate": "2022-04-05",
+      "declarationDate": "2022-02-09"
+    },
+    {
+      "date": "2021-12-15",
+      "label": "December 15, 21",
+      "adjDividend": 0.625,
+      "dividend": 0.625,
+      "recordDate": "2021-12-16",
+      "paymentDate": "2022-01-05",
+      "declarationDate": "2021-11-02"
+    },
+    {
+      "date": "2021-09-14",
+      "label": "September 14, 21",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2021-09-15",
+      "paymentDate": "2021-10-05",
+      "declarationDate": "2021-08-04"
+    },
+    {
+      "date": "2021-06-14",
+      "label": "June 14, 21",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2021-06-15",
+      "paymentDate": "2021-07-06",
+      "declarationDate": "2021-05-05"
+    },
+    {
+      "date": "2021-03-12",
+      "label": "March 12, 21",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2021-03-15",
+      "paymentDate": "2021-04-06",
+      "declarationDate": "2021-02-10"
+    },
+    {
+      "date": "2020-12-15",
+      "label": "December 15, 20",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2020-12-16",
+      "paymentDate": "2021-01-05",
+      "declarationDate": "2020-11-04"
+    },
+    {
+      "date": "2020-08-13",
+      "label": "August 13, 20",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2020-08-14",
+      "paymentDate": "2020-08-24",
+      "declarationDate": "2020-07-29"
+    },
+    {
+      "date": "2020-05-15",
+      "label": "May 15, 20",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2020-05-18",
+      "paymentDate": "2020-05-26",
+      "declarationDate": "2020-05-04"
+    },
+    {
+      "date": "2020-02-21",
+      "label": "February 21, 20",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2020-02-24",
+      "paymentDate": "2020-03-05",
+      "declarationDate": "2020-02-04"
+    },
+    {
+      "date": "2019-11-08",
+      "label": "November 08, 19",
+      "adjDividend": 0.585,
+      "dividend": 0.585,
+      "recordDate": "2019-11-12",
+      "paymentDate": "2019-11-22",
+      "declarationDate": "2019-10-29"
+    },
+    {
+      "date": "2019-08-09",
+      "label": "August 09, 19",
+      "adjDividend": 0.585,
+      "dividend": 0.585,
+      "recordDate": "2019-08-12",
+      "paymentDate": "2019-08-22",
+      "declarationDate": "2019-07-31"
+    },
+    {
+      "date": "2019-05-10",
+      "label": "May 10, 19",
+      "adjDividend": 0.585,
+      "dividend": 0.585,
+      "recordDate": "2019-05-13",
+      "paymentDate": "2019-05-23",
+      "declarationDate": "2019-04-30"
+    },
+    {
+      "date": "2019-02-22",
+      "label": "February 22, 19",
+      "adjDividend": 0.585,
+      "dividend": 0.585,
+      "recordDate": "2019-02-25",
+      "paymentDate": "2019-03-07",
+      "declarationDate": "2019-02-13"
+    },
+    {
+      "date": "2018-11-13",
+      "label": "November 13, 18",
+      "adjDividend": 0.555,
+      "dividend": 0.555,
+      "recordDate": "2018-11-14",
+      "paymentDate": "2018-11-28",
+      "declarationDate": "2018-10-25"
+    },
+    {
+      "date": "2018-08-14",
+      "label": "August 14, 18",
+      "adjDividend": 0.555,
+      "dividend": 0.555,
+      "recordDate": "2018-08-15",
+      "paymentDate": "2018-08-29",
+      "declarationDate": "2018-07-31"
+    },
+    {
+      "date": "2018-05-15",
+      "label": "May 15, 18",
+      "adjDividend": 0.555,
+      "dividend": 0.555,
+      "recordDate": "2018-05-16",
+      "paymentDate": "2018-05-30",
+      "declarationDate": "2018-04-30"
+    },
+    {
+      "date": "2018-02-16",
+      "label": "February 16, 18",
+      "adjDividend": 0.555,
+      "dividend": 0.555,
+      "recordDate": "2018-02-20",
+      "paymentDate": "2018-03-02",
+      "declarationDate": "2018-02-08"
+    },
+    {
+      "date": "2017-11-14",
+      "label": "November 14, 17",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2017-11-15",
+      "paymentDate": "2017-11-29",
+      "declarationDate": "2017-10-31"
+    },
+    {
+      "date": "2017-08-14",
+      "label": "August 14, 17",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2017-08-16",
+      "paymentDate": "2017-08-30",
+      "declarationDate": "2017-08-04"
+    },
+    {
+      "date": "2017-05-18",
+      "label": "May 18, 17",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2017-05-22",
+      "paymentDate": "2017-05-31",
+      "declarationDate": "2017-05-09"
+    },
+    {
+      "date": "2017-02-22",
+      "label": "February 22, 17",
+      "adjDividend": 0.51,
+      "dividend": 0.51,
+      "recordDate": "2017-02-24",
+      "paymentDate": "2017-03-01",
+      "declarationDate": "2017-02-09"
+    },
+    {
+      "date": "2016-11-14",
+      "label": "November 14, 16",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2016-11-16",
+      "paymentDate": "2016-11-30",
+      "declarationDate": "2016-11-01"
+    },
+    {
+      "date": "2016-08-15",
+      "label": "August 15, 16",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2016-08-17",
+      "paymentDate": "2016-08-31",
+      "declarationDate": "2016-08-02"
+    },
+    {
+      "date": "2016-05-16",
+      "label": "May 16, 16",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2016-05-18",
+      "paymentDate": "2016-06-01",
+      "declarationDate": "2016-05-04"
+    },
+    {
+      "date": "2016-02-18",
+      "label": "February 18, 16",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2016-02-22",
+      "paymentDate": "2016-03-03",
+      "declarationDate": "2016-02-11"
+    },
+    {
+      "date": "2015-11-16",
+      "label": "November 16, 15",
+      "adjDividend": 0.485,
+      "dividend": 0.485,
+      "recordDate": "2015-11-18",
+      "paymentDate": "2015-12-02",
+      "declarationDate": "2015-11-02"
+    },
+    {
+      "date": "2015-08-17",
+      "label": "August 17, 15",
+      "adjDividend": 0.485,
+      "dividend": 0.485,
+      "recordDate": "2015-08-19",
+      "paymentDate": "2015-09-02",
+      "declarationDate": "2015-08-06"
+    },
+    {
+      "date": "2015-05-18",
+      "label": "May 18, 15",
+      "adjDividend": 0.485,
+      "dividend": 0.485,
+      "recordDate": "2015-05-20",
+      "paymentDate": "2015-06-03",
+      "declarationDate": "2015-05-07"
+    },
+    {
+      "date": "2015-02-19",
+      "label": "February 19, 15",
+      "adjDividend": 0.485,
+      "dividend": 0.485,
+      "recordDate": "2015-02-23",
+      "paymentDate": "2015-03-05",
+      "declarationDate": "2015-01-15"
+    },
+    {
+      "date": "2014-11-17",
+      "label": "November 17, 14",
+      "adjDividend": 0.47,
+      "dividend": 0.47,
+      "recordDate": "2014-11-19",
+      "paymentDate": "2014-12-03",
+      "declarationDate": "2014-11-04"
+    },
+    {
+      "date": "2014-08-18",
+      "label": "August 18, 14",
+      "adjDividend": 0.47,
+      "dividend": 0.47,
+      "recordDate": "2014-08-20",
+      "paymentDate": "2014-09-03",
+      "declarationDate": "2014-08-07"
+    },
+    {
+      "date": "2014-05-19",
+      "label": "May 19, 14",
+      "adjDividend": 0.47,
+      "dividend": 0.47,
+      "recordDate": "2014-05-21",
+      "paymentDate": "2014-06-04",
+      "declarationDate": "2014-05-08"
+    },
+    {
+      "date": "2014-02-20",
+      "label": "February 20, 14",
+      "adjDividend": 0.47,
+      "dividend": 0.47,
+      "recordDate": "2014-02-24",
+      "paymentDate": "2014-03-06",
+      "declarationDate": "2014-02-12"
+    },
+    {
+      "date": "2013-11-08",
+      "label": "November 08, 13",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2013-11-13",
+      "paymentDate": "2013-11-27",
+      "declarationDate": "2013-10-31"
+    },
+    {
+      "date": "2013-08-12",
+      "label": "August 12, 13",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2013-08-14",
+      "paymentDate": "2013-08-28",
+      "declarationDate": "2013-08-01"
+    },
+    {
+      "date": "2013-05-20",
+      "label": "May 20, 13",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2013-05-22",
+      "paymentDate": "2013-06-05",
+      "declarationDate": "2013-05-07"
+    },
+    {
+      "date": "2013-02-11",
+      "label": "February 11, 13",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2013-02-13",
+      "paymentDate": "2013-02-27",
+      "declarationDate": "2013-01-31"
+    },
+    {
+      "date": "2012-11-09",
+      "label": "November 09, 12",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2012-11-14",
+      "paymentDate": "2012-11-28",
+      "declarationDate": "2012-11-02"
+    },
+    {
+      "date": "2012-08-13",
+      "label": "August 13, 12",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2012-08-15",
+      "paymentDate": "2012-08-29",
+      "declarationDate": "2012-08-01"
+    },
+    {
+      "date": "2012-05-14",
+      "label": "May 14, 12",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2012-05-16",
+      "paymentDate": "2012-05-30",
+      "declarationDate": "2012-05-04"
+    },
+    {
+      "date": "2012-02-13",
+      "label": "February 13, 12",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2012-02-15",
+      "paymentDate": "2012-02-29",
+      "declarationDate": "2012-02-02"
+    },
+    {
+      "date": "2011-11-14",
+      "label": "November 14, 11",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2011-11-16",
+      "paymentDate": "2011-11-30",
+      "declarationDate": "2011-11-07"
+    },
+    {
+      "date": "2011-08-15",
+      "label": "August 15, 11",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2011-08-17",
+      "paymentDate": "2011-08-31",
+      "declarationDate": "2011-08-05"
+    },
+    {
+      "date": "2011-05-16",
+      "label": "May 16, 11",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2011-05-18",
+      "paymentDate": "2011-06-01",
+      "declarationDate": "2011-05-06"
+    },
+    {
+      "date": "2011-02-14",
+      "label": "February 14, 11",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2011-02-16",
+      "paymentDate": "2011-03-02",
+      "declarationDate": "2011-02-04"
+    },
+    {
+      "date": "2010-11-15",
+      "label": "November 15, 10",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2010-11-17",
+      "paymentDate": "2010-12-01",
+      "declarationDate": "2010-11-05"
+    },
+    {
+      "date": "2010-08-16",
+      "label": "August 16, 10",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2010-08-18",
+      "paymentDate": "2010-09-01",
+      "declarationDate": "2010-08-05"
+    },
+    {
+      "date": "2010-05-17",
+      "label": "May 17, 10",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2010-05-19",
+      "paymentDate": "2010-06-02",
+      "declarationDate": "2010-05-06"
+    },
+    {
+      "date": "2010-02-12",
+      "label": "February 12, 10",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2010-02-17",
+      "paymentDate": "2010-03-03",
+      "declarationDate": "2010-02-05"
+    },
+    {
+      "date": "2009-11-16",
+      "label": "November 16, 09",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2009-11-18",
+      "paymentDate": "2009-12-02",
+      "declarationDate": "2009-11-02"
+    },
+    {
+      "date": "2009-08-17",
+      "label": "August 17, 09",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2009-08-19",
+      "paymentDate": "2009-09-02",
+      "declarationDate": "2009-08-06"
+    },
+    {
+      "date": "2009-05-18",
+      "label": "May 18, 09",
+      "adjDividend": 0.4625,
+      "dividend": 0.4625,
+      "recordDate": "2009-05-20",
+      "paymentDate": "2009-06-03",
+      "declarationDate": "2009-05-08"
+    },
+    {
+      "date": "2009-02-13",
+      "label": "February 13, 09",
+      "adjDividend": 0.725,
+      "dividend": 0.725,
+      "recordDate": "2009-02-18",
+      "paymentDate": "2009-03-04",
+      "declarationDate": "2009-02-03"
+    },
+    {
+      "date": "2008-11-17",
+      "label": "November 17, 08",
+      "adjDividend": 0.725,
+      "dividend": 0.725,
+      "recordDate": "2008-11-19",
+      "paymentDate": "2008-12-03",
+      "declarationDate": "2008-11-05"
+    },
+    {
+      "date": "2008-08-18",
+      "label": "August 18, 08",
+      "adjDividend": 0.725,
+      "dividend": 0.725,
+      "recordDate": "2008-08-20",
+      "paymentDate": "2008-09-03",
+      "declarationDate": "2008-08-05"
+    },
+    {
+      "date": "2008-05-19",
+      "label": "May 19, 08",
+      "adjDividend": 0.725,
+      "dividend": 0.725,
+      "recordDate": "2008-05-21",
+      "paymentDate": "2008-06-04",
+      "declarationDate": "2008-05-06"
+    },
+    {
+      "date": "2008-02-15",
+      "label": "February 15, 08",
+      "adjDividend": 0.725,
+      "dividend": 0.725,
+      "recordDate": "2008-02-20",
+      "paymentDate": "2008-03-05",
+      "declarationDate": "2008-02-06"
+    },
+    {
+      "date": "2007-11-09",
+      "label": "November 09, 07",
+      "adjDividend": 0.66,
+      "dividend": 0.66,
+      "recordDate": "2007-11-14",
+      "paymentDate": "2007-11-28",
+      "declarationDate": "2007-11-01"
+    },
+    {
+      "date": "2007-08-13",
+      "label": "August 13, 07",
+      "adjDividend": 0.66,
+      "dividend": 0.66,
+      "recordDate": "2007-08-15",
+      "paymentDate": "2007-08-29",
+      "declarationDate": "2007-08-02"
+    },
+    {
+      "date": "2007-05-14",
+      "label": "May 14, 07",
+      "adjDividend": 0.66,
+      "dividend": 0.66,
+      "recordDate": "2007-05-16",
+      "paymentDate": "2007-05-30",
+      "declarationDate": "2007-05-03"
+    },
+    {
+      "date": "2007-02-12",
+      "label": "February 12, 07",
+      "adjDividend": 0.66,
+      "dividend": 0.66,
+      "recordDate": "2007-02-14",
+      "paymentDate": "2007-02-28",
+      "declarationDate": "2007-02-01"
+    },
+    {
+      "date": "2006-11-13",
+      "label": "November 13, 06",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2006-11-15",
+      "paymentDate": "2006-11-29",
+      "declarationDate": "2006-11-02"
+    },
+    {
+      "date": "2006-08-14",
+      "label": "August 14, 06",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2006-08-16",
+      "paymentDate": "2006-08-30",
+      "declarationDate": "2006-08-03"
+    },
+    {
+      "date": "2006-05-15",
+      "label": "May 15, 06",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2006-05-17",
+      "paymentDate": "2006-05-31",
+      "declarationDate": "2006-05-04"
+    },
+    {
+      "date": "2006-02-13",
+      "label": "February 13, 06",
+      "adjDividend": 0.595,
+      "dividend": 0.595,
+      "recordDate": "2006-02-15",
+      "paymentDate": "2006-03-01",
+      "declarationDate": "2006-02-02"
+    },
+    {
+      "date": "2005-11-10",
+      "label": "November 10, 05",
+      "adjDividend": 0.55,
+      "dividend": 0.55,
+      "recordDate": "2005-11-15",
+      "paymentDate": "2005-11-29",
+      "declarationDate": "2005-10-31"
+    },
+    {
+      "date": "2005-08-12",
+      "label": "August 12, 05",
+      "adjDividend": 0.55,
+      "dividend": 0.55,
+      "recordDate": "2005-08-16",
+      "paymentDate": "2005-08-30",
+      "declarationDate": "2005-08-04"
+    },
+    {
+      "date": "2005-05-16",
+      "label": "May 16, 05",
+      "adjDividend": 0.55,
+      "dividend": 0.55,
+      "recordDate": "2005-05-18",
+      "paymentDate": "2005-06-01",
+      "declarationDate": "2005-05-04"
+    },
+    {
+      "date": "2005-02-11",
+      "label": "February 11, 05",
+      "adjDividend": 0.55,
+      "dividend": 0.55,
+      "recordDate": "2005-02-15",
+      "paymentDate": "2005-03-01",
+      "declarationDate": "2005-02-03"
+    },
+    {
+      "date": "2004-11-08",
+      "label": "November 08, 04",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2004-11-10",
+      "paymentDate": "2004-11-24",
+      "declarationDate": "2004-10-28"
+    },
+    {
+      "date": "2004-08-09",
+      "label": "August 09, 04",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2004-08-11",
+      "paymentDate": "2004-08-25",
+      "declarationDate": "2004-07-30"
+    },
+    {
+      "date": "2004-05-10",
+      "label": "May 10, 04",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2004-05-12",
+      "paymentDate": "2004-05-26",
+      "declarationDate": "2004-04-30"
+    },
+    {
+      "date": "2004-02-09",
+      "label": "February 09, 04",
+      "adjDividend": 0.53,
+      "dividend": 0.53,
+      "recordDate": "2004-02-11",
+      "paymentDate": "2004-02-25",
+      "declarationDate": "2004-01-29"
+    },
+    {
+      "date": "2003-11-17",
+      "label": "November 17, 03",
+      "adjDividend": 0.52,
+      "dividend": 0.52,
+      "recordDate": "2003-11-19",
+      "paymentDate": "2003-12-03",
+      "declarationDate": "2003-11-04"
+    },
+    {
+      "date": "2003-08-22",
+      "label": "August 22, 03",
+      "adjDividend": 0.52,
+      "dividend": 0.52,
+      "recordDate": "2003-08-26",
+      "paymentDate": "2003-09-09",
+      "declarationDate": "2003-08-12"
+    },
+    {
+      "date": "2003-05-19",
+      "label": "May 19, 03",
+      "adjDividend": 0.52,
+      "dividend": 0.52,
+      "recordDate": "2003-05-21",
+      "paymentDate": "2003-06-04",
+      "declarationDate": "2003-05-06"
+    },
+    {
+      "date": "2003-02-14",
+      "label": "February 14, 03",
+      "adjDividend": 0.52,
+      "dividend": 0.52,
+      "recordDate": "2003-02-19",
+      "paymentDate": "2003-03-05",
+      "declarationDate": "2003-02-05"
+    },
+    {
+      "date": "2002-11-15",
+      "label": "November 15, 02",
+      "adjDividend": 0.51,
+      "dividend": 0.51,
+      "recordDate": "2002-11-19",
+      "paymentDate": "2002-12-03",
+      "declarationDate": "2002-11-04"
+    },
+    {
+      "date": "2002-08-19",
+      "label": "August 19, 02",
+      "adjDividend": 0.51,
+      "dividend": 0.51,
+      "recordDate": "2002-08-21",
+      "paymentDate": "2002-09-04",
+      "declarationDate": "2002-08-07"
+    },
+    {
+      "date": "2002-05-09",
+      "label": "May 09, 02",
+      "adjDividend": 0.51,
+      "dividend": 0.51,
+      "recordDate": "2002-05-13",
+      "paymentDate": "2002-05-28",
+      "declarationDate": "2002-05-08"
+    },
+    {
+      "date": "2002-02-08",
+      "label": "February 08, 02",
+      "adjDividend": 0.51,
+      "dividend": 0.51,
+      "recordDate": "2002-02-12",
+      "paymentDate": "2002-02-26",
+      "declarationDate": "2002-02-06"
+    },
+    {
+      "date": "2001-11-07",
+      "label": "November 07, 01",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2001-11-12",
+      "paymentDate": "2001-11-26",
+      "declarationDate": "2001-10-31"
+    },
+    {
+      "date": "2001-08-09",
+      "label": "August 09, 01",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2001-08-13",
+      "paymentDate": "2001-08-27",
+      "declarationDate": "2001-07-31"
+    },
+    {
+      "date": "2001-05-09",
+      "label": "May 09, 01",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2001-05-11",
+      "paymentDate": "2001-05-25",
+      "declarationDate": "2001-05-04"
+    },
+    {
+      "date": "2001-02-08",
+      "label": "February 08, 01",
+      "adjDividend": 0.5,
+      "dividend": 0.5,
+      "recordDate": "2001-02-12",
+      "paymentDate": "2001-02-27",
+      "declarationDate": "2001-01-30"
+    },
+    {
+      "date": "2000-11-09",
+      "label": "November 09, 00",
+      "adjDividend": 0.48,
+      "dividend": 0.48,
+      "recordDate": "2000-11-13",
+      "paymentDate": "2000-11-28",
+      "declarationDate": "2000-11-06"
+    },
+    {
+      "date": "2000-08-09",
+      "label": "August 09, 00",
+      "adjDividend": 0.48,
+      "dividend": 0.48,
+      "recordDate": "2000-08-11",
+      "paymentDate": "2000-08-25",
+      "declarationDate": "2000-08-01"
+    },
+    {
+      "date": "2000-05-10",
+      "label": "May 10, 00",
+      "adjDividend": 0.48,
+      "dividend": 0.48,
+      "recordDate": "2000-05-12",
+      "paymentDate": "2000-05-26",
+      "declarationDate": "2000-05-03"
+    },
+    {
+      "date": "2000-02-09",
+      "label": "February 09, 00",
+      "adjDividend": 0.48,
+      "dividend": 0.48,
+      "recordDate": "2000-02-11",
+      "paymentDate": "2000-02-25",
+      "declarationDate": "2000-02-02"
+    },
+    {
+      "date": "1999-11-08",
+      "label": "November 08, 99",
+      "adjDividend": 0.46,
+      "dividend": 0.46,
+      "recordDate": "1999-11-10",
+      "paymentDate": "1999-11-24",
+      "declarationDate": "1999-11-03"
+    },
+    {
+      "date": "1999-08-10",
+      "label": "August 10, 99",
+      "adjDividend": 0.46,
+      "dividend": 0.46,
+      "recordDate": "1999-08-12",
+      "paymentDate": "1999-08-26",
+      "declarationDate": "1999-07-30"
+    },
+    {
+      "date": "1999-05-10",
+      "label": "May 10, 99",
+      "adjDividend": 0.46,
+      "dividend": 0.46,
+      "recordDate": "1999-05-12",
+      "paymentDate": "1999-05-26",
+      "declarationDate": ""
+    },
+    {
+      "date": "1999-02-10",
+      "label": "February 10, 99",
+      "adjDividend": 0.46,
+      "dividend": 0.46,
+      "recordDate": "1999-02-12",
+      "paymentDate": "1999-02-26",
+      "declarationDate": "1999-02-02"
+    },
+    {
+      "date": "1998-11-06",
+      "label": "November 06, 98",
+      "adjDividend": 0.44,
+      "dividend": 0.44,
+      "recordDate": "1998-11-10",
+      "paymentDate": "1998-11-24",
+      "declarationDate": "1998-10-27"
+    },
+    {
+      "date": "1998-08-10",
+      "label": "August 10, 98",
+      "adjDividend": 0.44,
+      "dividend": 0.44,
+      "recordDate": "1998-08-12",
+      "paymentDate": "1998-08-26",
+      "declarationDate": "1998-07-28"
+    },
+    {
+      "date": "1998-05-12",
+      "label": "May 12, 98",
+      "adjDividend": 0.44,
+      "dividend": 0.44,
+      "recordDate": "1998-05-14",
+      "paymentDate": "1998-05-28",
+      "declarationDate": "1998-04-28"
+    },
+    {
+      "date": "1998-02-10",
+      "label": "February 10, 98",
+      "adjDividend": 0.44,
+      "dividend": 0.44,
+      "recordDate": "1998-02-12",
+      "paymentDate": "1998-02-26",
+      "declarationDate": "1998-02-03"
+    },
+    {
+      "date": "1997-11-07",
+      "label": "November 07, 97",
+      "adjDividend": 0.42,
+      "dividend": 0.42,
+      "recordDate": "1997-11-12",
+      "paymentDate": "1997-11-26",
+      "declarationDate": "1997-10-27"
+    },
+    {
+      "date": "1997-08-08",
+      "label": "August 08, 97",
+      "adjDividend": 0.42,
+      "dividend": 0.42,
+      "recordDate": "1997-08-12",
+      "paymentDate": "1997-08-26",
+      "declarationDate": "1997-07-22"
+    },
+    {
+      "date": "1997-05-12",
+      "label": "May 12, 97",
+      "adjDividend": 0.42,
+      "dividend": 0.42,
+      "recordDate": "1997-05-14",
+      "paymentDate": "1997-05-28",
+      "declarationDate": "1997-04-29"
+    },
+    {
+      "date": "1997-02-10",
+      "label": "February 10, 97",
+      "adjDividend": 0.42,
+      "dividend": 0.42,
+      "recordDate": "1997-02-12",
+      "paymentDate": "1997-02-26",
+      "declarationDate": "1997-01-28"
+    },
+    {
+      "date": "1996-11-06",
+      "label": "November 06, 96",
+      "adjDividend": 0.405,
+      "dividend": 0.405,
+      "recordDate": "1996-11-11",
+      "paymentDate": "1996-11-25",
+      "declarationDate": "1996-10-29"
+    },
+    {
+      "date": "1996-08-08",
+      "label": "August 08, 96",
+      "adjDividend": 0.405,
+      "dividend": 0.405,
+      "recordDate": "1996-08-12",
+      "paymentDate": "1996-08-26",
+      "declarationDate": "1996-07-30"
+    },
+    {
+      "date": "1996-05-09",
+      "label": "May 09, 96",
+      "adjDividend": 0.405,
+      "dividend": 0.405,
+      "recordDate": "1996-05-13",
+      "paymentDate": "1996-05-28",
+      "declarationDate": "1996-04-30"
+    },
+    {
+      "date": "1996-02-08",
+      "label": "February 08, 96",
+      "adjDividend": 0.405,
+      "dividend": 0.405,
+      "recordDate": "1996-02-12",
+      "paymentDate": "1996-02-26",
+      "declarationDate": "1996-01-29"
+    },
+    {
+      "date": "1995-11-08",
+      "label": "November 08, 95",
+      "adjDividend": 0.395,
+      "dividend": 0.395,
+      "recordDate": "1995-11-10",
+      "paymentDate": "1995-11-27",
+      "declarationDate": "1995-10-31"
+    },
+    {
+      "date": "1995-08-09",
+      "label": "August 09, 95",
+      "adjDividend": 0.395,
+      "dividend": 0.395,
+      "recordDate": "1995-08-11",
+      "paymentDate": "1995-08-25",
+      "declarationDate": "1995-07-27"
+    },
+    {
+      "date": "1995-05-08",
+      "label": "May 08, 95",
+      "adjDividend": 0.395,
+      "dividend": 0.395,
+      "recordDate": "1995-05-12",
+      "paymentDate": "1995-05-26",
+      "declarationDate": "1995-05-03"
+    },
+    {
+      "date": "1995-02-07",
+      "label": "February 07, 95",
+      "adjDividend": 0.395,
+      "dividend": 0.395,
+      "recordDate": "1995-02-13",
+      "paymentDate": "1995-02-27",
+      "declarationDate": ""
+    },
+    {
+      "date": "1994-11-04",
+      "label": "November 04, 94",
+      "adjDividend": 0.395,
+      "dividend": 0.395,
+      "recordDate": "1994-11-11",
+      "paymentDate": "1994-11-29",
+      "declarationDate": ""
+    },
+    {
+      "date": "1994-08-08",
+      "label": "August 08, 94",
+      "adjDividend": 0.375,
+      "dividend": 0.375,
+      "recordDate": "1994-08-12",
+      "paymentDate": "1994-08-26",
+      "declarationDate": ""
+    },
+    {
+      "date": "1994-05-09",
+      "label": "May 09, 94",
+      "adjDividend": 0.375,
+      "dividend": 0.375,
+      "recordDate": "1994-05-13",
+      "paymentDate": "1994-05-27",
+      "declarationDate": ""
+    },
+    {
+      "date": "1994-02-07",
+      "label": "February 07, 94",
+      "adjDividend": 0.23,
+      "dividend": 0.23,
+      "recordDate": "1994-02-11",
+      "paymentDate": "1994-02-25",
+      "declarationDate": ""
+    }
+  ]
+}

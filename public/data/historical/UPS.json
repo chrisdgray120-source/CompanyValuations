@@ -2,6 +2,10 @@
   "symbol": "UPS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 85.57
+    },
+    {
       "date": "2025-10-01",
       "close": 84.38
     },

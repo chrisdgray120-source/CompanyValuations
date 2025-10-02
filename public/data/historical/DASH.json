@@ -2,6 +2,10 @@
   "symbol": "DASH",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 270.09
+    },
+    {
       "date": "2025-10-01",
       "close": 267.64
     },

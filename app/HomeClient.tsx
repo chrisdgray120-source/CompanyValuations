@@ -15,41 +15,41 @@ export default function HomeClient() {
     fetch("/data/sp500.json")
       .then((res) => res.json())
       .then((data) => {
-        // sort by market cap desc, take top 20
+        // sort by market cap desc
         const sorted = [...data].sort(
           (a, b) => (b.marketCap || 0) - (a.marketCap || 0)
         );
-        setCompanies(sorted.slice(0, 20));
+        setCompanies(sorted); // ✅ all companies
       });
   }, []);
 
   return (
     <main className="min-h-screen bg-gray-50 py-8 px-4">
-      <div className="max-w-6xl mx-auto space-y-8">
+      <div className="max-w-7xl mx-auto space-y-8">
         {/* 🔹 Hero */}
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-2">
             Global Stock Market Caps & Valuations
           </h1>
           <p className="text-gray-600">
-            Compare companies, explore sectors, and track valuations in one
-            place.
+            Compare companies, explore sectors, and track valuations in one place.
           </p>
         </div>
 
-        {/* 🔹 Top Companies */}
+        {/* 🔹 All Companies */}
         <div>
           <h2 className="text-xl font-semibold mb-4">
-            Top 20 Companies by Market Cap
+            S&P 500 Companies by Market Cap
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {companies.map((c) => (
+            {companies.map((c, i) => (
               <a
                 key={c.ticker}
                 href={`/company/${c.ticker}`}
                 className="bg-white shadow rounded-xl p-4 hover:shadow-lg transition"
               >
                 <div className="flex items-center space-x-3">
+                  <div className="w-6 text-gray-500 font-medium">{i + 1}.</div>
                   {c.logo_url && (
                     <img
                       src={c.logo_url}

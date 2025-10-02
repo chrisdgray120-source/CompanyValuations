@@ -2,6 +2,10 @@
   "symbol": "APD",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 270.6
+    },
+    {
       "date": "2025-10-01",
       "close": 268.7
     },

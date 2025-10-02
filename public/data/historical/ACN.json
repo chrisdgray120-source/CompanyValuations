@@ -2,6 +2,10 @@
   "symbol": "ACN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 244.34
+    },
+    {
       "date": "2025-10-01",
       "close": 243.71
     },

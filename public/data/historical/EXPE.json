@@ -2,6 +2,10 @@
   "symbol": "EXPE",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 217.69
+    },
+    {
       "date": "2025-10-01",
       "close": 217.95
     },

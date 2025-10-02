@@ -2,6 +2,10 @@
   "symbol": "VMC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 303.37
+    },
+    {
       "date": "2025-10-01",
       "close": 301.64
     },

@@ -2,6 +2,10 @@
   "symbol": "BBY",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 76.62
+    },
+    {
       "date": "2025-10-01",
       "close": 77.35
     },

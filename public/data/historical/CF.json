@@ -2,6 +2,10 @@
   "symbol": "CF",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 89.84
+    },
+    {
       "date": "2025-10-01",
       "close": 86.43
     },

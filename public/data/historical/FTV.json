@@ -2,6 +2,10 @@
   "symbol": "FTV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 49.78
+    },
+    {
       "date": "2025-10-01",
       "close": 50.08
     },

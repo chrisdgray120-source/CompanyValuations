@@ -2,6 +2,10 @@
   "symbol": "ITW",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 260.73
+    },
+    {
       "date": "2025-10-01",
       "close": 259.92
     },

@@ -2,6 +2,10 @@
   "symbol": "VLTO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 106.46
+    },
+    {
       "date": "2025-10-01",
       "close": 106.04
     },

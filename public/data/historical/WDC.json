@@ -2,6 +2,10 @@
   "symbol": "WDC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 131.26
+    },
+    {
       "date": "2025-10-01",
       "close": 130.59
     },

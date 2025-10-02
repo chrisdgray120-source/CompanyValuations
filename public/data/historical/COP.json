@@ -2,6 +2,10 @@
   "symbol": "COP",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 93.38
+    },
+    {
       "date": "2025-10-01",
       "close": 95.46
     },

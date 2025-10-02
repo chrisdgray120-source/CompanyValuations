@@ -2,6 +2,10 @@
   "symbol": "TTWO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 256.94
+    },
+    {
       "date": "2025-10-01",
       "close": 255.4
     },

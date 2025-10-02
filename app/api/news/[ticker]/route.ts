@@ -1,27 +1,22 @@
 import { NextResponse } from "next/server";
-console.log("FMP_API_KEY in API route:", process.env.FMP_API_KEY);
-const API_KEY = process.env.FMP_API_KEY;
 
 export async function GET(
-  _req: Request,
+  req: Request,
   { params }: { params: { ticker: string } }
 ) {
   const { ticker } = params;
+  const apiKey = process.env.FMP_API_KEY;
+
+  const url = `https://financialmodelingprep.com/api/v3/stock_news?tickers=${ticker}&limit=20&apikey=${apiKey}`;
 
   try {
-    const resp = await fetch(
-      `https://financialmodelingprep.com/api/v3/stock_news?tickers=${ticker.toUpperCase()}&limit=20&apikey=${API_KEY}`,
-      { cache: "no-store" }
-    );
-
-    if (!resp.ok) {
-      return NextResponse.json({ error: "Failed to fetch news" }, { status: resp.status });
+    const res = await fetch(url, { next: { revalidate: 300 } }); // cache 5 min
+    if (!res.ok) {
+      return NextResponse.json({ error: `FMP error ${res.status}` }, { status: res.status });
     }
-
-    const data = await resp.json();
-    return NextResponse.json(data);
-  } catch (err) {
-    console.error("News fetch failed:", err);
-    return NextResponse.json({ error: "Server error" }, { status: 500 });
+    const data = await res.json();
+    return NextResponse.json(data || []);
+  } catch (err: any) {
+    return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }

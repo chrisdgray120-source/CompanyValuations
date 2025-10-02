@@ -2,6 +2,10 @@
   "symbol": "HBAN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 17.04
+    },
+    {
       "date": "2025-10-01",
       "close": 17.04
     },

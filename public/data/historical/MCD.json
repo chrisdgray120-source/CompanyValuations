@@ -2,6 +2,10 @@
   "symbol": "MCD",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 299.88
+    },
+    {
       "date": "2025-10-01",
       "close": 300.52
     },

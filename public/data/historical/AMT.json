@@ -2,6 +2,10 @@
   "symbol": "AMT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 191.17
+    },
+    {
       "date": "2025-10-01",
       "close": 193.32
     },

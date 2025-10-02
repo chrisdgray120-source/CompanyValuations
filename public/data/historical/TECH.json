@@ -2,6 +2,10 @@
   "symbol": "TECH",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 62.09
+    },
+    {
       "date": "2025-10-01",
       "close": 59.92
     },

@@ -2,6 +2,10 @@
   "symbol": "EFX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 232.35
+    },
+    {
       "date": "2025-10-01",
       "close": 253.84
     },

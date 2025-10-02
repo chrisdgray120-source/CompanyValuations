@@ -2,6 +2,10 @@
   "symbol": "FRT",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 99.01
+    },
+    {
       "date": "2025-10-01",
       "close": 99.64
     },

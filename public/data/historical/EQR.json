@@ -2,6 +2,10 @@
   "symbol": "EQR",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 63.48
+    },
+    {
       "date": "2025-10-01",
       "close": 64.1
     },

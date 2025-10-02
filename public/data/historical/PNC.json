@@ -2,6 +2,10 @@
   "symbol": "PNC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 198.16
+    },
+    {
       "date": "2025-10-01",
       "close": 198.44
     },

@@ -2,6 +2,10 @@
   "symbol": "ELV",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 340.24
+    },
+    {
       "date": "2025-10-01",
       "close": 332.66
     },

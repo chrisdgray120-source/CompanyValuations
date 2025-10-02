@@ -15,10 +15,8 @@ if (!apiKey) throw new Error("❌ Missing FMP_API_KEY in .env.local");
 
 // how many tickers to fetch in parallel
 const BATCH_SIZE = 2;
-
 // delay between batches (ms)
 const BATCH_DELAY = 8000;
-
 // checkpoint file for resume
 const checkpointFile = "scripts/fetchAllData_checkpoint.json";
 
@@ -134,17 +132,29 @@ async function fetchExtraForTicker(ticker: string) {
       await saveJSON("public/data/events/earnings", `${ticker}.json`, data);
     }
 
-    // Dividends
+    // Historic Dividends (per ticker)
     {
       const url = `https://financialmodelingprep.com/api/v3/historical-price-full/stock_dividend/${ticker}?apikey=${apiKey}`;
       const data = await fetchJSON(url);
-      await saveJSON("public/data/events/dividends", `${ticker}.json`, data);
+      await saveJSON("public/data/events/dividendsHistoric", `${ticker}.json`, data);
     }
 
     return true;
   } catch (err) {
     console.error(`❌ Error fetching extra for ${ticker}:`, err);
     return false;
+  }
+}
+
+// 🔹 Fetch all upcoming dividends once (global file)
+async function fetchUpcomingDividends() {
+  try {
+    const url = `https://financialmodelingprep.com/api/v3/stock_dividend_calendar?apikey=${apiKey}`;
+    const data = await fetchJSON(url);
+    await saveJSON("public/data/events", "upcomingDividends.json", data);
+    console.log("✅ Saved global dividendsUpcoming.json");
+  } catch (err) {
+    console.error("❌ Error fetching upcoming dividends:", err);
   }
 }
 
@@ -185,15 +195,11 @@ async function run() {
     await delay(BATCH_DELAY);
   }
 
+  // Fetch upcoming dividends once
+  await fetchUpcomingDividends();
+
   console.log("\n🎉 All done!");
   await fsp.unlink(checkpointFile).catch(() => {});
 }
 
-//run();
-
-// Temporary manual test
-for (const [i, ticker] of tickers.entries()) {
-  console.log(`[${i + 1}/${tickers.length}] Fetching extras for ${ticker}...`);
-  await fetchExtraForTicker(ticker);
-  await delay(8000); // 8s pause like your main script
-}
+run();

@@ -2,6 +2,10 @@
   "symbol": "BF-B",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 27.68
+    },
+    {
       "date": "2025-10-01",
       "close": 27.55
     },

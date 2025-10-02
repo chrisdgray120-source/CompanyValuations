@@ -2,6 +2,10 @@
   "symbol": "WYNN",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 133.34
+    },
+    {
       "date": "2025-10-01",
       "close": 132.03
     },

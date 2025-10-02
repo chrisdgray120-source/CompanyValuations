@@ -2,6 +2,10 @@
   "symbol": "KLAC",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 1139.26
+    },
+    {
       "date": "2025-10-01",
       "close": 1128.87
     },

@@ -2,6 +2,10 @@
   "symbol": "FDX",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 242.32
+    },
+    {
       "date": "2025-10-01",
       "close": 239.55
     },

@@ -1,0 +1,311 @@
+{
+  "symbol": "CTSH",
+  "historical": [
+    {
+      "date": "2025-08-18",
+      "label": "August 18, 25",
+      "adjDividend": 0.31,
+      "dividend": 0.31,
+      "recordDate": "2025-08-18",
+      "paymentDate": "2025-08-26",
+      "declarationDate": "2025-07-30"
+    },
+    {
+      "date": "2025-05-19",
+      "label": "May 19, 25",
+      "adjDividend": 0.31,
+      "dividend": 0.31,
+      "recordDate": "2025-05-19",
+      "paymentDate": "2025-05-28",
+      "declarationDate": "2025-04-30"
+    },
+    {
+      "date": "2025-02-18",
+      "label": "February 18, 25",
+      "adjDividend": 0.31,
+      "dividend": 0.31,
+      "recordDate": "2025-02-18",
+      "paymentDate": "2025-02-26",
+      "declarationDate": "2025-02-05"
+    },
+    {
+      "date": "2024-11-19",
+      "label": "November 19, 24",
+      "adjDividend": 0.3,
+      "dividend": 0.3,
+      "recordDate": "2024-11-19",
+      "paymentDate": "2024-11-27",
+      "declarationDate": "2024-10-30"
+    },
+    {
+      "date": "2024-08-20",
+      "label": "August 20, 24",
+      "adjDividend": 0.3,
+      "dividend": 0.3,
+      "recordDate": "2024-08-20",
+      "paymentDate": "2024-08-28",
+      "declarationDate": "2024-07-31"
+    },
+    {
+      "date": "2024-05-17",
+      "label": "May 17, 24",
+      "adjDividend": 0.3,
+      "dividend": 0.3,
+      "recordDate": "2024-05-20",
+      "paymentDate": "2024-05-29",
+      "declarationDate": "2024-05-01"
+    },
+    {
+      "date": "2024-02-16",
+      "label": "February 16, 24",
+      "adjDividend": 0.3,
+      "dividend": 0.3,
+      "recordDate": "2024-02-20",
+      "paymentDate": "2024-02-28",
+      "declarationDate": "2024-02-06"
+    },
+    {
+      "date": "2023-11-20",
+      "label": "November 20, 23",
+      "adjDividend": 0.29,
+      "dividend": 0.29,
+      "recordDate": "2023-11-21",
+      "paymentDate": "2023-11-30",
+      "declarationDate": "2023-11-01"
+    },
+    {
+      "date": "2023-08-18",
+      "label": "August 18, 23",
+      "adjDividend": 0.29,
+      "dividend": 0.29,
+      "recordDate": "2023-08-21",
+      "paymentDate": "2023-08-29",
+      "declarationDate": "2023-08-02"
+    },
+    {
+      "date": "2023-05-18",
+      "label": "May 18, 23",
+      "adjDividend": 0.29,
+      "dividend": 0.29,
+      "recordDate": "2023-05-19",
+      "paymentDate": "2023-05-30",
+      "declarationDate": "2023-05-03"
+    },
+    {
+      "date": "2023-02-16",
+      "label": "February 16, 23",
+      "adjDividend": 0.29,
+      "dividend": 0.29,
+      "recordDate": "2023-02-17",
+      "paymentDate": "2023-02-28",
+      "declarationDate": "2023-02-02"
+    },
+    {
+      "date": "2022-11-17",
+      "label": "November 17, 22",
+      "adjDividend": 0.27,
+      "dividend": 0.27,
+      "recordDate": "2022-11-18",
+      "paymentDate": "2022-11-29",
+      "declarationDate": "2022-11-02"
+    },
+    {
+      "date": "2022-08-18",
+      "label": "August 18, 22",
+      "adjDividend": 0.27,
+      "dividend": 0.27,
+      "recordDate": "2022-08-19",
+      "paymentDate": "2022-08-30",
+      "declarationDate": "2022-07-26"
+    },
+    {
+      "date": "2022-05-19",
+      "label": "May 19, 22",
+      "adjDividend": 0.27,
+      "dividend": 0.27,
+      "recordDate": "2022-05-20",
+      "paymentDate": "2022-05-31",
+      "declarationDate": "2022-05-04"
+    },
+    {
+      "date": "2022-02-17",
+      "label": "February 17, 22",
+      "adjDividend": 0.27,
+      "dividend": 0.27,
+      "recordDate": "2022-02-18",
+      "paymentDate": "2022-03-01",
+      "declarationDate": "2022-02-02"
+    },
+    {
+      "date": "2021-11-18",
+      "label": "November 18, 21",
+      "adjDividend": 0.24,
+      "dividend": 0.24,
+      "recordDate": "2021-11-19",
+      "paymentDate": "2021-11-30",
+      "declarationDate": "2021-10-27"
+    },
+    {
+      "date": "2021-08-19",
+      "label": "August 19, 21",
+      "adjDividend": 0.24,
+      "dividend": 0.24,
+      "recordDate": "2021-08-20",
+      "paymentDate": "2021-08-31",
+      "declarationDate": "2021-07-28"
+    },
+    {
+      "date": "2021-05-19",
+      "label": "May 19, 21",
+      "adjDividend": 0.24,
+      "dividend": 0.24,
+      "recordDate": "2021-05-20",
+      "paymentDate": "2021-05-28",
+      "declarationDate": "2021-05-05"
+    },
+    {
+      "date": "2021-02-17",
+      "label": "February 17, 21",
+      "adjDividend": 0.24,
+      "dividend": 0.24,
+      "recordDate": "2021-02-18",
+      "paymentDate": "2021-02-26",
+      "declarationDate": "2021-02-03"
+    },
+    {
+      "date": "2020-11-18",
+      "label": "November 18, 20",
+      "adjDividend": 0.22,
+      "dividend": 0.22,
+      "recordDate": "2020-11-19",
+      "paymentDate": "2020-11-30",
+      "declarationDate": "2020-10-28"
+    },
+    {
+      "date": "2020-08-20",
+      "label": "August 20, 20",
+      "adjDividend": 0.22,
+      "dividend": 0.22,
+      "recordDate": "2020-08-21",
+      "paymentDate": "2020-08-31",
+      "declarationDate": "2020-07-29"
+    },
+    {
+      "date": "2020-05-19",
+      "label": "May 19, 20",
+      "adjDividend": 0.22,
+      "dividend": 0.22,
+      "recordDate": "2020-05-20",
+      "paymentDate": "2020-05-29",
+      "declarationDate": "2020-05-07"
+    },
+    {
+      "date": "2020-02-14",
+      "label": "February 14, 20",
+      "adjDividend": 0.22,
+      "dividend": 0.22,
+      "recordDate": "2020-02-18",
+      "paymentDate": "2020-02-28",
+      "declarationDate": "2020-02-05"
+    },
+    {
+      "date": "2019-11-18",
+      "label": "November 18, 19",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2019-11-19",
+      "paymentDate": "2019-11-29",
+      "declarationDate": "2019-10-30"
+    },
+    {
+      "date": "2019-08-21",
+      "label": "August 21, 19",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2019-08-22",
+      "paymentDate": "2019-08-30",
+      "declarationDate": "2019-07-31"
+    },
+    {
+      "date": "2019-05-21",
+      "label": "May 21, 19",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2019-05-22",
+      "paymentDate": "2019-05-31",
+      "declarationDate": "2019-05-01"
+    },
+    {
+      "date": "2019-02-20",
+      "label": "February 20, 19",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2019-02-21",
+      "paymentDate": "2019-02-28",
+      "declarationDate": "2019-02-04"
+    },
+    {
+      "date": "2018-11-19",
+      "label": "November 19, 18",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2018-11-20",
+      "paymentDate": "2018-11-30",
+      "declarationDate": "2018-10-29"
+    },
+    {
+      "date": "2018-08-21",
+      "label": "August 21, 18",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2018-08-22",
+      "paymentDate": "2018-08-31",
+      "declarationDate": "2018-08-02"
+    },
+    {
+      "date": "2018-05-21",
+      "label": "May 21, 18",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2018-05-22",
+      "paymentDate": "2018-05-31",
+      "declarationDate": "2018-05-07"
+    },
+    {
+      "date": "2018-02-21",
+      "label": "February 21, 18",
+      "adjDividend": 0.2,
+      "dividend": 0.2,
+      "recordDate": "2018-02-22",
+      "paymentDate": "2018-02-28",
+      "declarationDate": "2018-02-07"
+    },
+    {
+      "date": "2017-11-17",
+      "label": "November 17, 17",
+      "adjDividend": 0.15,
+      "dividend": 0.15,
+      "recordDate": "2017-11-20",
+      "paymentDate": "2017-11-30",
+      "declarationDate": "2017-11-01"
+    },
+    {
+      "date": "2017-08-18",
+      "label": "August 18, 17",
+      "adjDividend": 0.15,
+      "dividend": 0.15,
+      "recordDate": "2017-08-22",
+      "paymentDate": "2017-08-31",
+      "declarationDate": "2017-08-11"
+    },
+    {
+      "date": "2017-05-18",
+      "label": "May 18, 17",
+      "adjDividend": 0.15,
+      "dividend": 0.15,
+      "recordDate": "2017-05-22",
+      "paymentDate": "2017-05-31",
+      "declarationDate": "2017-05-08"
+    }
+  ]
+}

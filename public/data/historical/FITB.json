@@ -2,6 +2,10 @@
   "symbol": "FITB",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 44.22
+    },
+    {
       "date": "2025-10-01",
       "close": 44.35
     },

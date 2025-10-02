@@ -2,6 +2,10 @@
   "symbol": "EME",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 660.28
+    },
+    {
       "date": "2025-10-01",
       "close": 654.92
     },

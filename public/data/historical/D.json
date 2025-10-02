@@ -2,6 +2,10 @@
   "symbol": "D",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 61.09
+    },
+    {
       "date": "2025-10-01",
       "close": 60.9
     },

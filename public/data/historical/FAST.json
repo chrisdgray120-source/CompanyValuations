@@ -2,6 +2,10 @@
   "symbol": "FAST",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 48.17
+    },
+    {
       "date": "2025-10-01",
       "close": 47.72
     },

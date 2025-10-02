@@ -2,6 +2,10 @@
   "symbol": "CSCO",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 68.31
+    },
+    {
       "date": "2025-10-01",
       "close": 68.75
     },

@@ -1,0 +1,95 @@
+{
+  "symbol": "NVR",
+  "historical": [
+    {
+      "date": "1990-02-23",
+      "label": "February 23, 90",
+      "adjDividend": 0.167,
+      "dividend": 0.17,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1989-10-26",
+      "label": "October 26, 89",
+      "adjDividend": 0.23,
+      "dividend": 0.23,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1989-07-26",
+      "label": "July 26, 89",
+      "adjDividend": 0.222,
+      "dividend": 0.22,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1989-04-19",
+      "label": "April 19, 89",
+      "adjDividend": 0.202,
+      "dividend": 0.2,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1989-02-16",
+      "label": "February 16, 89",
+      "adjDividend": 0.192,
+      "dividend": 0.19,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1988-11-08",
+      "label": "November 08, 88",
+      "adjDividend": 0.13,
+      "dividend": 0.13,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1988-07-26",
+      "label": "July 26, 88",
+      "adjDividend": 0.125,
+      "dividend": 0.13,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1988-03-25",
+      "label": "March 25, 88",
+      "adjDividend": 0.08,
+      "dividend": 0.08,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1987-12-24",
+      "label": "December 24, 87",
+      "adjDividend": 0.15,
+      "dividend": 0.15,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    },
+    {
+      "date": "1987-09-25",
+      "label": "September 25, 87",
+      "adjDividend": 0.084,
+      "dividend": 0.08,
+      "recordDate": "",
+      "paymentDate": "",
+      "declarationDate": ""
+    }
+  ]
+}

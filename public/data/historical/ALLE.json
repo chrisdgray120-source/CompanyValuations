@@ -2,6 +2,10 @@
   "symbol": "ALLE",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 177.74
+    },
+    {
       "date": "2025-10-01",
       "close": 176.73
     },

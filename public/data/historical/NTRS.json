@@ -2,6 +2,10 @@
   "symbol": "NTRS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 133.24
+    },
+    {
       "date": "2025-10-01",
       "close": 131.2
     },

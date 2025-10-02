@@ -2,6 +2,10 @@
   "symbol": "LULU",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 178.2
+    },
+    {
       "date": "2025-10-01",
       "close": 177.57
     },

@@ -2,6 +2,10 @@
   "symbol": "SNPS",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 471.15
+    },
+    {
       "date": "2025-10-01",
       "close": 488.78
     },

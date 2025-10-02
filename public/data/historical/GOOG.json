@@ -2,6 +2,10 @@
   "symbol": "GOOG",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 246.43
+    },
+    {
       "date": "2025-10-01",
       "close": 245.54
     },

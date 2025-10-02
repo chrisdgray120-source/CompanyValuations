@@ -2,6 +2,10 @@
   "symbol": "VRSK",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 247.43
+    },
+    {
       "date": "2025-10-01",
       "close": 249.55
     },

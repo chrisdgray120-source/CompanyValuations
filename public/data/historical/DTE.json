@@ -2,6 +2,10 @@
   "symbol": "DTE",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 139.28
+    },
+    {
       "date": "2025-10-01",
       "close": 140.16
     },

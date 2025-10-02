@@ -2,6 +2,10 @@
   "symbol": "RJF",
   "historical": [
     {
+      "date": "2025-10-02",
+      "close": 166.46
+    },
+    {
       "date": "2025-10-01",
       "close": 165.9
     },

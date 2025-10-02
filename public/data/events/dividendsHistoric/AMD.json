@@ -1,0 +1,14 @@
+{
+  "symbol": "AMD",
+  "historical": [
+    {
+      "date": "1995-04-28",
+      "label": "April 28, 95",
+      "adjDividend": 0.005,
+      "dividend": 0.01,
+      "recordDate": "1995-05-03",
+      "paymentDate": "1995-05-24",
+      "declarationDate": "1995-04-18"
+    }
+  ]
+}
