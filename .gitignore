@@ -12,6 +12,7 @@ out/
 /public/data/ratios/
 /public/data/fundamentals
 /public/data/events
+/public/data/ev
 /scripts/*_checkpoint.json
 
 # System files
