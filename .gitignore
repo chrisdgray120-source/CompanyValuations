@@ -10,6 +10,7 @@ out/
 /public/data/charts/
 /public/data/profiles/
 /public/data/ratios/
+/public/data/fundamentals
 /scripts/*_checkpoint.json
 
 # System files
